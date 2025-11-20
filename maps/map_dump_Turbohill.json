@@ -1,0 +1,2931 @@
+{
+  "name": "Turbohill",
+  "dimX": 10,
+  "dimY": 10,
+  "nodes": [
+    {
+      "id": "0.0",
+      "posX": 0,
+      "posY": 0,
+      "zoneId": "0.0<-->4.4",
+      "customers": [
+        {
+          "id": "0.2",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "0.0",
+          "toNode": "0.3",
+          "departureTick": 40,
+          "chargeRemaining": 0.27612832,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "0.1",
+      "posX": 0,
+      "posY": 1,
+      "zoneId": "0.0<-->4.4",
+      "customers": [
+        {
+          "id": "0.16",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "0.1",
+          "toNode": "0.8",
+          "departureTick": 24,
+          "chargeRemaining": 0.2295702,
+          "maxCharge": 99.329834,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "0.2",
+      "posX": 0,
+      "posY": 2,
+      "zoneId": "0.0<-->4.4",
+      "customers": [
+        {
+          "id": "0.10",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "0.2",
+          "toNode": "6.2",
+          "departureTick": 22,
+          "chargeRemaining": 0.42084587,
+          "maxCharge": 72.13392,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "0.3",
+      "posX": 0,
+      "posY": 3,
+      "zoneId": "0.0<-->4.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "0.5",
+      "posX": 0,
+      "posY": 5,
+      "zoneId": "0.5<-->4.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "0.7",
+      "posX": 0,
+      "posY": 7,
+      "zoneId": "0.5<-->4.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "0.8",
+      "posX": 0,
+      "posY": 8,
+      "zoneId": "0.5<-->4.9",
+      "customers": [
+        {
+          "id": "0.3",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "0.8",
+          "toNode": "4.2",
+          "departureTick": 33,
+          "chargeRemaining": 0.875575,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "1.1",
+      "posX": 1,
+      "posY": 1,
+      "zoneId": "0.0<-->4.4",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 3,
+        "totalAmountOfBrokenChargers": 2,
+        "chargeSpeedPerCharger": 199,
+        "totalAmountOfChargers": 5
+      }
+    },
+    {
+      "id": "1.2",
+      "posX": 1,
+      "posY": 2,
+      "zoneId": "0.0<-->4.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "1.3",
+      "posX": 1,
+      "posY": 3,
+      "zoneId": "0.0<-->4.4",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 7,
+        "totalAmountOfBrokenChargers": 7,
+        "chargeSpeedPerCharger": 154,
+        "totalAmountOfChargers": 14
+      }
+    },
+    {
+      "id": "1.4",
+      "posX": 1,
+      "posY": 4,
+      "zoneId": "0.0<-->4.4",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 2,
+        "totalAmountOfBrokenChargers": 6,
+        "chargeSpeedPerCharger": 173,
+        "totalAmountOfChargers": 8
+      }
+    },
+    {
+      "id": "1.5",
+      "posX": 1,
+      "posY": 5,
+      "zoneId": "0.5<-->4.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "1.6",
+      "posX": 1,
+      "posY": 6,
+      "zoneId": "0.5<-->4.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "1.7",
+      "posX": 1,
+      "posY": 7,
+      "zoneId": "0.5<-->4.9",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 14,
+        "totalAmountOfBrokenChargers": 1,
+        "chargeSpeedPerCharger": 185,
+        "totalAmountOfChargers": 15
+      }
+    },
+    {
+      "id": "1.8",
+      "posX": 1,
+      "posY": 8,
+      "zoneId": "0.5<-->4.9",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 5,
+        "totalAmountOfBrokenChargers": 9,
+        "chargeSpeedPerCharger": 161,
+        "totalAmountOfChargers": 14
+      }
+    },
+    {
+      "id": "2.2",
+      "posX": 2,
+      "posY": 2,
+      "zoneId": "0.0<-->4.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "2.4",
+      "posX": 2,
+      "posY": 4,
+      "zoneId": "0.0<-->4.4",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 7,
+        "totalAmountOfBrokenChargers": 9,
+        "chargeSpeedPerCharger": 197,
+        "totalAmountOfChargers": 16
+      }
+    },
+    {
+      "id": "2.5",
+      "posX": 2,
+      "posY": 5,
+      "zoneId": "0.5<-->4.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "2.6",
+      "posX": 2,
+      "posY": 6,
+      "zoneId": "0.5<-->4.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.0",
+      "posX": 3,
+      "posY": 0,
+      "zoneId": "0.0<-->4.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.1",
+      "posX": 3,
+      "posY": 1,
+      "zoneId": "0.0<-->4.4",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 2,
+        "totalAmountOfBrokenChargers": 16,
+        "chargeSpeedPerCharger": 177,
+        "totalAmountOfChargers": 18
+      }
+    },
+    {
+      "id": "3.4",
+      "posX": 3,
+      "posY": 4,
+      "zoneId": "0.0<-->4.4",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 8,
+        "totalAmountOfBrokenChargers": 11,
+        "chargeSpeedPerCharger": 162,
+        "totalAmountOfChargers": 19
+      }
+    },
+    {
+      "id": "3.5",
+      "posX": 3,
+      "posY": 5,
+      "zoneId": "0.5<-->4.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.6",
+      "posX": 3,
+      "posY": 6,
+      "zoneId": "0.5<-->4.9",
+      "customers": [
+        {
+          "id": "0.4",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "3.6",
+          "toNode": "7.5",
+          "departureTick": 35,
+          "chargeRemaining": 0.22656357,
+          "maxCharge": 89.84794,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.17",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "3.6",
+          "toNode": "9.6",
+          "departureTick": 43,
+          "chargeRemaining": 0.43659294,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.19",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "3.6",
+          "toNode": "5.4",
+          "departureTick": 26,
+          "chargeRemaining": 0.31072545,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.7",
+      "posX": 3,
+      "posY": 7,
+      "zoneId": "0.5<-->4.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.8",
+      "posX": 3,
+      "posY": 8,
+      "zoneId": "0.5<-->4.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.9",
+      "posX": 3,
+      "posY": 9,
+      "zoneId": "0.5<-->4.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "4.1",
+      "posX": 4,
+      "posY": 1,
+      "zoneId": "0.0<-->4.4",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 2,
+        "totalAmountOfBrokenChargers": 0,
+        "chargeSpeedPerCharger": 180,
+        "totalAmountOfChargers": 2
+      }
+    },
+    {
+      "id": "4.2",
+      "posX": 4,
+      "posY": 2,
+      "zoneId": "0.0<-->4.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "4.3",
+      "posX": 4,
+      "posY": 3,
+      "zoneId": "0.0<-->4.4",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 14,
+        "totalAmountOfBrokenChargers": 1,
+        "chargeSpeedPerCharger": 199,
+        "totalAmountOfChargers": 15
+      }
+    },
+    {
+      "id": "4.4",
+      "posX": 4,
+      "posY": 4,
+      "zoneId": "0.0<-->4.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "4.5",
+      "posX": 4,
+      "posY": 5,
+      "zoneId": "0.5<-->4.9",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 1,
+        "totalAmountOfBrokenChargers": 2,
+        "chargeSpeedPerCharger": 195,
+        "totalAmountOfChargers": 3
+      }
+    },
+    {
+      "id": "4.6",
+      "posX": 4,
+      "posY": 6,
+      "zoneId": "0.5<-->4.9",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 2,
+        "totalAmountOfBrokenChargers": 1,
+        "chargeSpeedPerCharger": 194,
+        "totalAmountOfChargers": 3
+      }
+    },
+    {
+      "id": "4.7",
+      "posX": 4,
+      "posY": 7,
+      "zoneId": "0.5<-->4.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "4.9",
+      "posX": 4,
+      "posY": 9,
+      "zoneId": "0.5<-->4.9",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 5,
+        "totalAmountOfBrokenChargers": 1,
+        "chargeSpeedPerCharger": 163,
+        "totalAmountOfChargers": 6
+      }
+    },
+    {
+      "id": "5.0",
+      "posX": 5,
+      "posY": 0,
+      "zoneId": "5.0<-->9.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "5.1",
+      "posX": 5,
+      "posY": 1,
+      "zoneId": "5.0<-->9.4",
+      "customers": [
+        {
+          "id": "0.12",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "5.1",
+          "toNode": "6.1",
+          "departureTick": 34,
+          "chargeRemaining": 0.15,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "5.2",
+      "posX": 5,
+      "posY": 2,
+      "zoneId": "5.0<-->9.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "5.3",
+      "posX": 5,
+      "posY": 3,
+      "zoneId": "5.0<-->9.4",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 1,
+        "totalAmountOfBrokenChargers": 3,
+        "chargeSpeedPerCharger": 197,
+        "totalAmountOfChargers": 4
+      }
+    },
+    {
+      "id": "5.4",
+      "posX": 5,
+      "posY": 4,
+      "zoneId": "5.0<-->9.4",
+      "customers": [
+        {
+          "id": "0.11",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "5.4",
+          "toNode": "8.0",
+          "departureTick": 15,
+          "chargeRemaining": 0.42055786,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "5.5",
+      "posX": 5,
+      "posY": 5,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "5.6",
+      "posX": 5,
+      "posY": 6,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "5.7",
+      "posX": 5,
+      "posY": 7,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 1,
+        "totalAmountOfBrokenChargers": 2,
+        "chargeSpeedPerCharger": 181,
+        "totalAmountOfChargers": 3
+      }
+    },
+    {
+      "id": "5.8",
+      "posX": 5,
+      "posY": 8,
+      "zoneId": "5.5<-->9.9",
+      "customers": [
+        {
+          "id": "0.0",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "5.8",
+          "toNode": "3.9",
+          "departureTick": 43,
+          "chargeRemaining": 0.16914141,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.1",
+          "type": "Truck",
+          "persona": "DislikesDriving",
+          "fromNode": "5.8",
+          "toNode": "1.6",
+          "departureTick": 26,
+          "chargeRemaining": 0.7582493,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.14",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "5.8",
+          "toNode": "5.4",
+          "departureTick": 27,
+          "chargeRemaining": 0.2647606,
+          "maxCharge": 80.440605,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "5.9",
+      "posX": 5,
+      "posY": 9,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.0",
+      "posX": 6,
+      "posY": 0,
+      "zoneId": "5.0<-->9.4",
+      "customers": [
+        {
+          "id": "0.9",
+          "type": "Truck",
+          "persona": "Neutral",
+          "fromNode": "6.0",
+          "toNode": "3.8",
+          "departureTick": 17,
+          "chargeRemaining": 0.76711476,
+          "maxCharge": 156.70055,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.1",
+      "posX": 6,
+      "posY": 1,
+      "zoneId": "5.0<-->9.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.2",
+      "posX": 6,
+      "posY": 2,
+      "zoneId": "5.0<-->9.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.3",
+      "posX": 6,
+      "posY": 3,
+      "zoneId": "5.0<-->9.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.4",
+      "posX": 6,
+      "posY": 4,
+      "zoneId": "5.0<-->9.4",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 2,
+        "totalAmountOfBrokenChargers": 2,
+        "chargeSpeedPerCharger": 199,
+        "totalAmountOfChargers": 4
+      }
+    },
+    {
+      "id": "6.5",
+      "posX": 6,
+      "posY": 5,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 5,
+        "totalAmountOfBrokenChargers": 12,
+        "chargeSpeedPerCharger": 165,
+        "totalAmountOfChargers": 17
+      }
+    },
+    {
+      "id": "6.6",
+      "posX": 6,
+      "posY": 6,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 5,
+        "totalAmountOfBrokenChargers": 3,
+        "chargeSpeedPerCharger": 194,
+        "totalAmountOfChargers": 8
+      }
+    },
+    {
+      "id": "6.7",
+      "posX": 6,
+      "posY": 7,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.8",
+      "posX": 6,
+      "posY": 8,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 3,
+        "totalAmountOfBrokenChargers": 8,
+        "chargeSpeedPerCharger": 174,
+        "totalAmountOfChargers": 11
+      }
+    },
+    {
+      "id": "6.9",
+      "posX": 6,
+      "posY": 9,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 2,
+        "totalAmountOfBrokenChargers": 4,
+        "chargeSpeedPerCharger": 190,
+        "totalAmountOfChargers": 6
+      }
+    },
+    {
+      "id": "7.0",
+      "posX": 7,
+      "posY": 0,
+      "zoneId": "5.0<-->9.4",
+      "customers": [
+        {
+          "id": "0.6",
+          "type": "Truck",
+          "persona": "Stressed",
+          "fromNode": "7.0",
+          "toNode": "7.1",
+          "departureTick": 2,
+          "chargeRemaining": 0.15,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "7.1",
+      "posX": 7,
+      "posY": 1,
+      "zoneId": "5.0<-->9.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "7.3",
+      "posX": 7,
+      "posY": 3,
+      "zoneId": "5.0<-->9.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "7.4",
+      "posX": 7,
+      "posY": 4,
+      "zoneId": "5.0<-->9.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "7.5",
+      "posX": 7,
+      "posY": 5,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "7.6",
+      "posX": 7,
+      "posY": 6,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 7,
+        "totalAmountOfBrokenChargers": 0,
+        "chargeSpeedPerCharger": 174,
+        "totalAmountOfChargers": 7
+      }
+    },
+    {
+      "id": "7.7",
+      "posX": 7,
+      "posY": 7,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "7.8",
+      "posX": 7,
+      "posY": 8,
+      "zoneId": "5.5<-->9.9",
+      "customers": [
+        {
+          "id": "0.15",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "7.8",
+          "toNode": "3.8",
+          "departureTick": 22,
+          "chargeRemaining": 0.31274208,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "7.9",
+      "posX": 7,
+      "posY": 9,
+      "zoneId": "5.5<-->9.9",
+      "customers": [
+        {
+          "id": "0.5",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "7.9",
+          "toNode": "9.0",
+          "departureTick": 30,
+          "chargeRemaining": 0.4260576,
+          "maxCharge": 78.423836,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.13",
+          "type": "Truck",
+          "persona": "DislikesDriving",
+          "fromNode": "7.9",
+          "toNode": "9.6",
+          "departureTick": 43,
+          "chargeRemaining": 0.41358393,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "8.0",
+      "posX": 8,
+      "posY": 0,
+      "zoneId": "5.0<-->9.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "8.4",
+      "posX": 8,
+      "posY": 4,
+      "zoneId": "5.0<-->9.4",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 1,
+        "totalAmountOfBrokenChargers": 11,
+        "chargeSpeedPerCharger": 167,
+        "totalAmountOfChargers": 12
+      }
+    },
+    {
+      "id": "8.6",
+      "posX": 8,
+      "posY": 6,
+      "zoneId": "5.5<-->9.9",
+      "customers": [
+        {
+          "id": "0.18",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "8.6",
+          "toNode": "1.6",
+          "departureTick": 15,
+          "chargeRemaining": 0.16493653,
+          "maxCharge": 83.576706,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "8.7",
+      "posX": 8,
+      "posY": 7,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "8.8",
+      "posX": 8,
+      "posY": 8,
+      "zoneId": "5.5<-->9.9",
+      "customers": [
+        {
+          "id": "0.7",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "8.8",
+          "toNode": "9.0",
+          "departureTick": 18,
+          "chargeRemaining": 0.39036655,
+          "maxCharge": 81.65636,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "8.9",
+      "posX": 8,
+      "posY": 9,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.0",
+      "posX": 9,
+      "posY": 0,
+      "zoneId": "5.0<-->9.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.1",
+      "posX": 9,
+      "posY": 1,
+      "zoneId": "5.0<-->9.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.2",
+      "posX": 9,
+      "posY": 2,
+      "zoneId": "5.0<-->9.4",
+      "customers": [
+        {
+          "id": "0.8",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "9.2",
+          "toNode": "7.7",
+          "departureTick": 2,
+          "chargeRemaining": 0.5128879,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.3",
+      "posX": 9,
+      "posY": 3,
+      "zoneId": "5.0<-->9.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.4",
+      "posX": 9,
+      "posY": 4,
+      "zoneId": "5.0<-->9.4",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.5",
+      "posX": 9,
+      "posY": 5,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 3,
+        "totalAmountOfBrokenChargers": 6,
+        "chargeSpeedPerCharger": 182,
+        "totalAmountOfChargers": 9
+      }
+    },
+    {
+      "id": "9.6",
+      "posX": 9,
+      "posY": 6,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.7",
+      "posX": 9,
+      "posY": 7,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.8",
+      "posX": 9,
+      "posY": 8,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 2,
+        "totalAmountOfBrokenChargers": 3,
+        "chargeSpeedPerCharger": 159,
+        "totalAmountOfChargers": 5
+      }
+    },
+    {
+      "id": "9.9",
+      "posX": 9,
+      "posY": 9,
+      "zoneId": "5.5<-->9.9",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 5,
+        "totalAmountOfBrokenChargers": 10,
+        "chargeSpeedPerCharger": 199,
+        "totalAmountOfChargers": 15
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "0.0-->0.1",
+      "fromNode": "0.0",
+      "toNode": "0.1",
+      "length": 35.20188,
+      "customers": []
+    },
+    {
+      "id": "0.1-->0.0",
+      "fromNode": "0.1",
+      "toNode": "0.0",
+      "length": 13.808169,
+      "customers": []
+    },
+    {
+      "id": "0.1-->1.1",
+      "fromNode": "0.1",
+      "toNode": "1.1",
+      "length": 9.7592745,
+      "customers": []
+    },
+    {
+      "id": "0.1-->0.2",
+      "fromNode": "0.1",
+      "toNode": "0.2",
+      "length": 18.66954,
+      "customers": []
+    },
+    {
+      "id": "0.2-->0.1",
+      "fromNode": "0.2",
+      "toNode": "0.1",
+      "length": 35.865257,
+      "customers": []
+    },
+    {
+      "id": "0.2-->1.2",
+      "fromNode": "0.2",
+      "toNode": "1.2",
+      "length": 9.727782,
+      "customers": []
+    },
+    {
+      "id": "0.2-->0.3",
+      "fromNode": "0.2",
+      "toNode": "0.3",
+      "length": 38.171345,
+      "customers": []
+    },
+    {
+      "id": "0.3-->0.2",
+      "fromNode": "0.3",
+      "toNode": "0.2",
+      "length": 5.892077,
+      "customers": []
+    },
+    {
+      "id": "0.3-->1.3",
+      "fromNode": "0.3",
+      "toNode": "1.3",
+      "length": 6.955817,
+      "customers": []
+    },
+    {
+      "id": "0.5-->1.5",
+      "fromNode": "0.5",
+      "toNode": "1.5",
+      "length": 32.071312,
+      "customers": []
+    },
+    {
+      "id": "0.7-->1.7",
+      "fromNode": "0.7",
+      "toNode": "1.7",
+      "length": 40.509037,
+      "customers": []
+    },
+    {
+      "id": "0.7-->0.8",
+      "fromNode": "0.7",
+      "toNode": "0.8",
+      "length": 48.04028,
+      "customers": []
+    },
+    {
+      "id": "0.8-->0.7",
+      "fromNode": "0.8",
+      "toNode": "0.7",
+      "length": 6.9137516,
+      "customers": []
+    },
+    {
+      "id": "0.8-->1.8",
+      "fromNode": "0.8",
+      "toNode": "1.8",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "1.1-->1.2",
+      "fromNode": "1.1",
+      "toNode": "1.2",
+      "length": 15.39833,
+      "customers": []
+    },
+    {
+      "id": "1.1-->0.1",
+      "fromNode": "1.1",
+      "toNode": "0.1",
+      "length": 15.9587,
+      "customers": []
+    },
+    {
+      "id": "1.2-->1.1",
+      "fromNode": "1.2",
+      "toNode": "1.1",
+      "length": 38.632397,
+      "customers": []
+    },
+    {
+      "id": "1.2-->2.2",
+      "fromNode": "1.2",
+      "toNode": "2.2",
+      "length": 17.983877,
+      "customers": []
+    },
+    {
+      "id": "1.2-->1.3",
+      "fromNode": "1.2",
+      "toNode": "1.3",
+      "length": 9.061993,
+      "customers": []
+    },
+    {
+      "id": "1.2-->0.2",
+      "fromNode": "1.2",
+      "toNode": "0.2",
+      "length": 12.998424,
+      "customers": []
+    },
+    {
+      "id": "1.3-->1.2",
+      "fromNode": "1.3",
+      "toNode": "1.2",
+      "length": 32.719074,
+      "customers": []
+    },
+    {
+      "id": "1.3-->1.4",
+      "fromNode": "1.3",
+      "toNode": "1.4",
+      "length": 21.915472,
+      "customers": []
+    },
+    {
+      "id": "1.3-->0.3",
+      "fromNode": "1.3",
+      "toNode": "0.3",
+      "length": 47.8032,
+      "customers": []
+    },
+    {
+      "id": "1.4-->1.3",
+      "fromNode": "1.4",
+      "toNode": "1.3",
+      "length": 15.238017,
+      "customers": []
+    },
+    {
+      "id": "1.4-->2.4",
+      "fromNode": "1.4",
+      "toNode": "2.4",
+      "length": 40.230835,
+      "customers": []
+    },
+    {
+      "id": "1.4-->1.5",
+      "fromNode": "1.4",
+      "toNode": "1.5",
+      "length": 10.548651,
+      "customers": []
+    },
+    {
+      "id": "1.5-->1.4",
+      "fromNode": "1.5",
+      "toNode": "1.4",
+      "length": 17.882633,
+      "customers": []
+    },
+    {
+      "id": "1.5-->2.5",
+      "fromNode": "1.5",
+      "toNode": "2.5",
+      "length": 16.174238,
+      "customers": []
+    },
+    {
+      "id": "1.5-->1.6",
+      "fromNode": "1.5",
+      "toNode": "1.6",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "1.5-->0.5",
+      "fromNode": "1.5",
+      "toNode": "0.5",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "1.6-->1.5",
+      "fromNode": "1.6",
+      "toNode": "1.5",
+      "length": 29.972246,
+      "customers": []
+    },
+    {
+      "id": "1.6-->2.6",
+      "fromNode": "1.6",
+      "toNode": "2.6",
+      "length": 20.248379,
+      "customers": []
+    },
+    {
+      "id": "1.6-->1.7",
+      "fromNode": "1.6",
+      "toNode": "1.7",
+      "length": 28.098581,
+      "customers": []
+    },
+    {
+      "id": "1.7-->1.6",
+      "fromNode": "1.7",
+      "toNode": "1.6",
+      "length": 41.951782,
+      "customers": []
+    },
+    {
+      "id": "1.7-->1.8",
+      "fromNode": "1.7",
+      "toNode": "1.8",
+      "length": 25.018618,
+      "customers": []
+    },
+    {
+      "id": "1.7-->0.7",
+      "fromNode": "1.7",
+      "toNode": "0.7",
+      "length": 47.349987,
+      "customers": []
+    },
+    {
+      "id": "1.8-->1.7",
+      "fromNode": "1.8",
+      "toNode": "1.7",
+      "length": 38.66983,
+      "customers": []
+    },
+    {
+      "id": "1.8-->0.8",
+      "fromNode": "1.8",
+      "toNode": "0.8",
+      "length": 27.220203,
+      "customers": []
+    },
+    {
+      "id": "2.2-->1.2",
+      "fromNode": "2.2",
+      "toNode": "1.2",
+      "length": 24.335768,
+      "customers": []
+    },
+    {
+      "id": "2.4-->3.4",
+      "fromNode": "2.4",
+      "toNode": "3.4",
+      "length": 42.12614,
+      "customers": []
+    },
+    {
+      "id": "2.4-->2.5",
+      "fromNode": "2.4",
+      "toNode": "2.5",
+      "length": 9.357635,
+      "customers": []
+    },
+    {
+      "id": "2.4-->1.4",
+      "fromNode": "2.4",
+      "toNode": "1.4",
+      "length": 6.088397,
+      "customers": []
+    },
+    {
+      "id": "2.5-->2.4",
+      "fromNode": "2.5",
+      "toNode": "2.4",
+      "length": 10.208214,
+      "customers": []
+    },
+    {
+      "id": "2.5-->3.5",
+      "fromNode": "2.5",
+      "toNode": "3.5",
+      "length": 33.99861,
+      "customers": []
+    },
+    {
+      "id": "2.5-->2.6",
+      "fromNode": "2.5",
+      "toNode": "2.6",
+      "length": 47.497597,
+      "customers": []
+    },
+    {
+      "id": "2.5-->1.5",
+      "fromNode": "2.5",
+      "toNode": "1.5",
+      "length": 24.297218,
+      "customers": []
+    },
+    {
+      "id": "2.6-->2.5",
+      "fromNode": "2.6",
+      "toNode": "2.5",
+      "length": 41.476254,
+      "customers": []
+    },
+    {
+      "id": "2.6-->3.6",
+      "fromNode": "2.6",
+      "toNode": "3.6",
+      "length": 25.000162,
+      "customers": []
+    },
+    {
+      "id": "2.6-->1.6",
+      "fromNode": "2.6",
+      "toNode": "1.6",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "3.0-->3.1",
+      "fromNode": "3.0",
+      "toNode": "3.1",
+      "length": 17.301224,
+      "customers": []
+    },
+    {
+      "id": "3.1-->3.0",
+      "fromNode": "3.1",
+      "toNode": "3.0",
+      "length": 46.714203,
+      "customers": []
+    },
+    {
+      "id": "3.1-->4.1",
+      "fromNode": "3.1",
+      "toNode": "4.1",
+      "length": 40.971542,
+      "customers": []
+    },
+    {
+      "id": "3.4-->4.4",
+      "fromNode": "3.4",
+      "toNode": "4.4",
+      "length": 44.27324,
+      "customers": []
+    },
+    {
+      "id": "3.4-->3.5",
+      "fromNode": "3.4",
+      "toNode": "3.5",
+      "length": 29.015944,
+      "customers": []
+    },
+    {
+      "id": "3.4-->2.4",
+      "fromNode": "3.4",
+      "toNode": "2.4",
+      "length": 10.482052,
+      "customers": []
+    },
+    {
+      "id": "3.5-->3.4",
+      "fromNode": "3.5",
+      "toNode": "3.4",
+      "length": 27.160713,
+      "customers": []
+    },
+    {
+      "id": "3.5-->4.5",
+      "fromNode": "3.5",
+      "toNode": "4.5",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "3.5-->3.6",
+      "fromNode": "3.5",
+      "toNode": "3.6",
+      "length": 15.169992,
+      "customers": []
+    },
+    {
+      "id": "3.5-->2.5",
+      "fromNode": "3.5",
+      "toNode": "2.5",
+      "length": 7.106966,
+      "customers": []
+    },
+    {
+      "id": "3.6-->3.5",
+      "fromNode": "3.6",
+      "toNode": "3.5",
+      "length": 38.36701,
+      "customers": []
+    },
+    {
+      "id": "3.6-->4.6",
+      "fromNode": "3.6",
+      "toNode": "4.6",
+      "length": 18.102839,
+      "customers": []
+    },
+    {
+      "id": "3.6-->3.7",
+      "fromNode": "3.6",
+      "toNode": "3.7",
+      "length": 36.95616,
+      "customers": []
+    },
+    {
+      "id": "3.6-->2.6",
+      "fromNode": "3.6",
+      "toNode": "2.6",
+      "length": 8.956271,
+      "customers": []
+    },
+    {
+      "id": "3.7-->3.6",
+      "fromNode": "3.7",
+      "toNode": "3.6",
+      "length": 22.97986,
+      "customers": []
+    },
+    {
+      "id": "3.7-->4.7",
+      "fromNode": "3.7",
+      "toNode": "4.7",
+      "length": 35.60148,
+      "customers": []
+    },
+    {
+      "id": "3.7-->3.8",
+      "fromNode": "3.7",
+      "toNode": "3.8",
+      "length": 17.068169,
+      "customers": []
+    },
+    {
+      "id": "3.8-->3.7",
+      "fromNode": "3.8",
+      "toNode": "3.7",
+      "length": 48.185352,
+      "customers": []
+    },
+    {
+      "id": "3.8-->3.9",
+      "fromNode": "3.8",
+      "toNode": "3.9",
+      "length": 22.004091,
+      "customers": []
+    },
+    {
+      "id": "3.9-->3.8",
+      "fromNode": "3.9",
+      "toNode": "3.8",
+      "length": 5.070326,
+      "customers": []
+    },
+    {
+      "id": "3.9-->4.9",
+      "fromNode": "3.9",
+      "toNode": "4.9",
+      "length": 43.542248,
+      "customers": []
+    },
+    {
+      "id": "4.1-->5.1",
+      "fromNode": "4.1",
+      "toNode": "5.1",
+      "length": 44.965523,
+      "customers": []
+    },
+    {
+      "id": "4.1-->4.2",
+      "fromNode": "4.1",
+      "toNode": "4.2",
+      "length": 40.489372,
+      "customers": []
+    },
+    {
+      "id": "4.1-->3.1",
+      "fromNode": "4.1",
+      "toNode": "3.1",
+      "length": 48.10213,
+      "customers": []
+    },
+    {
+      "id": "4.2-->4.1",
+      "fromNode": "4.2",
+      "toNode": "4.1",
+      "length": 18.459051,
+      "customers": []
+    },
+    {
+      "id": "4.2-->5.2",
+      "fromNode": "4.2",
+      "toNode": "5.2",
+      "length": 23.82182,
+      "customers": []
+    },
+    {
+      "id": "4.2-->4.3",
+      "fromNode": "4.2",
+      "toNode": "4.3",
+      "length": 35.732903,
+      "customers": []
+    },
+    {
+      "id": "4.3-->4.2",
+      "fromNode": "4.3",
+      "toNode": "4.2",
+      "length": 42.027176,
+      "customers": []
+    },
+    {
+      "id": "4.3-->5.3",
+      "fromNode": "4.3",
+      "toNode": "5.3",
+      "length": 6.6686096,
+      "customers": []
+    },
+    {
+      "id": "4.3-->4.4",
+      "fromNode": "4.3",
+      "toNode": "4.4",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "4.4-->4.3",
+      "fromNode": "4.4",
+      "toNode": "4.3",
+      "length": 49.600044,
+      "customers": []
+    },
+    {
+      "id": "4.4-->5.4",
+      "fromNode": "4.4",
+      "toNode": "5.4",
+      "length": 31.154362,
+      "customers": []
+    },
+    {
+      "id": "4.4-->4.5",
+      "fromNode": "4.4",
+      "toNode": "4.5",
+      "length": 10.090818,
+      "customers": []
+    },
+    {
+      "id": "4.4-->3.4",
+      "fromNode": "4.4",
+      "toNode": "3.4",
+      "length": 49.603138,
+      "customers": []
+    },
+    {
+      "id": "4.5-->4.4",
+      "fromNode": "4.5",
+      "toNode": "4.4",
+      "length": 29.464382,
+      "customers": []
+    },
+    {
+      "id": "4.5-->5.5",
+      "fromNode": "4.5",
+      "toNode": "5.5",
+      "length": 44.658833,
+      "customers": []
+    },
+    {
+      "id": "4.5-->4.6",
+      "fromNode": "4.5",
+      "toNode": "4.6",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "4.5-->3.5",
+      "fromNode": "4.5",
+      "toNode": "3.5",
+      "length": 46.395973,
+      "customers": []
+    },
+    {
+      "id": "4.6-->4.5",
+      "fromNode": "4.6",
+      "toNode": "4.5",
+      "length": 24.853577,
+      "customers": []
+    },
+    {
+      "id": "4.6-->5.6",
+      "fromNode": "4.6",
+      "toNode": "5.6",
+      "length": 40.29323,
+      "customers": []
+    },
+    {
+      "id": "4.6-->4.7",
+      "fromNode": "4.6",
+      "toNode": "4.7",
+      "length": 45.900146,
+      "customers": []
+    },
+    {
+      "id": "4.6-->3.6",
+      "fromNode": "4.6",
+      "toNode": "3.6",
+      "length": 5.023718,
+      "customers": []
+    },
+    {
+      "id": "4.7-->4.6",
+      "fromNode": "4.7",
+      "toNode": "4.6",
+      "length": 8.304533,
+      "customers": []
+    },
+    {
+      "id": "4.7-->5.7",
+      "fromNode": "4.7",
+      "toNode": "5.7",
+      "length": 18.319866,
+      "customers": []
+    },
+    {
+      "id": "4.7-->3.7",
+      "fromNode": "4.7",
+      "toNode": "3.7",
+      "length": 30.814486,
+      "customers": []
+    },
+    {
+      "id": "4.9-->5.9",
+      "fromNode": "4.9",
+      "toNode": "5.9",
+      "length": 37.509712,
+      "customers": []
+    },
+    {
+      "id": "4.9-->3.9",
+      "fromNode": "4.9",
+      "toNode": "3.9",
+      "length": 5.2322655,
+      "customers": []
+    },
+    {
+      "id": "5.0-->6.0",
+      "fromNode": "5.0",
+      "toNode": "6.0",
+      "length": 26.07028,
+      "customers": []
+    },
+    {
+      "id": "5.0-->5.1",
+      "fromNode": "5.0",
+      "toNode": "5.1",
+      "length": 43.498116,
+      "customers": []
+    },
+    {
+      "id": "5.1-->5.0",
+      "fromNode": "5.1",
+      "toNode": "5.0",
+      "length": 9.262222,
+      "customers": []
+    },
+    {
+      "id": "5.1-->6.1",
+      "fromNode": "5.1",
+      "toNode": "6.1",
+      "length": 8.56536,
+      "customers": []
+    },
+    {
+      "id": "5.1-->5.2",
+      "fromNode": "5.1",
+      "toNode": "5.2",
+      "length": 11.709899,
+      "customers": []
+    },
+    {
+      "id": "5.1-->4.1",
+      "fromNode": "5.1",
+      "toNode": "4.1",
+      "length": 44.717278,
+      "customers": []
+    },
+    {
+      "id": "5.2-->5.1",
+      "fromNode": "5.2",
+      "toNode": "5.1",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "5.2-->6.2",
+      "fromNode": "5.2",
+      "toNode": "6.2",
+      "length": 5.640757,
+      "customers": []
+    },
+    {
+      "id": "5.2-->5.3",
+      "fromNode": "5.2",
+      "toNode": "5.3",
+      "length": 34.536064,
+      "customers": []
+    },
+    {
+      "id": "5.2-->4.2",
+      "fromNode": "5.2",
+      "toNode": "4.2",
+      "length": 8.263254,
+      "customers": []
+    },
+    {
+      "id": "5.3-->5.2",
+      "fromNode": "5.3",
+      "toNode": "5.2",
+      "length": 34.580616,
+      "customers": []
+    },
+    {
+      "id": "5.3-->6.3",
+      "fromNode": "5.3",
+      "toNode": "6.3",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "5.3-->5.4",
+      "fromNode": "5.3",
+      "toNode": "5.4",
+      "length": 22.586536,
+      "customers": []
+    },
+    {
+      "id": "5.3-->4.3",
+      "fromNode": "5.3",
+      "toNode": "4.3",
+      "length": 41.274925,
+      "customers": []
+    },
+    {
+      "id": "5.4-->5.3",
+      "fromNode": "5.4",
+      "toNode": "5.3",
+      "length": 34.06733,
+      "customers": []
+    },
+    {
+      "id": "5.4-->6.4",
+      "fromNode": "5.4",
+      "toNode": "6.4",
+      "length": 23.651676,
+      "customers": []
+    },
+    {
+      "id": "5.4-->5.5",
+      "fromNode": "5.4",
+      "toNode": "5.5",
+      "length": 24.88158,
+      "customers": []
+    },
+    {
+      "id": "5.4-->4.4",
+      "fromNode": "5.4",
+      "toNode": "4.4",
+      "length": 13.406326,
+      "customers": []
+    },
+    {
+      "id": "5.5-->5.4",
+      "fromNode": "5.5",
+      "toNode": "5.4",
+      "length": 42.23168,
+      "customers": []
+    },
+    {
+      "id": "5.5-->6.5",
+      "fromNode": "5.5",
+      "toNode": "6.5",
+      "length": 10.140488,
+      "customers": []
+    },
+    {
+      "id": "5.5-->5.6",
+      "fromNode": "5.5",
+      "toNode": "5.6",
+      "length": 12.875619,
+      "customers": []
+    },
+    {
+      "id": "5.5-->4.5",
+      "fromNode": "5.5",
+      "toNode": "4.5",
+      "length": 38.52167,
+      "customers": []
+    },
+    {
+      "id": "5.6-->5.5",
+      "fromNode": "5.6",
+      "toNode": "5.5",
+      "length": 28.734053,
+      "customers": []
+    },
+    {
+      "id": "5.6-->6.6",
+      "fromNode": "5.6",
+      "toNode": "6.6",
+      "length": 14.730048,
+      "customers": []
+    },
+    {
+      "id": "5.6-->5.7",
+      "fromNode": "5.6",
+      "toNode": "5.7",
+      "length": 36.5865,
+      "customers": []
+    },
+    {
+      "id": "5.6-->4.6",
+      "fromNode": "5.6",
+      "toNode": "4.6",
+      "length": 19.685196,
+      "customers": []
+    },
+    {
+      "id": "5.7-->5.6",
+      "fromNode": "5.7",
+      "toNode": "5.6",
+      "length": 39.383636,
+      "customers": []
+    },
+    {
+      "id": "5.7-->6.7",
+      "fromNode": "5.7",
+      "toNode": "6.7",
+      "length": 19.177677,
+      "customers": []
+    },
+    {
+      "id": "5.7-->5.8",
+      "fromNode": "5.7",
+      "toNode": "5.8",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "5.7-->4.7",
+      "fromNode": "5.7",
+      "toNode": "4.7",
+      "length": 42.181393,
+      "customers": []
+    },
+    {
+      "id": "5.8-->5.7",
+      "fromNode": "5.8",
+      "toNode": "5.7",
+      "length": 31.633991,
+      "customers": []
+    },
+    {
+      "id": "5.8-->6.8",
+      "fromNode": "5.8",
+      "toNode": "6.8",
+      "length": 9.620145,
+      "customers": []
+    },
+    {
+      "id": "5.8-->5.9",
+      "fromNode": "5.8",
+      "toNode": "5.9",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "5.9-->5.8",
+      "fromNode": "5.9",
+      "toNode": "5.8",
+      "length": 28.345701,
+      "customers": []
+    },
+    {
+      "id": "5.9-->6.9",
+      "fromNode": "5.9",
+      "toNode": "6.9",
+      "length": 22.659538,
+      "customers": []
+    },
+    {
+      "id": "5.9-->4.9",
+      "fromNode": "5.9",
+      "toNode": "4.9",
+      "length": 46.1482,
+      "customers": []
+    },
+    {
+      "id": "6.0-->7.0",
+      "fromNode": "6.0",
+      "toNode": "7.0",
+      "length": 37.816906,
+      "customers": []
+    },
+    {
+      "id": "6.0-->6.1",
+      "fromNode": "6.0",
+      "toNode": "6.1",
+      "length": 7.8308434,
+      "customers": []
+    },
+    {
+      "id": "6.0-->5.0",
+      "fromNode": "6.0",
+      "toNode": "5.0",
+      "length": 35.18574,
+      "customers": []
+    },
+    {
+      "id": "6.1-->6.0",
+      "fromNode": "6.1",
+      "toNode": "6.0",
+      "length": 16.73761,
+      "customers": []
+    },
+    {
+      "id": "6.1-->7.1",
+      "fromNode": "6.1",
+      "toNode": "7.1",
+      "length": 23.75684,
+      "customers": []
+    },
+    {
+      "id": "6.1-->6.2",
+      "fromNode": "6.1",
+      "toNode": "6.2",
+      "length": 6.7130713,
+      "customers": []
+    },
+    {
+      "id": "6.1-->5.1",
+      "fromNode": "6.1",
+      "toNode": "5.1",
+      "length": 17.60063,
+      "customers": []
+    },
+    {
+      "id": "6.2-->6.1",
+      "fromNode": "6.2",
+      "toNode": "6.1",
+      "length": 33.03106,
+      "customers": []
+    },
+    {
+      "id": "6.2-->6.3",
+      "fromNode": "6.2",
+      "toNode": "6.3",
+      "length": 47.402946,
+      "customers": []
+    },
+    {
+      "id": "6.2-->5.2",
+      "fromNode": "6.2",
+      "toNode": "5.2",
+      "length": 49.162872,
+      "customers": []
+    },
+    {
+      "id": "6.3-->6.2",
+      "fromNode": "6.3",
+      "toNode": "6.2",
+      "length": 5.221948,
+      "customers": []
+    },
+    {
+      "id": "6.3-->7.3",
+      "fromNode": "6.3",
+      "toNode": "7.3",
+      "length": 15.375378,
+      "customers": []
+    },
+    {
+      "id": "6.3-->6.4",
+      "fromNode": "6.3",
+      "toNode": "6.4",
+      "length": 15.07139,
+      "customers": []
+    },
+    {
+      "id": "6.3-->5.3",
+      "fromNode": "6.3",
+      "toNode": "5.3",
+      "length": 21.70002,
+      "customers": []
+    },
+    {
+      "id": "6.4-->6.3",
+      "fromNode": "6.4",
+      "toNode": "6.3",
+      "length": 42.459457,
+      "customers": []
+    },
+    {
+      "id": "6.4-->7.4",
+      "fromNode": "6.4",
+      "toNode": "7.4",
+      "length": 13.297105,
+      "customers": []
+    },
+    {
+      "id": "6.4-->6.5",
+      "fromNode": "6.4",
+      "toNode": "6.5",
+      "length": 47.109184,
+      "customers": []
+    },
+    {
+      "id": "6.4-->5.4",
+      "fromNode": "6.4",
+      "toNode": "5.4",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "6.5-->6.4",
+      "fromNode": "6.5",
+      "toNode": "6.4",
+      "length": 40.190357,
+      "customers": []
+    },
+    {
+      "id": "6.5-->7.5",
+      "fromNode": "6.5",
+      "toNode": "7.5",
+      "length": 41.991318,
+      "customers": []
+    },
+    {
+      "id": "6.5-->6.6",
+      "fromNode": "6.5",
+      "toNode": "6.6",
+      "length": 30.180857,
+      "customers": []
+    },
+    {
+      "id": "6.5-->5.5",
+      "fromNode": "6.5",
+      "toNode": "5.5",
+      "length": 24.20511,
+      "customers": []
+    },
+    {
+      "id": "6.6-->6.5",
+      "fromNode": "6.6",
+      "toNode": "6.5",
+      "length": 43.92581,
+      "customers": []
+    },
+    {
+      "id": "6.6-->7.6",
+      "fromNode": "6.6",
+      "toNode": "7.6",
+      "length": 29.223717,
+      "customers": []
+    },
+    {
+      "id": "6.6-->6.7",
+      "fromNode": "6.6",
+      "toNode": "6.7",
+      "length": 22.906944,
+      "customers": []
+    },
+    {
+      "id": "6.6-->5.6",
+      "fromNode": "6.6",
+      "toNode": "5.6",
+      "length": 27.290775,
+      "customers": []
+    },
+    {
+      "id": "6.7-->6.6",
+      "fromNode": "6.7",
+      "toNode": "6.6",
+      "length": 42.820343,
+      "customers": []
+    },
+    {
+      "id": "6.7-->7.7",
+      "fromNode": "6.7",
+      "toNode": "7.7",
+      "length": 37.23319,
+      "customers": []
+    },
+    {
+      "id": "6.7-->6.8",
+      "fromNode": "6.7",
+      "toNode": "6.8",
+      "length": 11.735954,
+      "customers": []
+    },
+    {
+      "id": "6.7-->5.7",
+      "fromNode": "6.7",
+      "toNode": "5.7",
+      "length": 16.798603,
+      "customers": []
+    },
+    {
+      "id": "6.8-->6.7",
+      "fromNode": "6.8",
+      "toNode": "6.7",
+      "length": 21.222992,
+      "customers": []
+    },
+    {
+      "id": "6.8-->7.8",
+      "fromNode": "6.8",
+      "toNode": "7.8",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "6.8-->6.9",
+      "fromNode": "6.8",
+      "toNode": "6.9",
+      "length": 43.213295,
+      "customers": []
+    },
+    {
+      "id": "6.8-->5.8",
+      "fromNode": "6.8",
+      "toNode": "5.8",
+      "length": 35.471287,
+      "customers": []
+    },
+    {
+      "id": "6.9-->6.8",
+      "fromNode": "6.9",
+      "toNode": "6.8",
+      "length": 30.522223,
+      "customers": []
+    },
+    {
+      "id": "6.9-->7.9",
+      "fromNode": "6.9",
+      "toNode": "7.9",
+      "length": 9.6776905,
+      "customers": []
+    },
+    {
+      "id": "6.9-->5.9",
+      "fromNode": "6.9",
+      "toNode": "5.9",
+      "length": 10.498856,
+      "customers": []
+    },
+    {
+      "id": "7.0-->8.0",
+      "fromNode": "7.0",
+      "toNode": "8.0",
+      "length": 22.830452,
+      "customers": []
+    },
+    {
+      "id": "7.0-->7.1",
+      "fromNode": "7.0",
+      "toNode": "7.1",
+      "length": 18.912636,
+      "customers": []
+    },
+    {
+      "id": "7.0-->6.0",
+      "fromNode": "7.0",
+      "toNode": "6.0",
+      "length": 6.3534765,
+      "customers": []
+    },
+    {
+      "id": "7.1-->7.0",
+      "fromNode": "7.1",
+      "toNode": "7.0",
+      "length": 16.278316,
+      "customers": []
+    },
+    {
+      "id": "7.1-->6.1",
+      "fromNode": "7.1",
+      "toNode": "6.1",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "7.3-->7.4",
+      "fromNode": "7.3",
+      "toNode": "7.4",
+      "length": 27.98704,
+      "customers": []
+    },
+    {
+      "id": "7.3-->6.3",
+      "fromNode": "7.3",
+      "toNode": "6.3",
+      "length": 36.975254,
+      "customers": []
+    },
+    {
+      "id": "7.4-->7.3",
+      "fromNode": "7.4",
+      "toNode": "7.3",
+      "length": 40.097145,
+      "customers": []
+    },
+    {
+      "id": "7.4-->8.4",
+      "fromNode": "7.4",
+      "toNode": "8.4",
+      "length": 12.410325,
+      "customers": []
+    },
+    {
+      "id": "7.4-->7.5",
+      "fromNode": "7.4",
+      "toNode": "7.5",
+      "length": 18.346249,
+      "customers": []
+    },
+    {
+      "id": "7.4-->6.4",
+      "fromNode": "7.4",
+      "toNode": "6.4",
+      "length": 34.119648,
+      "customers": []
+    },
+    {
+      "id": "7.5-->7.4",
+      "fromNode": "7.5",
+      "toNode": "7.4",
+      "length": 18.29214,
+      "customers": []
+    },
+    {
+      "id": "7.5-->7.6",
+      "fromNode": "7.5",
+      "toNode": "7.6",
+      "length": 33.623814,
+      "customers": []
+    },
+    {
+      "id": "7.5-->6.5",
+      "fromNode": "7.5",
+      "toNode": "6.5",
+      "length": 6.049171,
+      "customers": []
+    },
+    {
+      "id": "7.6-->7.5",
+      "fromNode": "7.6",
+      "toNode": "7.5",
+      "length": 33.358643,
+      "customers": []
+    },
+    {
+      "id": "7.6-->8.6",
+      "fromNode": "7.6",
+      "toNode": "8.6",
+      "length": 38.18115,
+      "customers": []
+    },
+    {
+      "id": "7.6-->7.7",
+      "fromNode": "7.6",
+      "toNode": "7.7",
+      "length": 37.082146,
+      "customers": []
+    },
+    {
+      "id": "7.6-->6.6",
+      "fromNode": "7.6",
+      "toNode": "6.6",
+      "length": 20.943043,
+      "customers": []
+    },
+    {
+      "id": "7.7-->7.6",
+      "fromNode": "7.7",
+      "toNode": "7.6",
+      "length": 30.881058,
+      "customers": []
+    },
+    {
+      "id": "7.7-->8.7",
+      "fromNode": "7.7",
+      "toNode": "8.7",
+      "length": 18.69094,
+      "customers": []
+    },
+    {
+      "id": "7.7-->7.8",
+      "fromNode": "7.7",
+      "toNode": "7.8",
+      "length": 44.38523,
+      "customers": []
+    },
+    {
+      "id": "7.7-->6.7",
+      "fromNode": "7.7",
+      "toNode": "6.7",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "7.8-->7.7",
+      "fromNode": "7.8",
+      "toNode": "7.7",
+      "length": 15.997961,
+      "customers": []
+    },
+    {
+      "id": "7.8-->8.8",
+      "fromNode": "7.8",
+      "toNode": "8.8",
+      "length": 5.48836,
+      "customers": []
+    },
+    {
+      "id": "7.8-->7.9",
+      "fromNode": "7.8",
+      "toNode": "7.9",
+      "length": 40.97175,
+      "customers": []
+    },
+    {
+      "id": "7.8-->6.8",
+      "fromNode": "7.8",
+      "toNode": "6.8",
+      "length": 34.277424,
+      "customers": []
+    },
+    {
+      "id": "7.9-->7.8",
+      "fromNode": "7.9",
+      "toNode": "7.8",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "7.9-->8.9",
+      "fromNode": "7.9",
+      "toNode": "8.9",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "7.9-->6.9",
+      "fromNode": "7.9",
+      "toNode": "6.9",
+      "length": 45.329113,
+      "customers": []
+    },
+    {
+      "id": "8.0-->9.0",
+      "fromNode": "8.0",
+      "toNode": "9.0",
+      "length": 8.904666,
+      "customers": []
+    },
+    {
+      "id": "8.0-->7.0",
+      "fromNode": "8.0",
+      "toNode": "7.0",
+      "length": 5.1191897,
+      "customers": []
+    },
+    {
+      "id": "8.4-->9.4",
+      "fromNode": "8.4",
+      "toNode": "9.4",
+      "length": 37.343132,
+      "customers": []
+    },
+    {
+      "id": "8.4-->7.4",
+      "fromNode": "8.4",
+      "toNode": "7.4",
+      "length": 9.676811,
+      "customers": []
+    },
+    {
+      "id": "8.6-->9.6",
+      "fromNode": "8.6",
+      "toNode": "9.6",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "8.6-->8.7",
+      "fromNode": "8.6",
+      "toNode": "8.7",
+      "length": 22.018265,
+      "customers": []
+    },
+    {
+      "id": "8.6-->7.6",
+      "fromNode": "8.6",
+      "toNode": "7.6",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "8.7-->8.6",
+      "fromNode": "8.7",
+      "toNode": "8.6",
+      "length": 18.406656,
+      "customers": []
+    },
+    {
+      "id": "8.7-->9.7",
+      "fromNode": "8.7",
+      "toNode": "9.7",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "8.7-->8.8",
+      "fromNode": "8.7",
+      "toNode": "8.8",
+      "length": 14.654702,
+      "customers": []
+    },
+    {
+      "id": "8.7-->7.7",
+      "fromNode": "8.7",
+      "toNode": "7.7",
+      "length": 34.674362,
+      "customers": []
+    },
+    {
+      "id": "8.8-->8.7",
+      "fromNode": "8.8",
+      "toNode": "8.7",
+      "length": 29.441208,
+      "customers": []
+    },
+    {
+      "id": "8.8-->9.8",
+      "fromNode": "8.8",
+      "toNode": "9.8",
+      "length": 28.55478,
+      "customers": []
+    },
+    {
+      "id": "8.8-->8.9",
+      "fromNode": "8.8",
+      "toNode": "8.9",
+      "length": 48.524757,
+      "customers": []
+    },
+    {
+      "id": "8.8-->7.8",
+      "fromNode": "8.8",
+      "toNode": "7.8",
+      "length": 26.138866,
+      "customers": []
+    },
+    {
+      "id": "8.9-->8.8",
+      "fromNode": "8.9",
+      "toNode": "8.8",
+      "length": 10.868752,
+      "customers": []
+    },
+    {
+      "id": "8.9-->9.9",
+      "fromNode": "8.9",
+      "toNode": "9.9",
+      "length": 48.02393,
+      "customers": []
+    },
+    {
+      "id": "8.9-->7.9",
+      "fromNode": "8.9",
+      "toNode": "7.9",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "9.0-->9.1",
+      "fromNode": "9.0",
+      "toNode": "9.1",
+      "length": 46.057823,
+      "customers": []
+    },
+    {
+      "id": "9.0-->8.0",
+      "fromNode": "9.0",
+      "toNode": "8.0",
+      "length": 48.556107,
+      "customers": []
+    },
+    {
+      "id": "9.1-->9.0",
+      "fromNode": "9.1",
+      "toNode": "9.0",
+      "length": 38.67102,
+      "customers": []
+    },
+    {
+      "id": "9.1-->9.2",
+      "fromNode": "9.1",
+      "toNode": "9.2",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "9.2-->9.1",
+      "fromNode": "9.2",
+      "toNode": "9.1",
+      "length": 19.141085,
+      "customers": []
+    },
+    {
+      "id": "9.2-->9.3",
+      "fromNode": "9.2",
+      "toNode": "9.3",
+      "length": 21.150038,
+      "customers": []
+    },
+    {
+      "id": "9.3-->9.2",
+      "fromNode": "9.3",
+      "toNode": "9.2",
+      "length": 30.69986,
+      "customers": []
+    },
+    {
+      "id": "9.3-->9.4",
+      "fromNode": "9.3",
+      "toNode": "9.4",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "9.4-->9.3",
+      "fromNode": "9.4",
+      "toNode": "9.3",
+      "length": 26.706272,
+      "customers": []
+    },
+    {
+      "id": "9.4-->9.5",
+      "fromNode": "9.4",
+      "toNode": "9.5",
+      "length": 38.730923,
+      "customers": []
+    },
+    {
+      "id": "9.4-->8.4",
+      "fromNode": "9.4",
+      "toNode": "8.4",
+      "length": 46.083565,
+      "customers": []
+    },
+    {
+      "id": "9.5-->9.4",
+      "fromNode": "9.5",
+      "toNode": "9.4",
+      "length": 17.76325,
+      "customers": []
+    },
+    {
+      "id": "9.5-->9.6",
+      "fromNode": "9.5",
+      "toNode": "9.6",
+      "length": 37.920033,
+      "customers": []
+    },
+    {
+      "id": "9.6-->9.5",
+      "fromNode": "9.6",
+      "toNode": "9.5",
+      "length": 34.62777,
+      "customers": []
+    },
+    {
+      "id": "9.6-->9.7",
+      "fromNode": "9.6",
+      "toNode": "9.7",
+      "length": 26.148167,
+      "customers": []
+    },
+    {
+      "id": "9.6-->8.6",
+      "fromNode": "9.6",
+      "toNode": "8.6",
+      "length": 29.093563,
+      "customers": []
+    },
+    {
+      "id": "9.7-->9.6",
+      "fromNode": "9.7",
+      "toNode": "9.6",
+      "length": 10.455623,
+      "customers": []
+    },
+    {
+      "id": "9.7-->9.8",
+      "fromNode": "9.7",
+      "toNode": "9.8",
+      "length": 34.527092,
+      "customers": []
+    },
+    {
+      "id": "9.7-->8.7",
+      "fromNode": "9.7",
+      "toNode": "8.7",
+      "length": 41.82325,
+      "customers": []
+    },
+    {
+      "id": "9.8-->9.7",
+      "fromNode": "9.8",
+      "toNode": "9.7",
+      "length": 10.41173,
+      "customers": []
+    },
+    {
+      "id": "9.8-->9.9",
+      "fromNode": "9.8",
+      "toNode": "9.9",
+      "length": 14.724469,
+      "customers": []
+    },
+    {
+      "id": "9.8-->8.8",
+      "fromNode": "9.8",
+      "toNode": "8.8",
+      "length": 40.6077,
+      "customers": []
+    },
+    {
+      "id": "9.9-->9.8",
+      "fromNode": "9.9",
+      "toNode": "9.8",
+      "length": 32.32218,
+      "customers": []
+    },
+    {
+      "id": "9.9-->8.9",
+      "fromNode": "9.9",
+      "toNode": "8.9",
+      "length": 42.253174,
+      "customers": []
+    }
+  ],
+  "zones": [
+    {
+      "id": "0.0<-->4.4",
+      "topLeftX": 0,
+      "topLeftY": 0,
+      "bottomRightX": 4,
+      "bottomRightY": 4,
+      "energySources": [
+        {
+          "type": "Nuclear",
+          "generationCapacity": 0.5
+        },
+        {
+          "type": "Hydro",
+          "generationCapacity": 0.5
+        }
+      ],
+      "energyStorages": [
+        {
+          "capacityMWh": 500,
+          "efficiency": 0.85,
+          "maxChargePowerMw": 50,
+          "maxDischargePowerMw": 50
+        }
+      ]
+    },
+    {
+      "id": "0.5<-->4.9",
+      "topLeftX": 0,
+      "topLeftY": 5,
+      "bottomRightX": 4,
+      "bottomRightY": 9,
+      "energySources": [
+        {
+          "type": "Coal",
+          "generationCapacity": 0.5
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "5.0<-->9.4",
+      "topLeftX": 5,
+      "topLeftY": 0,
+      "bottomRightX": 9,
+      "bottomRightY": 4,
+      "energySources": [
+        {
+          "type": "Hydro",
+          "generationCapacity": 0.5
+        }
+      ],
+      "energyStorages": [
+        {
+          "capacityMWh": 800,
+          "efficiency": 0.85,
+          "maxChargePowerMw": 80,
+          "maxDischargePowerMw": 80
+        },
+        {
+          "capacityMWh": 300,
+          "efficiency": 0.85,
+          "maxChargePowerMw": 30,
+          "maxDischargePowerMw": 30
+        }
+      ]
+    },
+    {
+      "id": "5.5<-->9.9",
+      "topLeftX": 5,
+      "topLeftY": 5,
+      "bottomRightX": 9,
+      "bottomRightY": 9,
+      "energySources": [
+        {
+          "type": "Nuclear",
+          "generationCapacity": 0.5
+        },
+        {
+          "type": "NaturalGas",
+          "generationCapacity": 0.5
+        }
+      ],
+      "energyStorages": []
+    }
+  ],
+  "ticks": 288
+}

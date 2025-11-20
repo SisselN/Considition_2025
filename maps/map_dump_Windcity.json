@@ -1,0 +1,8349 @@
+{
+  "name": "Windcity",
+  "dimX": 15,
+  "dimY": 15,
+  "nodes": [
+    {
+      "id": "0.0",
+      "posX": 0,
+      "posY": 0,
+      "zoneId": "0.0<-->2.2",
+      "customers": [
+        {
+          "id": "0.6",
+          "type": "Truck",
+          "persona": "Neutral",
+          "fromNode": "0.0",
+          "toNode": "4.5",
+          "departureTick": 31,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.48",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "0.0",
+          "toNode": "11.6",
+          "departureTick": 17,
+          "chargeRemaining": 0.8725737,
+          "maxCharge": 62.726784,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "0.1",
+      "posX": 0,
+      "posY": 1,
+      "zoneId": "0.0<-->2.2",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "0.2",
+      "posX": 0,
+      "posY": 2,
+      "zoneId": "0.0<-->2.2",
+      "customers": [
+        {
+          "id": "0.82",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "0.2",
+          "toNode": "6.6",
+          "departureTick": 35,
+          "chargeRemaining": 0.8661815,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.112",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "0.2",
+          "toNode": "2.5",
+          "departureTick": 36,
+          "chargeRemaining": 0.57487917,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "0.5",
+      "posX": 0,
+      "posY": 5,
+      "zoneId": "0.3<-->2.5",
+      "customers": [
+        {
+          "id": "0.24",
+          "type": "Truck",
+          "persona": "Neutral",
+          "fromNode": "0.5",
+          "toNode": "5.2",
+          "departureTick": 29,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.207",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "0.5",
+          "toNode": "8.11",
+          "departureTick": 8,
+          "chargeRemaining": 0.56357163,
+          "maxCharge": 71.869156,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "0.7",
+      "posX": 0,
+      "posY": 7,
+      "zoneId": "0.6<-->2.8",
+      "customers": [
+        {
+          "id": "0.77",
+          "type": "Truck",
+          "persona": "EcoConscious",
+          "fromNode": "0.7",
+          "toNode": "13.7",
+          "departureTick": 43,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.81",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "0.7",
+          "toNode": "13.13",
+          "departureTick": 20,
+          "chargeRemaining": 0.70631915,
+          "maxCharge": 85.0259,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "0.8",
+      "posX": 0,
+      "posY": 8,
+      "zoneId": "0.6<-->2.8",
+      "customers": [
+        {
+          "id": "0.184",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "0.8",
+          "toNode": "6.6",
+          "departureTick": 21,
+          "chargeRemaining": 0.31609708,
+          "maxCharge": 80.01545,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "0.9",
+      "posX": 0,
+      "posY": 9,
+      "zoneId": "0.9<-->2.11",
+      "customers": [
+        {
+          "id": "0.217",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "0.9",
+          "toNode": "10.10",
+          "departureTick": 43,
+          "chargeRemaining": 0.69909304,
+          "maxCharge": 63.207222,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "0.10",
+      "posX": 0,
+      "posY": 10,
+      "zoneId": "0.9<-->2.11",
+      "customers": [
+        {
+          "id": "0.128",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "0.10",
+          "toNode": "4.6",
+          "departureTick": 9,
+          "chargeRemaining": 0.27851817,
+          "maxCharge": 92.19054,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.196",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "0.10",
+          "toNode": "0.5",
+          "departureTick": 23,
+          "chargeRemaining": 0.40585342,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "0.11",
+      "posX": 0,
+      "posY": 11,
+      "zoneId": "0.9<-->2.11",
+      "customers": [
+        {
+          "id": "0.8",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "0.11",
+          "toNode": "9.0",
+          "departureTick": 31,
+          "chargeRemaining": 1,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.35",
+          "type": "Truck",
+          "persona": "Stressed",
+          "fromNode": "0.11",
+          "toNode": "1.3",
+          "departureTick": 27,
+          "chargeRemaining": 0.83560914,
+          "maxCharge": 176.81642,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.53",
+          "type": "Truck",
+          "persona": "EcoConscious",
+          "fromNode": "0.11",
+          "toNode": "5.6",
+          "departureTick": 5,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.106",
+          "type": "Truck",
+          "persona": "Neutral",
+          "fromNode": "0.11",
+          "toNode": "2.1",
+          "departureTick": 6,
+          "chargeRemaining": 1,
+          "maxCharge": 133.32632,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.180",
+          "type": "Truck",
+          "persona": "Neutral",
+          "fromNode": "0.11",
+          "toNode": "3.9",
+          "departureTick": 13,
+          "chargeRemaining": 0.82490695,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "0.12",
+      "posX": 0,
+      "posY": 12,
+      "zoneId": "0.12<-->2.14",
+      "customers": [
+        {
+          "id": "0.30",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "0.12",
+          "toNode": "3.4",
+          "departureTick": 3,
+          "chargeRemaining": 0.50268394,
+          "maxCharge": 80.108986,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.34",
+          "type": "Truck",
+          "persona": "CostSensitive",
+          "fromNode": "0.12",
+          "toNode": "9.0",
+          "departureTick": 5,
+          "chargeRemaining": 1,
+          "maxCharge": 118.87592,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.235",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "0.12",
+          "toNode": "2.10",
+          "departureTick": 43,
+          "chargeRemaining": 0.15,
+          "maxCharge": 91.67326,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "1.1",
+      "posX": 1,
+      "posY": 1,
+      "zoneId": "0.0<-->2.2",
+      "customers": [
+        {
+          "id": "0.4",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "1.1",
+          "toNode": "7.9",
+          "departureTick": 42,
+          "chargeRemaining": 0.8865419,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.91",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "1.1",
+          "toNode": "11.10",
+          "departureTick": 34,
+          "chargeRemaining": 1,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "1.3",
+      "posX": 1,
+      "posY": 3,
+      "zoneId": "0.3<-->2.5",
+      "customers": [
+        {
+          "id": "0.55",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "1.3",
+          "toNode": "5.6",
+          "departureTick": 22,
+          "chargeRemaining": 0.4477932,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.98",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "1.3",
+          "toNode": "12.4",
+          "departureTick": 17,
+          "chargeRemaining": 0.93903756,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.154",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "1.3",
+          "toNode": "3.3",
+          "departureTick": 47,
+          "chargeRemaining": 0.15,
+          "maxCharge": 78.19963,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "1.4",
+      "posX": 1,
+      "posY": 4,
+      "zoneId": "0.3<-->2.5",
+      "customers": [
+        {
+          "id": "0.5",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "1.4",
+          "toNode": "5.6",
+          "departureTick": 14,
+          "chargeRemaining": 0.2302242,
+          "maxCharge": 89.355354,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.214",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "1.4",
+          "toNode": "3.4",
+          "departureTick": 42,
+          "chargeRemaining": 0.15,
+          "maxCharge": 89.11717,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "1.5",
+      "posX": 1,
+      "posY": 5,
+      "zoneId": "0.3<-->2.5",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 1,
+        "totalAmountOfBrokenChargers": 1,
+        "chargeSpeedPerCharger": 197,
+        "totalAmountOfChargers": 2
+      }
+    },
+    {
+      "id": "1.6",
+      "posX": 1,
+      "posY": 6,
+      "zoneId": "0.6<-->2.8",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "1.7",
+      "posX": 1,
+      "posY": 7,
+      "zoneId": "0.6<-->2.8",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 2,
+        "totalAmountOfBrokenChargers": 0,
+        "chargeSpeedPerCharger": 193,
+        "totalAmountOfChargers": 2
+      }
+    },
+    {
+      "id": "1.9",
+      "posX": 1,
+      "posY": 9,
+      "zoneId": "0.9<-->2.11",
+      "customers": [
+        {
+          "id": "0.32",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "1.9",
+          "toNode": "14.8",
+          "departureTick": 34,
+          "chargeRemaining": 1,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.101",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "1.9",
+          "toNode": "11.6",
+          "departureTick": 10,
+          "chargeRemaining": 0.5548918,
+          "maxCharge": 63.41949,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "1.10",
+      "posX": 1,
+      "posY": 10,
+      "zoneId": "0.9<-->2.11",
+      "customers": [
+        {
+          "id": "0.160",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "1.10",
+          "toNode": "13.8",
+          "departureTick": 30,
+          "chargeRemaining": 1,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.176",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "1.10",
+          "toNode": "0.7",
+          "departureTick": 6,
+          "chargeRemaining": 0.2938364,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "1.11",
+      "posX": 1,
+      "posY": 11,
+      "zoneId": "0.9<-->2.11",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "1.13",
+      "posX": 1,
+      "posY": 13,
+      "zoneId": "0.12<-->2.14",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "2.1",
+      "posX": 2,
+      "posY": 1,
+      "zoneId": "0.0<-->2.2",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "2.2",
+      "posX": 2,
+      "posY": 2,
+      "zoneId": "0.0<-->2.2",
+      "customers": [
+        {
+          "id": "0.68",
+          "type": "Truck",
+          "persona": "Neutral",
+          "fromNode": "2.2",
+          "toNode": "7.2",
+          "departureTick": 34,
+          "chargeRemaining": 0.92870975,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "2.3",
+      "posX": 2,
+      "posY": 3,
+      "zoneId": "0.3<-->2.5",
+      "customers": [
+        {
+          "id": "0.3",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "2.3",
+          "toNode": "0.9",
+          "departureTick": 3,
+          "chargeRemaining": 0.5245343,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.236",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "2.3",
+          "toNode": "12.5",
+          "departureTick": 33,
+          "chargeRemaining": 0.7334819,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "2.4",
+      "posX": 2,
+      "posY": 4,
+      "zoneId": "0.3<-->2.5",
+      "customers": [
+        {
+          "id": "0.132",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "2.4",
+          "toNode": "3.7",
+          "departureTick": 46,
+          "chargeRemaining": 0.18455327,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "2.5",
+      "posX": 2,
+      "posY": 5,
+      "zoneId": "0.3<-->2.5",
+      "customers": [
+        {
+          "id": "0.23",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "2.5",
+          "toNode": "13.7",
+          "departureTick": 18,
+          "chargeRemaining": 0.88036436,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.61",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "2.5",
+          "toNode": "6.5",
+          "departureTick": 49,
+          "chargeRemaining": 0.2545368,
+          "maxCharge": 89.68094,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "2.6",
+      "posX": 2,
+      "posY": 6,
+      "zoneId": "0.6<-->2.8",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 1,
+        "totalAmountOfBrokenChargers": 1,
+        "chargeSpeedPerCharger": 184,
+        "totalAmountOfChargers": 2
+      }
+    },
+    {
+      "id": "2.8",
+      "posX": 2,
+      "posY": 8,
+      "zoneId": "0.6<-->2.8",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "2.9",
+      "posX": 2,
+      "posY": 9,
+      "zoneId": "0.9<-->2.11",
+      "customers": [
+        {
+          "id": "0.50",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "2.9",
+          "toNode": "4.1",
+          "departureTick": 10,
+          "chargeRemaining": 0.6761807,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.221",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "2.9",
+          "toNode": "11.6",
+          "departureTick": 24,
+          "chargeRemaining": 0.6108679,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "2.10",
+      "posX": 2,
+      "posY": 10,
+      "zoneId": "0.9<-->2.11",
+      "customers": [
+        {
+          "id": "0.9",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "2.10",
+          "toNode": "3.8",
+          "departureTick": 36,
+          "chargeRemaining": 0.18563488,
+          "maxCharge": 62.639214,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.149",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "2.10",
+          "toNode": "9.0",
+          "departureTick": 38,
+          "chargeRemaining": 1,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "2.11",
+      "posX": 2,
+      "posY": 11,
+      "zoneId": "0.9<-->2.11",
+      "customers": [
+        {
+          "id": "0.41",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "2.11",
+          "toNode": "9.1",
+          "departureTick": 1,
+          "chargeRemaining": 0.92354816,
+          "maxCharge": 58.77073,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "2.12",
+      "posX": 2,
+      "posY": 12,
+      "zoneId": "0.12<-->2.14",
+      "customers": [
+        {
+          "id": "0.158",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "2.12",
+          "toNode": "9.12",
+          "departureTick": 37,
+          "chargeRemaining": 0.7835593,
+          "maxCharge": 50.62631,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.192",
+          "type": "Truck",
+          "persona": "CostSensitive",
+          "fromNode": "2.12",
+          "toNode": "12.13",
+          "departureTick": 29,
+          "chargeRemaining": 1,
+          "maxCharge": 110.81816,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "2.13",
+      "posX": 2,
+      "posY": 13,
+      "zoneId": "0.12<-->2.14",
+      "customers": [
+        {
+          "id": "0.165",
+          "type": "Truck",
+          "persona": "CostSensitive",
+          "fromNode": "2.13",
+          "toNode": "9.3",
+          "departureTick": 49,
+          "chargeRemaining": 1,
+          "maxCharge": 119.99904,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.193",
+          "type": "Truck",
+          "persona": "EcoConscious",
+          "fromNode": "2.13",
+          "toNode": "12.14",
+          "departureTick": 3,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.201",
+          "type": "Truck",
+          "persona": "Neutral",
+          "fromNode": "2.13",
+          "toNode": "4.6",
+          "departureTick": 10,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "2.14",
+      "posX": 2,
+      "posY": 14,
+      "zoneId": "0.12<-->2.14",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 1,
+        "totalAmountOfBrokenChargers": 1,
+        "chargeSpeedPerCharger": 166,
+        "totalAmountOfChargers": 2
+      }
+    },
+    {
+      "id": "3.1",
+      "posX": 3,
+      "posY": 1,
+      "zoneId": "3.0<-->5.2",
+      "customers": [
+        {
+          "id": "0.28",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "3.1",
+          "toNode": "3.8",
+          "departureTick": 34,
+          "chargeRemaining": 0.38922206,
+          "maxCharge": 65.69373,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.86",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "3.1",
+          "toNode": "3.14",
+          "departureTick": 23,
+          "chargeRemaining": 0.80293196,
+          "maxCharge": 61.67185,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.153",
+          "type": "Truck",
+          "persona": "DislikesDriving",
+          "fromNode": "3.1",
+          "toNode": "8.1",
+          "departureTick": 30,
+          "chargeRemaining": 1,
+          "maxCharge": 106.35298,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.208",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "3.1",
+          "toNode": "6.6",
+          "departureTick": 31,
+          "chargeRemaining": 0.5871628,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.2",
+      "posX": 3,
+      "posY": 2,
+      "zoneId": "3.0<-->5.2",
+      "customers": [
+        {
+          "id": "0.166",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "3.2",
+          "toNode": "14.8",
+          "departureTick": 18,
+          "chargeRemaining": 0.8451148,
+          "maxCharge": 71.65362,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.3",
+      "posX": 3,
+      "posY": 3,
+      "zoneId": "3.3<-->5.5",
+      "customers": [
+        {
+          "id": "0.37",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "3.3",
+          "toNode": "10.6",
+          "departureTick": 5,
+          "chargeRemaining": 0.43168065,
+          "maxCharge": 68.51792,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.54",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "3.3",
+          "toNode": "2.4",
+          "departureTick": 27,
+          "chargeRemaining": 0.15,
+          "maxCharge": 92.68443,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.75",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "3.3",
+          "toNode": "0.5",
+          "departureTick": 38,
+          "chargeRemaining": 0.31231093,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.109",
+          "type": "Truck",
+          "persona": "EcoConscious",
+          "fromNode": "3.3",
+          "toNode": "6.6",
+          "departureTick": 26,
+          "chargeRemaining": 0.6001558,
+          "maxCharge": 171.24406,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.4",
+      "posX": 3,
+      "posY": 4,
+      "zoneId": "3.3<-->5.5",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.5",
+      "posX": 3,
+      "posY": 5,
+      "zoneId": "3.3<-->5.5",
+      "customers": [
+        {
+          "id": "0.51",
+          "type": "Truck",
+          "persona": "EcoConscious",
+          "fromNode": "3.5",
+          "toNode": "0.7",
+          "departureTick": 29,
+          "chargeRemaining": 0.63837373,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.94",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "3.5",
+          "toNode": "12.11",
+          "departureTick": 39,
+          "chargeRemaining": 0.8435927,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.95",
+          "type": "Truck",
+          "persona": "Neutral",
+          "fromNode": "3.5",
+          "toNode": "3.3",
+          "departureTick": 42,
+          "chargeRemaining": 0.36275646,
+          "maxCharge": 109.46931,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.6",
+      "posX": 3,
+      "posY": 6,
+      "zoneId": "3.6<-->5.8",
+      "customers": [
+        {
+          "id": "0.33",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "3.6",
+          "toNode": "0.9",
+          "departureTick": 3,
+          "chargeRemaining": 0.1630024,
+          "maxCharge": 90.22215,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.7",
+      "posX": 3,
+      "posY": 7,
+      "zoneId": "3.6<-->5.8",
+      "customers": [
+        {
+          "id": "0.134",
+          "type": "Truck",
+          "persona": "EcoConscious",
+          "fromNode": "3.7",
+          "toNode": "1.13",
+          "departureTick": 3,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.162",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "3.7",
+          "toNode": "3.2",
+          "departureTick": 34,
+          "chargeRemaining": 0.3812061,
+          "maxCharge": 53.48697,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.8",
+      "posX": 3,
+      "posY": 8,
+      "zoneId": "3.6<-->5.8",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.9",
+      "posX": 3,
+      "posY": 9,
+      "zoneId": "3.9<-->5.11",
+      "customers": [
+        {
+          "id": "0.97",
+          "type": "Truck",
+          "persona": "EcoConscious",
+          "fromNode": "3.9",
+          "toNode": "3.5",
+          "departureTick": 12,
+          "chargeRemaining": 0.3599166,
+          "maxCharge": 149.10468,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.120",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "3.9",
+          "toNode": "13.10",
+          "departureTick": 42,
+          "chargeRemaining": 0.62153906,
+          "maxCharge": 67.30218,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.131",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "3.9",
+          "toNode": "4.8",
+          "departureTick": 18,
+          "chargeRemaining": 0.15,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.10",
+      "posX": 3,
+      "posY": 10,
+      "zoneId": "3.9<-->5.11",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.12",
+      "posX": 3,
+      "posY": 12,
+      "zoneId": "3.12<-->5.14",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.13",
+      "posX": 3,
+      "posY": 13,
+      "zoneId": "3.12<-->5.14",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "3.14",
+      "posX": 3,
+      "posY": 14,
+      "zoneId": "3.12<-->5.14",
+      "customers": [
+        {
+          "id": "0.87",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "3.14",
+          "toNode": "3.12",
+          "departureTick": 40,
+          "chargeRemaining": 0.15,
+          "maxCharge": 68.03453,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.88",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "3.14",
+          "toNode": "12.11",
+          "departureTick": 29,
+          "chargeRemaining": 0.7146693,
+          "maxCharge": 76.563416,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.135",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "3.14",
+          "toNode": "3.7",
+          "departureTick": 6,
+          "chargeRemaining": 0.5006501,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.199",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "3.14",
+          "toNode": "9.6",
+          "departureTick": 30,
+          "chargeRemaining": 0.5066339,
+          "maxCharge": 80.92331,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.231",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "3.14",
+          "toNode": "0.9",
+          "departureTick": 1,
+          "chargeRemaining": 0.41112885,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "4.0",
+      "posX": 4,
+      "posY": 0,
+      "zoneId": "3.0<-->5.2",
+      "customers": [
+        {
+          "id": "0.63",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "4.0",
+          "toNode": "7.10",
+          "departureTick": 46,
+          "chargeRemaining": 0.8403698,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.104",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "4.0",
+          "toNode": "2.10",
+          "departureTick": 7,
+          "chargeRemaining": 0.5383944,
+          "maxCharge": 79.34681,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.206",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "4.0",
+          "toNode": "6.1",
+          "departureTick": 12,
+          "chargeRemaining": 0.5010384,
+          "maxCharge": 63.855137,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "4.1",
+      "posX": 4,
+      "posY": 1,
+      "zoneId": "3.0<-->5.2",
+      "customers": [
+        {
+          "id": "0.145",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "4.1",
+          "toNode": "13.8",
+          "departureTick": 30,
+          "chargeRemaining": 1,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.146",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "4.1",
+          "toNode": "5.14",
+          "departureTick": 8,
+          "chargeRemaining": 0.9275703,
+          "maxCharge": 65.03987,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "4.3",
+      "posX": 4,
+      "posY": 3,
+      "zoneId": "3.3<-->5.5",
+      "customers": [
+        {
+          "id": "0.21",
+          "type": "Truck",
+          "persona": "EcoConscious",
+          "fromNode": "4.3",
+          "toNode": "1.3",
+          "departureTick": 17,
+          "chargeRemaining": 0.5072498,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "4.4",
+      "posX": 4,
+      "posY": 4,
+      "zoneId": "3.3<-->5.5",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 2,
+        "totalAmountOfBrokenChargers": 0,
+        "chargeSpeedPerCharger": 171,
+        "totalAmountOfChargers": 2
+      }
+    },
+    {
+      "id": "4.5",
+      "posX": 4,
+      "posY": 5,
+      "zoneId": "3.3<-->5.5",
+      "customers": [
+        {
+          "id": "0.27",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "4.5",
+          "toNode": "3.1",
+          "departureTick": 25,
+          "chargeRemaining": 0.2197059,
+          "maxCharge": 88.360306,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.178",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "4.5",
+          "toNode": "13.8",
+          "departureTick": 1,
+          "chargeRemaining": 0.76618755,
+          "maxCharge": 53.012966,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "4.6",
+      "posX": 4,
+      "posY": 6,
+      "zoneId": "3.6<-->5.8",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "4.7",
+      "posX": 4,
+      "posY": 7,
+      "zoneId": "3.6<-->5.8",
+      "customers": [
+        {
+          "id": "0.229",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "4.7",
+          "toNode": "11.6",
+          "departureTick": 46,
+          "chargeRemaining": 0.27995247,
+          "maxCharge": 79.67126,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "4.8",
+      "posX": 4,
+      "posY": 8,
+      "zoneId": "3.6<-->5.8",
+      "customers": [
+        {
+          "id": "0.15",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "4.8",
+          "toNode": "9.10",
+          "departureTick": 48,
+          "chargeRemaining": 0.39897954,
+          "maxCharge": 53.066624,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.93",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "4.8",
+          "toNode": "6.2",
+          "departureTick": 14,
+          "chargeRemaining": 0.37805343,
+          "maxCharge": 58.347023,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "4.14",
+      "posX": 4,
+      "posY": 14,
+      "zoneId": "3.12<-->5.14",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "5.2",
+      "posX": 5,
+      "posY": 2,
+      "zoneId": "3.0<-->5.2",
+      "customers": [
+        {
+          "id": "0.102",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "5.2",
+          "toNode": "14.5",
+          "departureTick": 29,
+          "chargeRemaining": 0.5691592,
+          "maxCharge": 62.803493,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.121",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "5.2",
+          "toNode": "11.9",
+          "departureTick": 36,
+          "chargeRemaining": 0.55295193,
+          "maxCharge": 59.499855,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "5.3",
+      "posX": 5,
+      "posY": 3,
+      "zoneId": "3.3<-->5.5",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 2,
+        "totalAmountOfBrokenChargers": 0,
+        "chargeSpeedPerCharger": 185,
+        "totalAmountOfChargers": 2
+      }
+    },
+    {
+      "id": "5.4",
+      "posX": 5,
+      "posY": 4,
+      "zoneId": "3.3<-->5.5",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "5.6",
+      "posX": 5,
+      "posY": 6,
+      "zoneId": "3.6<-->5.8",
+      "customers": [
+        {
+          "id": "0.42",
+          "type": "Truck",
+          "persona": "EcoConscious",
+          "fromNode": "5.6",
+          "toNode": "11.0",
+          "departureTick": 38,
+          "chargeRemaining": 1,
+          "maxCharge": 120.69532,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.113",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "5.6",
+          "toNode": "8.13",
+          "departureTick": 40,
+          "chargeRemaining": 0.579423,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "5.7",
+      "posX": 5,
+      "posY": 7,
+      "zoneId": "3.6<-->5.8",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "5.8",
+      "posX": 5,
+      "posY": 8,
+      "zoneId": "3.6<-->5.8",
+      "customers": [
+        {
+          "id": "0.20",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "5.8",
+          "toNode": "0.0",
+          "departureTick": 48,
+          "chargeRemaining": 0.3993952,
+          "maxCharge": 87.757065,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.44",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "5.8",
+          "toNode": "0.0",
+          "departureTick": 40,
+          "chargeRemaining": 0.700995,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.118",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "5.8",
+          "toNode": "0.1",
+          "departureTick": 35,
+          "chargeRemaining": 0.37955865,
+          "maxCharge": 84.235176,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "5.9",
+      "posX": 5,
+      "posY": 9,
+      "zoneId": "3.9<-->5.11",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "5.10",
+      "posX": 5,
+      "posY": 10,
+      "zoneId": "3.9<-->5.11",
+      "customers": [
+        {
+          "id": "0.11",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "5.10",
+          "toNode": "6.8",
+          "departureTick": 6,
+          "chargeRemaining": 0.15,
+          "maxCharge": 60.86143,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.13",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "5.10",
+          "toNode": "8.11",
+          "departureTick": 3,
+          "chargeRemaining": 0.21681324,
+          "maxCharge": 62.29976,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "5.13",
+      "posX": 5,
+      "posY": 13,
+      "zoneId": "3.12<-->5.14",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "5.14",
+      "posX": 5,
+      "posY": 14,
+      "zoneId": "3.12<-->5.14",
+      "customers": [
+        {
+          "id": "0.12",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "5.14",
+          "toNode": "0.0",
+          "departureTick": 12,
+          "chargeRemaining": 1,
+          "maxCharge": 55.86651,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.96",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "5.14",
+          "toNode": "11.9",
+          "departureTick": 23,
+          "chargeRemaining": 0.3885769,
+          "maxCharge": 98.05506,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.0",
+      "posX": 6,
+      "posY": 0,
+      "zoneId": "6.0<-->8.2",
+      "customers": [
+        {
+          "id": "0.1",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "6.0",
+          "toNode": "2.11",
+          "departureTick": 22,
+          "chargeRemaining": 0.5846853,
+          "maxCharge": 83.846596,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.1",
+      "posX": 6,
+      "posY": 1,
+      "zoneId": "6.0<-->8.2",
+      "customers": [
+        {
+          "id": "0.80",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "6.1",
+          "toNode": "9.0",
+          "departureTick": 28,
+          "chargeRemaining": 0.15,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.2",
+      "posX": 6,
+      "posY": 2,
+      "zoneId": "6.0<-->8.2",
+      "customers": [
+        {
+          "id": "0.36",
+          "type": "Truck",
+          "persona": "Stressed",
+          "fromNode": "6.2",
+          "toNode": "12.5",
+          "departureTick": 23,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.47",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "6.2",
+          "toNode": "13.10",
+          "departureTick": 28,
+          "chargeRemaining": 0.5579678,
+          "maxCharge": 76.85271,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.3",
+      "posX": 6,
+      "posY": 3,
+      "zoneId": "6.3<-->8.5",
+      "customers": [
+        {
+          "id": "0.105",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "6.3",
+          "toNode": "5.4",
+          "departureTick": 43,
+          "chargeRemaining": 0.22042607,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.4",
+      "posX": 6,
+      "posY": 4,
+      "zoneId": "6.3<-->8.5",
+      "customers": [
+        {
+          "id": "0.78",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "6.4",
+          "toNode": "6.10",
+          "departureTick": 18,
+          "chargeRemaining": 0.54511726,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.164",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "6.4",
+          "toNode": "8.7",
+          "departureTick": 47,
+          "chargeRemaining": 0.15068012,
+          "maxCharge": 94.752975,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.216",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "6.4",
+          "toNode": "6.1",
+          "departureTick": 11,
+          "chargeRemaining": 0.19983998,
+          "maxCharge": 50.657444,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.5",
+      "posX": 6,
+      "posY": 5,
+      "zoneId": "6.3<-->8.5",
+      "customers": [
+        {
+          "id": "0.215",
+          "type": "Truck",
+          "persona": "Stressed",
+          "fromNode": "6.5",
+          "toNode": "1.4",
+          "departureTick": 3,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.6",
+      "posX": 6,
+      "posY": 6,
+      "zoneId": "6.6<-->8.8",
+      "customers": [
+        {
+          "id": "0.60",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "6.6",
+          "toNode": "10.11",
+          "departureTick": 15,
+          "chargeRemaining": 0.24229586,
+          "maxCharge": 90.82815,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.67",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "6.6",
+          "toNode": "7.9",
+          "departureTick": 19,
+          "chargeRemaining": 0.25475845,
+          "maxCharge": 60.565025,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.7",
+      "posX": 6,
+      "posY": 7,
+      "zoneId": "6.6<-->8.8",
+      "customers": [
+        {
+          "id": "0.31",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "6.7",
+          "toNode": "8.11",
+          "departureTick": 46,
+          "chargeRemaining": 0.508685,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.64",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "6.7",
+          "toNode": "13.7",
+          "departureTick": 45,
+          "chargeRemaining": 0.5780087,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.138",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "6.7",
+          "toNode": "8.13",
+          "departureTick": 32,
+          "chargeRemaining": 0.6247077,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.8",
+      "posX": 6,
+      "posY": 8,
+      "zoneId": "6.6<-->8.8",
+      "customers": [
+        {
+          "id": "0.205",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "6.8",
+          "toNode": "12.0",
+          "departureTick": 1,
+          "chargeRemaining": 0.81373316,
+          "maxCharge": 52.948387,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.9",
+      "posX": 6,
+      "posY": 9,
+      "zoneId": "6.9<-->8.11",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 1,
+        "totalAmountOfBrokenChargers": 1,
+        "chargeSpeedPerCharger": 164,
+        "totalAmountOfChargers": 2
+      }
+    },
+    {
+      "id": "6.10",
+      "posX": 6,
+      "posY": 10,
+      "zoneId": "6.9<-->8.11",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.11",
+      "posX": 6,
+      "posY": 11,
+      "zoneId": "6.9<-->8.11",
+      "customers": [
+        {
+          "id": "0.74",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "6.11",
+          "toNode": "12.11",
+          "departureTick": 47,
+          "chargeRemaining": 0.7516174,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.108",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "6.11",
+          "toNode": "9.1",
+          "departureTick": 28,
+          "chargeRemaining": 0.80736053,
+          "maxCharge": 50.085133,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.127",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "6.11",
+          "toNode": "11.0",
+          "departureTick": 5,
+          "chargeRemaining": 0.87442064,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.12",
+      "posX": 6,
+      "posY": 12,
+      "zoneId": "6.12<-->8.14",
+      "customers": [
+        {
+          "id": "0.177",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "6.12",
+          "toNode": "5.7",
+          "departureTick": 36,
+          "chargeRemaining": 0.15,
+          "maxCharge": 89.840034,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.13",
+      "posX": 6,
+      "posY": 13,
+      "zoneId": "6.12<-->8.14",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "6.14",
+      "posX": 6,
+      "posY": 14,
+      "zoneId": "6.12<-->8.14",
+      "customers": [
+        {
+          "id": "0.133",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "6.14",
+          "toNode": "10.11",
+          "departureTick": 13,
+          "chargeRemaining": 0.31182042,
+          "maxCharge": 77.5571,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.161",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "6.14",
+          "toNode": "3.3",
+          "departureTick": 8,
+          "chargeRemaining": 0.7693512,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.183",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "6.14",
+          "toNode": "11.6",
+          "departureTick": 48,
+          "chargeRemaining": 0.45329672,
+          "maxCharge": 80.91419,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.202",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "6.14",
+          "toNode": "7.1",
+          "departureTick": 4,
+          "chargeRemaining": 0.9498026,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "7.1",
+      "posX": 7,
+      "posY": 1,
+      "zoneId": "6.0<-->8.2",
+      "customers": [
+        {
+          "id": "0.152",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "7.1",
+          "toNode": "11.7",
+          "departureTick": 45,
+          "chargeRemaining": 0.5180769,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "7.2",
+      "posX": 7,
+      "posY": 2,
+      "zoneId": "6.0<-->8.2",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "7.3",
+      "posX": 7,
+      "posY": 3,
+      "zoneId": "6.3<-->8.5",
+      "customers": [
+        {
+          "id": "0.49",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "7.3",
+          "toNode": "9.8",
+          "departureTick": 2,
+          "chargeRemaining": 0.3249595,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.136",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "7.3",
+          "toNode": "0.2",
+          "departureTick": 38,
+          "chargeRemaining": 0.6769966,
+          "maxCharge": 58.946465,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.189",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "7.3",
+          "toNode": "3.8",
+          "departureTick": 14,
+          "chargeRemaining": 0.29967162,
+          "maxCharge": 93.53483,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "7.6",
+      "posX": 7,
+      "posY": 6,
+      "zoneId": "6.6<-->8.8",
+      "customers": [
+        {
+          "id": "0.62",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "7.6",
+          "toNode": "0.1",
+          "departureTick": 47,
+          "chargeRemaining": 0.78685087,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "7.7",
+      "posX": 7,
+      "posY": 7,
+      "zoneId": "6.6<-->8.8",
+      "customers": [
+        {
+          "id": "0.155",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "7.7",
+          "toNode": "9.6",
+          "departureTick": 23,
+          "chargeRemaining": 0.15,
+          "maxCharge": 60.98383,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.218",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "7.7",
+          "toNode": "14.10",
+          "departureTick": 32,
+          "chargeRemaining": 0.6242943,
+          "maxCharge": 54.486866,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "7.9",
+      "posX": 7,
+      "posY": 9,
+      "zoneId": "6.9<-->8.11",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "7.10",
+      "posX": 7,
+      "posY": 10,
+      "zoneId": "6.9<-->8.11",
+      "customers": [
+        {
+          "id": "0.150",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "7.10",
+          "toNode": "10.13",
+          "departureTick": 20,
+          "chargeRemaining": 0.22711107,
+          "maxCharge": 92.461,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "7.11",
+      "posX": 7,
+      "posY": 11,
+      "zoneId": "6.9<-->8.11",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 1,
+        "totalAmountOfBrokenChargers": 1,
+        "chargeSpeedPerCharger": 160,
+        "totalAmountOfChargers": 2
+      }
+    },
+    {
+      "id": "7.13",
+      "posX": 7,
+      "posY": 13,
+      "zoneId": "6.12<-->8.14",
+      "customers": [
+        {
+          "id": "0.124",
+          "type": "Truck",
+          "persona": "Neutral",
+          "fromNode": "7.13",
+          "toNode": "4.5",
+          "departureTick": 46,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.200",
+          "type": "Truck",
+          "persona": "EcoConscious",
+          "fromNode": "7.13",
+          "toNode": "11.2",
+          "departureTick": 13,
+          "chargeRemaining": 1,
+          "maxCharge": 120.32674,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.212",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "7.13",
+          "toNode": "9.9",
+          "departureTick": 1,
+          "chargeRemaining": 0.2308129,
+          "maxCharge": 84.746895,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.213",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "7.13",
+          "toNode": "6.7",
+          "departureTick": 36,
+          "chargeRemaining": 0.3239727,
+          "maxCharge": 64.5222,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "7.14",
+      "posX": 7,
+      "posY": 14,
+      "zoneId": "6.12<-->8.14",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 2,
+        "totalAmountOfBrokenChargers": 0,
+        "chargeSpeedPerCharger": 180,
+        "totalAmountOfChargers": 2
+      }
+    },
+    {
+      "id": "8.0",
+      "posX": 8,
+      "posY": 0,
+      "zoneId": "6.0<-->8.2",
+      "customers": [
+        {
+          "id": "0.103",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "8.0",
+          "toNode": "3.7",
+          "departureTick": 22,
+          "chargeRemaining": 0.4403309,
+          "maxCharge": 75.33956,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "8.1",
+      "posX": 8,
+      "posY": 1,
+      "zoneId": "6.0<-->8.2",
+      "customers": [
+        {
+          "id": "0.29",
+          "type": "Truck",
+          "persona": "Stressed",
+          "fromNode": "8.1",
+          "toNode": "0.1",
+          "departureTick": 7,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "8.3",
+      "posX": 8,
+      "posY": 3,
+      "zoneId": "6.3<-->8.5",
+      "customers": [
+        {
+          "id": "0.173",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "8.3",
+          "toNode": "13.12",
+          "departureTick": 20,
+          "chargeRemaining": 0.48987082,
+          "maxCharge": 86.67003,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "8.4",
+      "posX": 8,
+      "posY": 4,
+      "zoneId": "6.3<-->8.5",
+      "customers": [
+        {
+          "id": "0.2",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "8.4",
+          "toNode": "8.7",
+          "departureTick": 15,
+          "chargeRemaining": 0.1782053,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.17",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "8.4",
+          "toNode": "6.4",
+          "departureTick": 41,
+          "chargeRemaining": 0.2691774,
+          "maxCharge": 57.434444,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "8.5",
+      "posX": 8,
+      "posY": 5,
+      "zoneId": "6.3<-->8.5",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "8.6",
+      "posX": 8,
+      "posY": 6,
+      "zoneId": "6.6<-->8.8",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "8.7",
+      "posX": 8,
+      "posY": 7,
+      "zoneId": "6.6<-->8.8",
+      "customers": [
+        {
+          "id": "0.140",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "8.7",
+          "toNode": "10.3",
+          "departureTick": 34,
+          "chargeRemaining": 0.46087778,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "8.8",
+      "posX": 8,
+      "posY": 8,
+      "zoneId": "6.6<-->8.8",
+      "customers": [
+        {
+          "id": "0.114",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "8.8",
+          "toNode": "6.0",
+          "departureTick": 14,
+          "chargeRemaining": 0.7589331,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.172",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "8.8",
+          "toNode": "2.1",
+          "departureTick": 35,
+          "chargeRemaining": 0.6310743,
+          "maxCharge": 63.22541,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "8.11",
+      "posX": 8,
+      "posY": 11,
+      "zoneId": "6.9<-->8.11",
+      "customers": [
+        {
+          "id": "0.40",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "8.11",
+          "toNode": "3.6",
+          "departureTick": 31,
+          "chargeRemaining": 0.38109908,
+          "maxCharge": 57.53072,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.123",
+          "type": "Truck",
+          "persona": "DislikesDriving",
+          "fromNode": "8.11",
+          "toNode": "3.5",
+          "departureTick": 22,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.188",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "8.11",
+          "toNode": "11.7",
+          "departureTick": 31,
+          "chargeRemaining": 0.35393018,
+          "maxCharge": 72.58265,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "8.12",
+      "posX": 8,
+      "posY": 12,
+      "zoneId": "6.12<-->8.14",
+      "customers": [
+        {
+          "id": "0.125",
+          "type": "Truck",
+          "persona": "Stressed",
+          "fromNode": "8.12",
+          "toNode": "11.5",
+          "departureTick": 14,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "8.13",
+      "posX": 8,
+      "posY": 13,
+      "zoneId": "6.12<-->8.14",
+      "customers": [
+        {
+          "id": "0.137",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "8.13",
+          "toNode": "6.2",
+          "departureTick": 38,
+          "chargeRemaining": 0.73751324,
+          "maxCharge": 56.859707,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.0",
+      "posX": 9,
+      "posY": 0,
+      "zoneId": "9.0<-->11.2",
+      "customers": [
+        {
+          "id": "0.174",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "9.0",
+          "toNode": "6.10",
+          "departureTick": 2,
+          "chargeRemaining": 0.8267158,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.228",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "9.0",
+          "toNode": "2.4",
+          "departureTick": 27,
+          "chargeRemaining": 0.3735392,
+          "maxCharge": 89.88724,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.1",
+      "posX": 9,
+      "posY": 1,
+      "zoneId": "9.0<-->11.2",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.2",
+      "posX": 9,
+      "posY": 2,
+      "zoneId": "9.0<-->11.2",
+      "customers": [
+        {
+          "id": "0.142",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "9.2",
+          "toNode": "12.7",
+          "departureTick": 35,
+          "chargeRemaining": 0.46735108,
+          "maxCharge": 51.480877,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.156",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "9.2",
+          "toNode": "8.11",
+          "departureTick": 19,
+          "chargeRemaining": 0.56867176,
+          "maxCharge": 59.622097,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.3",
+      "posX": 9,
+      "posY": 3,
+      "zoneId": "9.3<-->11.5",
+      "customers": [
+        {
+          "id": "0.39",
+          "type": "Truck",
+          "persona": "Stressed",
+          "fromNode": "9.3",
+          "toNode": "11.8",
+          "departureTick": 34,
+          "chargeRemaining": 1,
+          "maxCharge": 107.567215,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.71",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "9.3",
+          "toNode": "1.6",
+          "departureTick": 9,
+          "chargeRemaining": 0.6709391,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.5",
+      "posX": 9,
+      "posY": 5,
+      "zoneId": "9.3<-->11.5",
+      "customers": [
+        {
+          "id": "0.185",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "9.5",
+          "toNode": "6.5",
+          "departureTick": 44,
+          "chargeRemaining": 0.25235936,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.6",
+      "posX": 9,
+      "posY": 6,
+      "zoneId": "9.6<-->11.8",
+      "customers": [
+        {
+          "id": "0.16",
+          "type": "Truck",
+          "persona": "EcoConscious",
+          "fromNode": "9.6",
+          "toNode": "11.4",
+          "departureTick": 15,
+          "chargeRemaining": 0.36025274,
+          "maxCharge": 132.27634,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.99",
+          "type": "Truck",
+          "persona": "EcoConscious",
+          "fromNode": "9.6",
+          "toNode": "10.6",
+          "departureTick": 49,
+          "chargeRemaining": 0.15,
+          "maxCharge": 190.24834,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.190",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "9.6",
+          "toNode": "3.12",
+          "departureTick": 28,
+          "chargeRemaining": 0.4127044,
+          "maxCharge": 87.49108,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.7",
+      "posX": 9,
+      "posY": 7,
+      "zoneId": "9.6<-->11.8",
+      "customers": [
+        {
+          "id": "0.222",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "9.7",
+          "toNode": "0.7",
+          "departureTick": 34,
+          "chargeRemaining": 0.6492154,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.8",
+      "posX": 9,
+      "posY": 8,
+      "zoneId": "9.6<-->11.8",
+      "customers": [
+        {
+          "id": "0.90",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "9.8",
+          "toNode": "14.10",
+          "departureTick": 39,
+          "chargeRemaining": 0.26406306,
+          "maxCharge": 99.532265,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.181",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "9.8",
+          "toNode": "1.10",
+          "departureTick": 37,
+          "chargeRemaining": 0.6605929,
+          "maxCharge": 52.26129,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.210",
+          "type": "Truck",
+          "persona": "Neutral",
+          "fromNode": "9.8",
+          "toNode": "5.2",
+          "departureTick": 36,
+          "chargeRemaining": 1,
+          "maxCharge": 104.887024,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.9",
+      "posX": 9,
+      "posY": 9,
+      "zoneId": "9.9<-->11.11",
+      "customers": [
+        {
+          "id": "0.46",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "9.9",
+          "toNode": "3.9",
+          "departureTick": 39,
+          "chargeRemaining": 0.36858958,
+          "maxCharge": 77.73222,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.10",
+      "posX": 9,
+      "posY": 10,
+      "zoneId": "9.9<-->11.11",
+      "customers": [
+        {
+          "id": "0.107",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "9.10",
+          "toNode": "3.13",
+          "departureTick": 36,
+          "chargeRemaining": 0.50842935,
+          "maxCharge": 77.49766,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.126",
+          "type": "Truck",
+          "persona": "Stressed",
+          "fromNode": "9.10",
+          "toNode": "0.12",
+          "departureTick": 48,
+          "chargeRemaining": 1,
+          "maxCharge": 115.70689,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.129",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "9.10",
+          "toNode": "3.7",
+          "departureTick": 2,
+          "chargeRemaining": 0.29042196,
+          "maxCharge": 89.19186,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.11",
+      "posX": 9,
+      "posY": 11,
+      "zoneId": "9.9<-->11.11",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 2,
+        "totalAmountOfBrokenChargers": 0,
+        "chargeSpeedPerCharger": 159,
+        "totalAmountOfChargers": 2
+      }
+    },
+    {
+      "id": "9.12",
+      "posX": 9,
+      "posY": 12,
+      "zoneId": "9.12<-->11.14",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.13",
+      "posX": 9,
+      "posY": 13,
+      "zoneId": "9.12<-->11.14",
+      "customers": [
+        {
+          "id": "0.25",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "9.13",
+          "toNode": "13.3",
+          "departureTick": 25,
+          "chargeRemaining": 0.9060138,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.197",
+          "type": "Truck",
+          "persona": "Neutral",
+          "fromNode": "9.13",
+          "toNode": "4.5",
+          "departureTick": 44,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.209",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "9.13",
+          "toNode": "6.0",
+          "departureTick": 13,
+          "chargeRemaining": 1,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "9.14",
+      "posX": 9,
+      "posY": 14,
+      "zoneId": "9.12<-->11.14",
+      "customers": [
+        {
+          "id": "0.232",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "9.14",
+          "toNode": "8.5",
+          "departureTick": 1,
+          "chargeRemaining": 0.7177165,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "10.1",
+      "posX": 10,
+      "posY": 1,
+      "zoneId": "9.0<-->11.2",
+      "customers": [
+        {
+          "id": "0.19",
+          "type": "Truck",
+          "persona": "Neutral",
+          "fromNode": "10.1",
+          "toNode": "0.5",
+          "departureTick": 27,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "10.2",
+      "posX": 10,
+      "posY": 2,
+      "zoneId": "9.0<-->11.2",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "10.3",
+      "posX": 10,
+      "posY": 3,
+      "zoneId": "9.3<-->11.5",
+      "customers": [
+        {
+          "id": "0.143",
+          "type": "Truck",
+          "persona": "EcoConscious",
+          "fromNode": "10.3",
+          "toNode": "9.9",
+          "departureTick": 15,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "10.4",
+      "posX": 10,
+      "posY": 4,
+      "zoneId": "9.3<-->11.5",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 1,
+        "totalAmountOfBrokenChargers": 1,
+        "chargeSpeedPerCharger": 161,
+        "totalAmountOfChargers": 2
+      }
+    },
+    {
+      "id": "10.6",
+      "posX": 10,
+      "posY": 6,
+      "zoneId": "9.6<-->11.8",
+      "customers": [
+        {
+          "id": "0.179",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "10.6",
+          "toNode": "6.4",
+          "departureTick": 27,
+          "chargeRemaining": 0.41161132,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "10.7",
+      "posX": 10,
+      "posY": 7,
+      "zoneId": "9.6<-->11.8",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "10.8",
+      "posX": 10,
+      "posY": 8,
+      "zoneId": "9.6<-->11.8",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "10.10",
+      "posX": 10,
+      "posY": 10,
+      "zoneId": "9.9<-->11.11",
+      "customers": [
+        {
+          "id": "0.22",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "10.10",
+          "toNode": "11.6",
+          "departureTick": 14,
+          "chargeRemaining": 0.38016307,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.186",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "10.10",
+          "toNode": "14.13",
+          "departureTick": 45,
+          "chargeRemaining": 0.39153916,
+          "maxCharge": 64.791626,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "10.11",
+      "posX": 10,
+      "posY": 11,
+      "zoneId": "9.9<-->11.11",
+      "customers": [
+        {
+          "id": "0.52",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "10.11",
+          "toNode": "13.12",
+          "departureTick": 42,
+          "chargeRemaining": 0.61660576,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.76",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "10.11",
+          "toNode": "0.12",
+          "departureTick": 29,
+          "chargeRemaining": 0.62979895,
+          "maxCharge": 68.974205,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.171",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "10.11",
+          "toNode": "4.1",
+          "departureTick": 42,
+          "chargeRemaining": 0.8864338,
+          "maxCharge": 57.112526,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "10.13",
+      "posX": 10,
+      "posY": 13,
+      "zoneId": "9.12<-->11.14",
+      "customers": [
+        {
+          "id": "0.116",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "10.13",
+          "toNode": "6.8",
+          "departureTick": 37,
+          "chargeRemaining": 0.47057024,
+          "maxCharge": 68.13988,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.168",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "10.13",
+          "toNode": "10.1",
+          "departureTick": 32,
+          "chargeRemaining": 0.9621391,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.224",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "10.13",
+          "toNode": "12.14",
+          "departureTick": 27,
+          "chargeRemaining": 0.9656325,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "11.0",
+      "posX": 11,
+      "posY": 0,
+      "zoneId": "9.0<-->11.2",
+      "customers": [
+        {
+          "id": "0.234",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "11.0",
+          "toNode": "14.14",
+          "departureTick": 26,
+          "chargeRemaining": 1,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "11.1",
+      "posX": 11,
+      "posY": 1,
+      "zoneId": "9.0<-->11.2",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "11.2",
+      "posX": 11,
+      "posY": 2,
+      "zoneId": "9.0<-->11.2",
+      "customers": [
+        {
+          "id": "0.187",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "11.2",
+          "toNode": "10.7",
+          "departureTick": 24,
+          "chargeRemaining": 0.39251688,
+          "maxCharge": 69.67753,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "11.4",
+      "posX": 11,
+      "posY": 4,
+      "zoneId": "9.3<-->11.5",
+      "customers": [
+        {
+          "id": "0.227",
+          "type": "Truck",
+          "persona": "Stressed",
+          "fromNode": "11.4",
+          "toNode": "12.4",
+          "departureTick": 43,
+          "chargeRemaining": 0.29968265,
+          "maxCharge": 118.72173,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "11.5",
+      "posX": 11,
+      "posY": 5,
+      "zoneId": "9.3<-->11.5",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "11.6",
+      "posX": 11,
+      "posY": 6,
+      "zoneId": "9.6<-->11.8",
+      "customers": [
+        {
+          "id": "0.73",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "11.6",
+          "toNode": "9.8",
+          "departureTick": 30,
+          "chargeRemaining": 0.2243895,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "11.7",
+      "posX": 11,
+      "posY": 7,
+      "zoneId": "9.6<-->11.8",
+      "customers": [
+        {
+          "id": "0.18",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "11.7",
+          "toNode": "2.10",
+          "departureTick": 31,
+          "chargeRemaining": 0.6825433,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "11.8",
+      "posX": 11,
+      "posY": 8,
+      "zoneId": "9.6<-->11.8",
+      "customers": [
+        {
+          "id": "0.70",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "11.8",
+          "toNode": "14.1",
+          "departureTick": 45,
+          "chargeRemaining": 0.46608156,
+          "maxCharge": 63.119972,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.130",
+          "type": "Truck",
+          "persona": "EcoConscious",
+          "fromNode": "11.8",
+          "toNode": "3.3",
+          "departureTick": 40,
+          "chargeRemaining": 0.94260883,
+          "maxCharge": 186.83246,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.139",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "11.8",
+          "toNode": "9.12",
+          "departureTick": 14,
+          "chargeRemaining": 0.38307235,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "11.9",
+      "posX": 11,
+      "posY": 9,
+      "zoneId": "9.9<-->11.11",
+      "customers": [
+        {
+          "id": "0.58",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "11.9",
+          "toNode": "0.1",
+          "departureTick": 37,
+          "chargeRemaining": 0.94440585,
+          "maxCharge": 59.41831,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "11.10",
+      "posX": 11,
+      "posY": 10,
+      "zoneId": "9.9<-->11.11",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "12.0",
+      "posX": 12,
+      "posY": 0,
+      "zoneId": "12.0<-->14.2",
+      "customers": [
+        {
+          "id": "0.119",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "12.0",
+          "toNode": "12.11",
+          "departureTick": 19,
+          "chargeRemaining": 1,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.226",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "12.0",
+          "toNode": "1.3",
+          "departureTick": 26,
+          "chargeRemaining": 0.55930525,
+          "maxCharge": 79.177765,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "12.3",
+      "posX": 12,
+      "posY": 3,
+      "zoneId": "12.3<-->14.5",
+      "customers": [],
+      "target": {
+        "Type": "ChargingStation",
+        "amountOfAvailableChargers": 2,
+        "totalAmountOfBrokenChargers": 0,
+        "chargeSpeedPerCharger": 165,
+        "totalAmountOfChargers": 2
+      }
+    },
+    {
+      "id": "12.4",
+      "posX": 12,
+      "posY": 4,
+      "zoneId": "12.3<-->14.5",
+      "customers": [
+        {
+          "id": "0.151",
+          "type": "Truck",
+          "persona": "Stressed",
+          "fromNode": "12.4",
+          "toNode": "5.10",
+          "departureTick": 9,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.195",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "12.4",
+          "toNode": "2.13",
+          "departureTick": 33,
+          "chargeRemaining": 1,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.233",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "12.4",
+          "toNode": "3.5",
+          "departureTick": 33,
+          "chargeRemaining": 0.7755434,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "12.5",
+      "posX": 12,
+      "posY": 5,
+      "zoneId": "12.3<-->14.5",
+      "customers": [
+        {
+          "id": "0.72",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "12.5",
+          "toNode": "9.12",
+          "departureTick": 27,
+          "chargeRemaining": 0.3346699,
+          "maxCharge": 93.15113,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "12.6",
+      "posX": 12,
+      "posY": 6,
+      "zoneId": "12.6<-->14.8",
+      "customers": [
+        {
+          "id": "0.65",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "12.6",
+          "toNode": "14.1",
+          "departureTick": 12,
+          "chargeRemaining": 0.58151454,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.157",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "12.6",
+          "toNode": "14.5",
+          "departureTick": 10,
+          "chargeRemaining": 0.24806425,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.203",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "12.6",
+          "toNode": "14.13",
+          "departureTick": 23,
+          "chargeRemaining": 0.6713327,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "12.7",
+      "posX": 12,
+      "posY": 7,
+      "zoneId": "12.6<-->14.8",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "12.10",
+      "posX": 12,
+      "posY": 10,
+      "zoneId": "12.9<-->14.11",
+      "customers": [
+        {
+          "id": "0.144",
+          "type": "Truck",
+          "persona": "Neutral",
+          "fromNode": "12.10",
+          "toNode": "4.5",
+          "departureTick": 11,
+          "chargeRemaining": 1,
+          "maxCharge": 175.47673,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "12.11",
+      "posX": 12,
+      "posY": 11,
+      "zoneId": "12.9<-->14.11",
+      "customers": [
+        {
+          "id": "0.79",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "12.11",
+          "toNode": "12.14",
+          "departureTick": 23,
+          "chargeRemaining": 0.51604426,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.84",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "12.11",
+          "toNode": "11.7",
+          "departureTick": 31,
+          "chargeRemaining": 0.43564335,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.169",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "12.11",
+          "toNode": "5.6",
+          "departureTick": 6,
+          "chargeRemaining": 0.7546455,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "12.13",
+      "posX": 12,
+      "posY": 13,
+      "zoneId": "12.12<-->14.14",
+      "customers": [
+        {
+          "id": "0.69",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "12.13",
+          "toNode": "9.3",
+          "departureTick": 40,
+          "chargeRemaining": 1,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.194",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "12.13",
+          "toNode": "1.11",
+          "departureTick": 29,
+          "chargeRemaining": 1,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "12.14",
+      "posX": 12,
+      "posY": 14,
+      "zoneId": "12.12<-->14.14",
+      "customers": [
+        {
+          "id": "0.159",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "12.14",
+          "toNode": "6.3",
+          "departureTick": 16,
+          "chargeRemaining": 1,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "13.0",
+      "posX": 13,
+      "posY": 0,
+      "zoneId": "12.0<-->14.2",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "13.2",
+      "posX": 13,
+      "posY": 2,
+      "zoneId": "12.0<-->14.2",
+      "customers": [
+        {
+          "id": "0.59",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "13.2",
+          "toNode": "11.6",
+          "departureTick": 10,
+          "chargeRemaining": 0.20574412,
+          "maxCharge": 76.943115,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.122",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "13.2",
+          "toNode": "6.4",
+          "departureTick": 18,
+          "chargeRemaining": 0.72078776,
+          "maxCharge": 56.297844,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.191",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "13.2",
+          "toNode": "6.13",
+          "departureTick": 11,
+          "chargeRemaining": 1,
+          "maxCharge": 55.48546,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.219",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "13.2",
+          "toNode": "6.0",
+          "departureTick": 20,
+          "chargeRemaining": 0.80108863,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "13.3",
+      "posX": 13,
+      "posY": 3,
+      "zoneId": "12.3<-->14.5",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "13.4",
+      "posX": 13,
+      "posY": 4,
+      "zoneId": "12.3<-->14.5",
+      "customers": [
+        {
+          "id": "0.57",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "13.4",
+          "toNode": "13.7",
+          "departureTick": 32,
+          "chargeRemaining": 0.4012923,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.66",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "13.4",
+          "toNode": "13.9",
+          "departureTick": 8,
+          "chargeRemaining": 0.54776704,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.89",
+          "type": "Truck",
+          "persona": "EcoConscious",
+          "fromNode": "13.4",
+          "toNode": "2.13",
+          "departureTick": 29,
+          "chargeRemaining": 1,
+          "maxCharge": 108.19789,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.110",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "13.4",
+          "toNode": "14.13",
+          "departureTick": 24,
+          "chargeRemaining": 0.83089113,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.167",
+          "type": "Truck",
+          "persona": "CostSensitive",
+          "fromNode": "13.4",
+          "toNode": "7.13",
+          "departureTick": 22,
+          "chargeRemaining": 1,
+          "maxCharge": 171.92638,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "13.5",
+      "posX": 13,
+      "posY": 5,
+      "zoneId": "12.3<-->14.5",
+      "customers": [
+        {
+          "id": "0.182",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "13.5",
+          "toNode": "14.11",
+          "departureTick": 34,
+          "chargeRemaining": 0.67408574,
+          "maxCharge": 50.952114,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.198",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "13.5",
+          "toNode": "11.10",
+          "departureTick": 13,
+          "chargeRemaining": 0.37654138,
+          "maxCharge": 63.05971,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.220",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "13.5",
+          "toNode": "3.10",
+          "departureTick": 36,
+          "chargeRemaining": 0.9257663,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "13.7",
+      "posX": 13,
+      "posY": 7,
+      "zoneId": "12.6<-->14.8",
+      "customers": [
+        {
+          "id": "0.111",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "13.7",
+          "toNode": "0.11",
+          "departureTick": 42,
+          "chargeRemaining": 0.7423521,
+          "maxCharge": 56.699707,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.141",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "13.7",
+          "toNode": "6.2",
+          "departureTick": 10,
+          "chargeRemaining": 0.6426798,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.148",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "13.7",
+          "toNode": "12.0",
+          "departureTick": 36,
+          "chargeRemaining": 0.6614727,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "13.8",
+      "posX": 13,
+      "posY": 8,
+      "zoneId": "12.6<-->14.8",
+      "customers": [
+        {
+          "id": "0.85",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "13.8",
+          "toNode": "11.0",
+          "departureTick": 3,
+          "chargeRemaining": 0.42788407,
+          "maxCharge": 73.89929,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.223",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "13.8",
+          "toNode": "10.3",
+          "departureTick": 15,
+          "chargeRemaining": 0.24669003,
+          "maxCharge": 92.65435,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "13.9",
+      "posX": 13,
+      "posY": 9,
+      "zoneId": "12.9<-->14.11",
+      "customers": [
+        {
+          "id": "0.45",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "13.9",
+          "toNode": "10.7",
+          "departureTick": 6,
+          "chargeRemaining": 0.21971361,
+          "maxCharge": 61.958534,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.92",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "13.9",
+          "toNode": "3.6",
+          "departureTick": 19,
+          "chargeRemaining": 0.6868949,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.170",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "13.9",
+          "toNode": "9.3",
+          "departureTick": 4,
+          "chargeRemaining": 0.49663463,
+          "maxCharge": 61.94561,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "13.10",
+      "posX": 13,
+      "posY": 10,
+      "zoneId": "12.9<-->14.11",
+      "customers": [
+        {
+          "id": "0.7",
+          "type": "Truck",
+          "persona": "EcoConscious",
+          "fromNode": "13.10",
+          "toNode": "8.12",
+          "departureTick": 5,
+          "chargeRemaining": 1,
+          "maxCharge": 102.56036,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        },
+        {
+          "id": "0.83",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "13.10",
+          "toNode": "3.14",
+          "departureTick": 26,
+          "chargeRemaining": 0.92882,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "13.12",
+      "posX": 13,
+      "posY": 12,
+      "zoneId": "12.12<-->14.14",
+      "customers": [
+        {
+          "id": "0.10",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "13.12",
+          "toNode": "11.5",
+          "departureTick": 7,
+          "chargeRemaining": 0.6746311,
+          "maxCharge": 57.704308,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.26",
+          "type": "Truck",
+          "persona": "Stressed",
+          "fromNode": "13.12",
+          "toNode": "9.9",
+          "departureTick": 46,
+          "chargeRemaining": 1,
+          "maxCharge": 100,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "13.13",
+      "posX": 13,
+      "posY": 13,
+      "zoneId": "12.12<-->14.14",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "14.1",
+      "posX": 14,
+      "posY": 1,
+      "zoneId": "12.0<-->14.2",
+      "customers": [
+        {
+          "id": "0.43",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "14.1",
+          "toNode": "3.8",
+          "departureTick": 14,
+          "chargeRemaining": 0.5087612,
+          "maxCharge": 91.444725,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.117",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "14.1",
+          "toNode": "12.4",
+          "departureTick": 15,
+          "chargeRemaining": 0.26452872,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.225",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "14.1",
+          "toNode": "2.5",
+          "departureTick": 43,
+          "chargeRemaining": 1,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "14.2",
+      "posX": 14,
+      "posY": 2,
+      "zoneId": "12.0<-->14.2",
+      "customers": [
+        {
+          "id": "0.0",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "14.2",
+          "toNode": "9.8",
+          "departureTick": 27,
+          "chargeRemaining": 0.32326102,
+          "maxCharge": 90.34979,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.100",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "14.2",
+          "toNode": "2.8",
+          "departureTick": 17,
+          "chargeRemaining": 0.5200494,
+          "maxCharge": 99.60529,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.175",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "14.2",
+          "toNode": "3.6",
+          "departureTick": 9,
+          "chargeRemaining": 0.64133424,
+          "maxCharge": 71.28284,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "14.5",
+      "posX": 14,
+      "posY": 5,
+      "zoneId": "12.3<-->14.5",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "14.8",
+      "posX": 14,
+      "posY": 8,
+      "zoneId": "12.6<-->14.8",
+      "customers": [
+        {
+          "id": "0.230",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "14.8",
+          "toNode": "9.14",
+          "departureTick": 7,
+          "chargeRemaining": 0.46587953,
+          "maxCharge": 85.711525,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "14.9",
+      "posX": 14,
+      "posY": 9,
+      "zoneId": "12.9<-->14.11",
+      "customers": [
+        {
+          "id": "0.163",
+          "type": "Car",
+          "persona": "Neutral",
+          "fromNode": "14.9",
+          "toNode": "3.8",
+          "departureTick": 38,
+          "chargeRemaining": 0.79899305,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "14.10",
+      "posX": 14,
+      "posY": 10,
+      "zoneId": "12.9<-->14.11",
+      "customers": [
+        {
+          "id": "0.56",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "14.10",
+          "toNode": "1.1",
+          "departureTick": 20,
+          "chargeRemaining": 0.6229476,
+          "maxCharge": 97.48283,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.115",
+          "type": "Truck",
+          "persona": "Stressed",
+          "fromNode": "14.10",
+          "toNode": "14.5",
+          "departureTick": 23,
+          "chargeRemaining": 1,
+          "maxCharge": 113.36595,
+          "energyConsumptionPerKm": 1,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "14.11",
+      "posX": 14,
+      "posY": 11,
+      "zoneId": "12.9<-->14.11",
+      "customers": [
+        {
+          "id": "0.147",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "14.11",
+          "toNode": "6.3",
+          "departureTick": 12,
+          "chargeRemaining": 0.81060874,
+          "maxCharge": 60.900997,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "14.12",
+      "posX": 14,
+      "posY": 12,
+      "zoneId": "12.12<-->14.14",
+      "customers": [],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "14.13",
+      "posX": 14,
+      "posY": 13,
+      "zoneId": "12.12<-->14.14",
+      "customers": [
+        {
+          "id": "0.14",
+          "type": "Car",
+          "persona": "EcoConscious",
+          "fromNode": "14.13",
+          "toNode": "12.11",
+          "departureTick": 17,
+          "chargeRemaining": 0.42978883,
+          "maxCharge": 62.810127,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    },
+    {
+      "id": "14.14",
+      "posX": 14,
+      "posY": 14,
+      "zoneId": "12.12<-->14.14",
+      "customers": [
+        {
+          "id": "0.38",
+          "type": "Car",
+          "persona": "Stressed",
+          "fromNode": "14.14",
+          "toNode": "10.6",
+          "departureTick": 1,
+          "chargeRemaining": 0.8987637,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.204",
+          "type": "Car",
+          "persona": "DislikesDriving",
+          "fromNode": "14.14",
+          "toNode": "13.0",
+          "departureTick": 46,
+          "chargeRemaining": 1,
+          "maxCharge": 71.421906,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        },
+        {
+          "id": "0.211",
+          "type": "Car",
+          "persona": "CostSensitive",
+          "fromNode": "14.14",
+          "toNode": "4.7",
+          "departureTick": 5,
+          "chargeRemaining": 1,
+          "maxCharge": 50,
+          "energyConsumptionPerKm": 0.2,
+          "state": "Home"
+        }
+      ],
+      "target": {
+        "Type": "Null"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "0.0-->0.1",
+      "fromNode": "0.0",
+      "toNode": "0.1",
+      "length": 11.480069,
+      "customers": []
+    },
+    {
+      "id": "0.1-->0.0",
+      "fromNode": "0.1",
+      "toNode": "0.0",
+      "length": 20.517084,
+      "customers": []
+    },
+    {
+      "id": "0.1-->1.1",
+      "fromNode": "0.1",
+      "toNode": "1.1",
+      "length": 17.904627,
+      "customers": []
+    },
+    {
+      "id": "0.1-->0.2",
+      "fromNode": "0.1",
+      "toNode": "0.2",
+      "length": 42.160473,
+      "customers": []
+    },
+    {
+      "id": "0.2-->0.1",
+      "fromNode": "0.2",
+      "toNode": "0.1",
+      "length": 12.577786,
+      "customers": []
+    },
+    {
+      "id": "0.5-->1.5",
+      "fromNode": "0.5",
+      "toNode": "1.5",
+      "length": 46.449608,
+      "customers": []
+    },
+    {
+      "id": "0.7-->1.7",
+      "fromNode": "0.7",
+      "toNode": "1.7",
+      "length": 26.793318,
+      "customers": []
+    },
+    {
+      "id": "0.7-->0.8",
+      "fromNode": "0.7",
+      "toNode": "0.8",
+      "length": 41.968422,
+      "customers": []
+    },
+    {
+      "id": "0.8-->0.7",
+      "fromNode": "0.8",
+      "toNode": "0.7",
+      "length": 14.478895,
+      "customers": []
+    },
+    {
+      "id": "0.8-->0.9",
+      "fromNode": "0.8",
+      "toNode": "0.9",
+      "length": 38.819813,
+      "customers": []
+    },
+    {
+      "id": "0.9-->0.8",
+      "fromNode": "0.9",
+      "toNode": "0.8",
+      "length": 37.037678,
+      "customers": []
+    },
+    {
+      "id": "0.9-->1.9",
+      "fromNode": "0.9",
+      "toNode": "1.9",
+      "length": 9.409165,
+      "customers": []
+    },
+    {
+      "id": "0.9-->0.10",
+      "fromNode": "0.9",
+      "toNode": "0.10",
+      "length": 5.9391766,
+      "customers": []
+    },
+    {
+      "id": "0.10-->0.9",
+      "fromNode": "0.10",
+      "toNode": "0.9",
+      "length": 23.607218,
+      "customers": []
+    },
+    {
+      "id": "0.10-->1.10",
+      "fromNode": "0.10",
+      "toNode": "1.10",
+      "length": 33.053215,
+      "customers": []
+    },
+    {
+      "id": "0.10-->0.11",
+      "fromNode": "0.10",
+      "toNode": "0.11",
+      "length": 16.173077,
+      "customers": []
+    },
+    {
+      "id": "0.11-->0.10",
+      "fromNode": "0.11",
+      "toNode": "0.10",
+      "length": 48.433846,
+      "customers": []
+    },
+    {
+      "id": "0.11-->1.11",
+      "fromNode": "0.11",
+      "toNode": "1.11",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "0.11-->0.12",
+      "fromNode": "0.11",
+      "toNode": "0.12",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "0.12-->0.11",
+      "fromNode": "0.12",
+      "toNode": "0.11",
+      "length": 38.974453,
+      "customers": []
+    },
+    {
+      "id": "1.1-->2.1",
+      "fromNode": "1.1",
+      "toNode": "2.1",
+      "length": 42.50804,
+      "customers": []
+    },
+    {
+      "id": "1.1-->0.1",
+      "fromNode": "1.1",
+      "toNode": "0.1",
+      "length": 35.970512,
+      "customers": []
+    },
+    {
+      "id": "1.3-->2.3",
+      "fromNode": "1.3",
+      "toNode": "2.3",
+      "length": 21.905361,
+      "customers": []
+    },
+    {
+      "id": "1.3-->1.4",
+      "fromNode": "1.3",
+      "toNode": "1.4",
+      "length": 24.112972,
+      "customers": []
+    },
+    {
+      "id": "1.4-->1.3",
+      "fromNode": "1.4",
+      "toNode": "1.3",
+      "length": 6.780565,
+      "customers": []
+    },
+    {
+      "id": "1.4-->2.4",
+      "fromNode": "1.4",
+      "toNode": "2.4",
+      "length": 30.070206,
+      "customers": []
+    },
+    {
+      "id": "1.4-->1.5",
+      "fromNode": "1.4",
+      "toNode": "1.5",
+      "length": 31.569733,
+      "customers": []
+    },
+    {
+      "id": "1.5-->1.4",
+      "fromNode": "1.5",
+      "toNode": "1.4",
+      "length": 21.44323,
+      "customers": []
+    },
+    {
+      "id": "1.5-->2.5",
+      "fromNode": "1.5",
+      "toNode": "2.5",
+      "length": 44.245872,
+      "customers": []
+    },
+    {
+      "id": "1.5-->1.6",
+      "fromNode": "1.5",
+      "toNode": "1.6",
+      "length": 7.333386,
+      "customers": []
+    },
+    {
+      "id": "1.5-->0.5",
+      "fromNode": "1.5",
+      "toNode": "0.5",
+      "length": 14.942894,
+      "customers": []
+    },
+    {
+      "id": "1.6-->1.5",
+      "fromNode": "1.6",
+      "toNode": "1.5",
+      "length": 11.605598,
+      "customers": []
+    },
+    {
+      "id": "1.6-->2.6",
+      "fromNode": "1.6",
+      "toNode": "2.6",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "1.6-->1.7",
+      "fromNode": "1.6",
+      "toNode": "1.7",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "1.7-->1.6",
+      "fromNode": "1.7",
+      "toNode": "1.6",
+      "length": 6.818864,
+      "customers": []
+    },
+    {
+      "id": "1.7-->0.7",
+      "fromNode": "1.7",
+      "toNode": "0.7",
+      "length": 26.884258,
+      "customers": []
+    },
+    {
+      "id": "1.9-->2.9",
+      "fromNode": "1.9",
+      "toNode": "2.9",
+      "length": 30.98373,
+      "customers": []
+    },
+    {
+      "id": "1.9-->1.10",
+      "fromNode": "1.9",
+      "toNode": "1.10",
+      "length": 26.552242,
+      "customers": []
+    },
+    {
+      "id": "1.9-->0.9",
+      "fromNode": "1.9",
+      "toNode": "0.9",
+      "length": 15.861416,
+      "customers": []
+    },
+    {
+      "id": "1.10-->1.9",
+      "fromNode": "1.10",
+      "toNode": "1.9",
+      "length": 39.59029,
+      "customers": []
+    },
+    {
+      "id": "1.10-->2.10",
+      "fromNode": "1.10",
+      "toNode": "2.10",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "1.10-->1.11",
+      "fromNode": "1.10",
+      "toNode": "1.11",
+      "length": 17.444054,
+      "customers": []
+    },
+    {
+      "id": "1.10-->0.10",
+      "fromNode": "1.10",
+      "toNode": "0.10",
+      "length": 22.821667,
+      "customers": []
+    },
+    {
+      "id": "1.11-->1.10",
+      "fromNode": "1.11",
+      "toNode": "1.10",
+      "length": 36.9462,
+      "customers": []
+    },
+    {
+      "id": "1.11-->2.11",
+      "fromNode": "1.11",
+      "toNode": "2.11",
+      "length": 28.339884,
+      "customers": []
+    },
+    {
+      "id": "1.11-->0.11",
+      "fromNode": "1.11",
+      "toNode": "0.11",
+      "length": 17.308695,
+      "customers": []
+    },
+    {
+      "id": "1.13-->2.13",
+      "fromNode": "1.13",
+      "toNode": "2.13",
+      "length": 20.327,
+      "customers": []
+    },
+    {
+      "id": "2.1-->3.1",
+      "fromNode": "2.1",
+      "toNode": "3.1",
+      "length": 34.07101,
+      "customers": []
+    },
+    {
+      "id": "2.1-->2.2",
+      "fromNode": "2.1",
+      "toNode": "2.2",
+      "length": 44.533928,
+      "customers": []
+    },
+    {
+      "id": "2.1-->1.1",
+      "fromNode": "2.1",
+      "toNode": "1.1",
+      "length": 12.324577,
+      "customers": []
+    },
+    {
+      "id": "2.2-->2.1",
+      "fromNode": "2.2",
+      "toNode": "2.1",
+      "length": 18.630064,
+      "customers": []
+    },
+    {
+      "id": "2.2-->3.2",
+      "fromNode": "2.2",
+      "toNode": "3.2",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "2.2-->2.3",
+      "fromNode": "2.2",
+      "toNode": "2.3",
+      "length": 42.699707,
+      "customers": []
+    },
+    {
+      "id": "2.3-->2.2",
+      "fromNode": "2.3",
+      "toNode": "2.2",
+      "length": 41.535954,
+      "customers": []
+    },
+    {
+      "id": "2.3-->3.3",
+      "fromNode": "2.3",
+      "toNode": "3.3",
+      "length": 30.489195,
+      "customers": []
+    },
+    {
+      "id": "2.3-->2.4",
+      "fromNode": "2.3",
+      "toNode": "2.4",
+      "length": 20.284138,
+      "customers": []
+    },
+    {
+      "id": "2.3-->1.3",
+      "fromNode": "2.3",
+      "toNode": "1.3",
+      "length": 19.247198,
+      "customers": []
+    },
+    {
+      "id": "2.4-->2.3",
+      "fromNode": "2.4",
+      "toNode": "2.3",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "2.4-->3.4",
+      "fromNode": "2.4",
+      "toNode": "3.4",
+      "length": 16.001131,
+      "customers": []
+    },
+    {
+      "id": "2.4-->2.5",
+      "fromNode": "2.4",
+      "toNode": "2.5",
+      "length": 11.118144,
+      "customers": []
+    },
+    {
+      "id": "2.4-->1.4",
+      "fromNode": "2.4",
+      "toNode": "1.4",
+      "length": 40.779106,
+      "customers": []
+    },
+    {
+      "id": "2.5-->2.4",
+      "fromNode": "2.5",
+      "toNode": "2.4",
+      "length": 18.948402,
+      "customers": []
+    },
+    {
+      "id": "2.5-->3.5",
+      "fromNode": "2.5",
+      "toNode": "3.5",
+      "length": 46.120014,
+      "customers": []
+    },
+    {
+      "id": "2.5-->2.6",
+      "fromNode": "2.5",
+      "toNode": "2.6",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "2.5-->1.5",
+      "fromNode": "2.5",
+      "toNode": "1.5",
+      "length": 43.0265,
+      "customers": []
+    },
+    {
+      "id": "2.6-->2.5",
+      "fromNode": "2.6",
+      "toNode": "2.5",
+      "length": 49.214935,
+      "customers": []
+    },
+    {
+      "id": "2.6-->3.6",
+      "fromNode": "2.6",
+      "toNode": "3.6",
+      "length": 40.39961,
+      "customers": []
+    },
+    {
+      "id": "2.6-->1.6",
+      "fromNode": "2.6",
+      "toNode": "1.6",
+      "length": 33.77159,
+      "customers": []
+    },
+    {
+      "id": "2.8-->3.8",
+      "fromNode": "2.8",
+      "toNode": "3.8",
+      "length": 40.90233,
+      "customers": []
+    },
+    {
+      "id": "2.8-->2.9",
+      "fromNode": "2.8",
+      "toNode": "2.9",
+      "length": 10.424175,
+      "customers": []
+    },
+    {
+      "id": "2.9-->2.8",
+      "fromNode": "2.9",
+      "toNode": "2.8",
+      "length": 14.004574,
+      "customers": []
+    },
+    {
+      "id": "2.9-->3.9",
+      "fromNode": "2.9",
+      "toNode": "3.9",
+      "length": 36.759563,
+      "customers": []
+    },
+    {
+      "id": "2.9-->2.10",
+      "fromNode": "2.9",
+      "toNode": "2.10",
+      "length": 28.128948,
+      "customers": []
+    },
+    {
+      "id": "2.9-->1.9",
+      "fromNode": "2.9",
+      "toNode": "1.9",
+      "length": 11.626003,
+      "customers": []
+    },
+    {
+      "id": "2.10-->2.9",
+      "fromNode": "2.10",
+      "toNode": "2.9",
+      "length": 26.28183,
+      "customers": []
+    },
+    {
+      "id": "2.10-->3.10",
+      "fromNode": "2.10",
+      "toNode": "3.10",
+      "length": 20.888466,
+      "customers": []
+    },
+    {
+      "id": "2.10-->2.11",
+      "fromNode": "2.10",
+      "toNode": "2.11",
+      "length": 11.303792,
+      "customers": []
+    },
+    {
+      "id": "2.10-->1.10",
+      "fromNode": "2.10",
+      "toNode": "1.10",
+      "length": 21.677425,
+      "customers": []
+    },
+    {
+      "id": "2.11-->2.10",
+      "fromNode": "2.11",
+      "toNode": "2.10",
+      "length": 16.841064,
+      "customers": []
+    },
+    {
+      "id": "2.11-->2.12",
+      "fromNode": "2.11",
+      "toNode": "2.12",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "2.11-->1.11",
+      "fromNode": "2.11",
+      "toNode": "1.11",
+      "length": 31.106392,
+      "customers": []
+    },
+    {
+      "id": "2.12-->2.11",
+      "fromNode": "2.12",
+      "toNode": "2.11",
+      "length": 9.93323,
+      "customers": []
+    },
+    {
+      "id": "2.12-->3.12",
+      "fromNode": "2.12",
+      "toNode": "3.12",
+      "length": 29.50261,
+      "customers": []
+    },
+    {
+      "id": "2.12-->2.13",
+      "fromNode": "2.12",
+      "toNode": "2.13",
+      "length": 21.681967,
+      "customers": []
+    },
+    {
+      "id": "2.13-->2.12",
+      "fromNode": "2.13",
+      "toNode": "2.12",
+      "length": 36.675125,
+      "customers": []
+    },
+    {
+      "id": "2.13-->3.13",
+      "fromNode": "2.13",
+      "toNode": "3.13",
+      "length": 44.30272,
+      "customers": []
+    },
+    {
+      "id": "2.13-->2.14",
+      "fromNode": "2.13",
+      "toNode": "2.14",
+      "length": 32.654953,
+      "customers": []
+    },
+    {
+      "id": "2.13-->1.13",
+      "fromNode": "2.13",
+      "toNode": "1.13",
+      "length": 28.00646,
+      "customers": []
+    },
+    {
+      "id": "2.14-->2.13",
+      "fromNode": "2.14",
+      "toNode": "2.13",
+      "length": 24.146648,
+      "customers": []
+    },
+    {
+      "id": "2.14-->3.14",
+      "fromNode": "2.14",
+      "toNode": "3.14",
+      "length": 39.161274,
+      "customers": []
+    },
+    {
+      "id": "3.1-->4.1",
+      "fromNode": "3.1",
+      "toNode": "4.1",
+      "length": 19.97953,
+      "customers": []
+    },
+    {
+      "id": "3.1-->3.2",
+      "fromNode": "3.1",
+      "toNode": "3.2",
+      "length": 29.518131,
+      "customers": []
+    },
+    {
+      "id": "3.1-->2.1",
+      "fromNode": "3.1",
+      "toNode": "2.1",
+      "length": 16.8812,
+      "customers": []
+    },
+    {
+      "id": "3.2-->3.1",
+      "fromNode": "3.2",
+      "toNode": "3.1",
+      "length": 12.155789,
+      "customers": []
+    },
+    {
+      "id": "3.2-->3.3",
+      "fromNode": "3.2",
+      "toNode": "3.3",
+      "length": 29.17197,
+      "customers": []
+    },
+    {
+      "id": "3.2-->2.2",
+      "fromNode": "3.2",
+      "toNode": "2.2",
+      "length": 17.821915,
+      "customers": []
+    },
+    {
+      "id": "3.3-->3.2",
+      "fromNode": "3.3",
+      "toNode": "3.2",
+      "length": 43.01115,
+      "customers": []
+    },
+    {
+      "id": "3.3-->4.3",
+      "fromNode": "3.3",
+      "toNode": "4.3",
+      "length": 20.643852,
+      "customers": []
+    },
+    {
+      "id": "3.3-->3.4",
+      "fromNode": "3.3",
+      "toNode": "3.4",
+      "length": 27.17947,
+      "customers": []
+    },
+    {
+      "id": "3.3-->2.3",
+      "fromNode": "3.3",
+      "toNode": "2.3",
+      "length": 14.73197,
+      "customers": []
+    },
+    {
+      "id": "3.4-->3.3",
+      "fromNode": "3.4",
+      "toNode": "3.3",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "3.4-->4.4",
+      "fromNode": "3.4",
+      "toNode": "4.4",
+      "length": 15.948377,
+      "customers": []
+    },
+    {
+      "id": "3.4-->3.5",
+      "fromNode": "3.4",
+      "toNode": "3.5",
+      "length": 39.404522,
+      "customers": []
+    },
+    {
+      "id": "3.4-->2.4",
+      "fromNode": "3.4",
+      "toNode": "2.4",
+      "length": 49.91204,
+      "customers": []
+    },
+    {
+      "id": "3.5-->3.4",
+      "fromNode": "3.5",
+      "toNode": "3.4",
+      "length": 47.947598,
+      "customers": []
+    },
+    {
+      "id": "3.5-->4.5",
+      "fromNode": "3.5",
+      "toNode": "4.5",
+      "length": 19.59291,
+      "customers": []
+    },
+    {
+      "id": "3.5-->3.6",
+      "fromNode": "3.5",
+      "toNode": "3.6",
+      "length": 21.37291,
+      "customers": []
+    },
+    {
+      "id": "3.5-->2.5",
+      "fromNode": "3.5",
+      "toNode": "2.5",
+      "length": 14.460648,
+      "customers": []
+    },
+    {
+      "id": "3.6-->3.5",
+      "fromNode": "3.6",
+      "toNode": "3.5",
+      "length": 15.5416155,
+      "customers": []
+    },
+    {
+      "id": "3.6-->4.6",
+      "fromNode": "3.6",
+      "toNode": "4.6",
+      "length": 17.042671,
+      "customers": []
+    },
+    {
+      "id": "3.6-->3.7",
+      "fromNode": "3.6",
+      "toNode": "3.7",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "3.6-->2.6",
+      "fromNode": "3.6",
+      "toNode": "2.6",
+      "length": 23.741255,
+      "customers": []
+    },
+    {
+      "id": "3.7-->3.6",
+      "fromNode": "3.7",
+      "toNode": "3.6",
+      "length": 35.44377,
+      "customers": []
+    },
+    {
+      "id": "3.7-->4.7",
+      "fromNode": "3.7",
+      "toNode": "4.7",
+      "length": 49.93883,
+      "customers": []
+    },
+    {
+      "id": "3.7-->3.8",
+      "fromNode": "3.7",
+      "toNode": "3.8",
+      "length": 19.798023,
+      "customers": []
+    },
+    {
+      "id": "3.8-->3.7",
+      "fromNode": "3.8",
+      "toNode": "3.7",
+      "length": 6.0895205,
+      "customers": []
+    },
+    {
+      "id": "3.8-->4.8",
+      "fromNode": "3.8",
+      "toNode": "4.8",
+      "length": 31.801018,
+      "customers": []
+    },
+    {
+      "id": "3.8-->3.9",
+      "fromNode": "3.8",
+      "toNode": "3.9",
+      "length": 31.956402,
+      "customers": []
+    },
+    {
+      "id": "3.8-->2.8",
+      "fromNode": "3.8",
+      "toNode": "2.8",
+      "length": 41.219246,
+      "customers": []
+    },
+    {
+      "id": "3.9-->3.8",
+      "fromNode": "3.9",
+      "toNode": "3.8",
+      "length": 14.478758,
+      "customers": []
+    },
+    {
+      "id": "3.9-->3.10",
+      "fromNode": "3.9",
+      "toNode": "3.10",
+      "length": 44.736958,
+      "customers": []
+    },
+    {
+      "id": "3.9-->2.9",
+      "fromNode": "3.9",
+      "toNode": "2.9",
+      "length": 13.8010025,
+      "customers": []
+    },
+    {
+      "id": "3.10-->3.9",
+      "fromNode": "3.10",
+      "toNode": "3.9",
+      "length": 45.32843,
+      "customers": []
+    },
+    {
+      "id": "3.10-->2.10",
+      "fromNode": "3.10",
+      "toNode": "2.10",
+      "length": 7.6143236,
+      "customers": []
+    },
+    {
+      "id": "3.12-->3.13",
+      "fromNode": "3.12",
+      "toNode": "3.13",
+      "length": 30.801403,
+      "customers": []
+    },
+    {
+      "id": "3.12-->2.12",
+      "fromNode": "3.12",
+      "toNode": "2.12",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "3.13-->3.12",
+      "fromNode": "3.13",
+      "toNode": "3.12",
+      "length": 20.934055,
+      "customers": []
+    },
+    {
+      "id": "3.13-->3.14",
+      "fromNode": "3.13",
+      "toNode": "3.14",
+      "length": 9.164816,
+      "customers": []
+    },
+    {
+      "id": "3.13-->2.13",
+      "fromNode": "3.13",
+      "toNode": "2.13",
+      "length": 18.217527,
+      "customers": []
+    },
+    {
+      "id": "3.14-->3.13",
+      "fromNode": "3.14",
+      "toNode": "3.13",
+      "length": 30.565357,
+      "customers": []
+    },
+    {
+      "id": "3.14-->4.14",
+      "fromNode": "3.14",
+      "toNode": "4.14",
+      "length": 29.256666,
+      "customers": []
+    },
+    {
+      "id": "3.14-->2.14",
+      "fromNode": "3.14",
+      "toNode": "2.14",
+      "length": 32.662464,
+      "customers": []
+    },
+    {
+      "id": "4.0-->4.1",
+      "fromNode": "4.0",
+      "toNode": "4.1",
+      "length": 35.449787,
+      "customers": []
+    },
+    {
+      "id": "4.1-->4.0",
+      "fromNode": "4.1",
+      "toNode": "4.0",
+      "length": 46.7737,
+      "customers": []
+    },
+    {
+      "id": "4.1-->3.1",
+      "fromNode": "4.1",
+      "toNode": "3.1",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "4.3-->5.3",
+      "fromNode": "4.3",
+      "toNode": "5.3",
+      "length": 14.180624,
+      "customers": []
+    },
+    {
+      "id": "4.3-->4.4",
+      "fromNode": "4.3",
+      "toNode": "4.4",
+      "length": 48.333954,
+      "customers": []
+    },
+    {
+      "id": "4.3-->3.3",
+      "fromNode": "4.3",
+      "toNode": "3.3",
+      "length": 33.65413,
+      "customers": []
+    },
+    {
+      "id": "4.4-->4.3",
+      "fromNode": "4.4",
+      "toNode": "4.3",
+      "length": 8.61693,
+      "customers": []
+    },
+    {
+      "id": "4.4-->5.4",
+      "fromNode": "4.4",
+      "toNode": "5.4",
+      "length": 47.231106,
+      "customers": []
+    },
+    {
+      "id": "4.4-->4.5",
+      "fromNode": "4.4",
+      "toNode": "4.5",
+      "length": 13.005847,
+      "customers": []
+    },
+    {
+      "id": "4.4-->3.4",
+      "fromNode": "4.4",
+      "toNode": "3.4",
+      "length": 44.911583,
+      "customers": []
+    },
+    {
+      "id": "4.5-->4.4",
+      "fromNode": "4.5",
+      "toNode": "4.4",
+      "length": 35.644432,
+      "customers": []
+    },
+    {
+      "id": "4.5-->4.6",
+      "fromNode": "4.5",
+      "toNode": "4.6",
+      "length": 22.812817,
+      "customers": []
+    },
+    {
+      "id": "4.5-->3.5",
+      "fromNode": "4.5",
+      "toNode": "3.5",
+      "length": 32.321075,
+      "customers": []
+    },
+    {
+      "id": "4.6-->4.5",
+      "fromNode": "4.6",
+      "toNode": "4.5",
+      "length": 47.139908,
+      "customers": []
+    },
+    {
+      "id": "4.6-->5.6",
+      "fromNode": "4.6",
+      "toNode": "5.6",
+      "length": 39.30674,
+      "customers": []
+    },
+    {
+      "id": "4.6-->4.7",
+      "fromNode": "4.6",
+      "toNode": "4.7",
+      "length": 8.028385,
+      "customers": []
+    },
+    {
+      "id": "4.6-->3.6",
+      "fromNode": "4.6",
+      "toNode": "3.6",
+      "length": 33.48868,
+      "customers": []
+    },
+    {
+      "id": "4.7-->4.6",
+      "fromNode": "4.7",
+      "toNode": "4.6",
+      "length": 41.8789,
+      "customers": []
+    },
+    {
+      "id": "4.7-->5.7",
+      "fromNode": "4.7",
+      "toNode": "5.7",
+      "length": 46.690884,
+      "customers": []
+    },
+    {
+      "id": "4.7-->4.8",
+      "fromNode": "4.7",
+      "toNode": "4.8",
+      "length": 43.769104,
+      "customers": []
+    },
+    {
+      "id": "4.7-->3.7",
+      "fromNode": "4.7",
+      "toNode": "3.7",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "4.8-->4.7",
+      "fromNode": "4.8",
+      "toNode": "4.7",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "4.8-->5.8",
+      "fromNode": "4.8",
+      "toNode": "5.8",
+      "length": 13.2873745,
+      "customers": []
+    },
+    {
+      "id": "4.8-->3.8",
+      "fromNode": "4.8",
+      "toNode": "3.8",
+      "length": 39.04046,
+      "customers": []
+    },
+    {
+      "id": "4.14-->5.14",
+      "fromNode": "4.14",
+      "toNode": "5.14",
+      "length": 42.7544,
+      "customers": []
+    },
+    {
+      "id": "4.14-->3.14",
+      "fromNode": "4.14",
+      "toNode": "3.14",
+      "length": 7.37333,
+      "customers": []
+    },
+    {
+      "id": "5.2-->6.2",
+      "fromNode": "5.2",
+      "toNode": "6.2",
+      "length": 30.597214,
+      "customers": []
+    },
+    {
+      "id": "5.2-->5.3",
+      "fromNode": "5.2",
+      "toNode": "5.3",
+      "length": 47.38067,
+      "customers": []
+    },
+    {
+      "id": "5.3-->5.2",
+      "fromNode": "5.3",
+      "toNode": "5.2",
+      "length": 36.656425,
+      "customers": []
+    },
+    {
+      "id": "5.3-->6.3",
+      "fromNode": "5.3",
+      "toNode": "6.3",
+      "length": 33.510914,
+      "customers": []
+    },
+    {
+      "id": "5.3-->5.4",
+      "fromNode": "5.3",
+      "toNode": "5.4",
+      "length": 49.784355,
+      "customers": []
+    },
+    {
+      "id": "5.3-->4.3",
+      "fromNode": "5.3",
+      "toNode": "4.3",
+      "length": 10.64584,
+      "customers": []
+    },
+    {
+      "id": "5.4-->5.3",
+      "fromNode": "5.4",
+      "toNode": "5.3",
+      "length": 45.850677,
+      "customers": []
+    },
+    {
+      "id": "5.4-->6.4",
+      "fromNode": "5.4",
+      "toNode": "6.4",
+      "length": 14.54553,
+      "customers": []
+    },
+    {
+      "id": "5.4-->4.4",
+      "fromNode": "5.4",
+      "toNode": "4.4",
+      "length": 33.451935,
+      "customers": []
+    },
+    {
+      "id": "5.6-->6.6",
+      "fromNode": "5.6",
+      "toNode": "6.6",
+      "length": 18.777567,
+      "customers": []
+    },
+    {
+      "id": "5.6-->5.7",
+      "fromNode": "5.6",
+      "toNode": "5.7",
+      "length": 28.860357,
+      "customers": []
+    },
+    {
+      "id": "5.6-->4.6",
+      "fromNode": "5.6",
+      "toNode": "4.6",
+      "length": 14.467573,
+      "customers": []
+    },
+    {
+      "id": "5.7-->5.6",
+      "fromNode": "5.7",
+      "toNode": "5.6",
+      "length": 42.75654,
+      "customers": []
+    },
+    {
+      "id": "5.7-->6.7",
+      "fromNode": "5.7",
+      "toNode": "6.7",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "5.7-->5.8",
+      "fromNode": "5.7",
+      "toNode": "5.8",
+      "length": 24.65267,
+      "customers": []
+    },
+    {
+      "id": "5.7-->4.7",
+      "fromNode": "5.7",
+      "toNode": "4.7",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "5.8-->5.7",
+      "fromNode": "5.8",
+      "toNode": "5.7",
+      "length": 5.2923737,
+      "customers": []
+    },
+    {
+      "id": "5.8-->6.8",
+      "fromNode": "5.8",
+      "toNode": "6.8",
+      "length": 23.085732,
+      "customers": []
+    },
+    {
+      "id": "5.8-->5.9",
+      "fromNode": "5.8",
+      "toNode": "5.9",
+      "length": 5.628395,
+      "customers": []
+    },
+    {
+      "id": "5.8-->4.8",
+      "fromNode": "5.8",
+      "toNode": "4.8",
+      "length": 7.740185,
+      "customers": []
+    },
+    {
+      "id": "5.9-->5.8",
+      "fromNode": "5.9",
+      "toNode": "5.8",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "5.9-->6.9",
+      "fromNode": "5.9",
+      "toNode": "6.9",
+      "length": 15.410233,
+      "customers": []
+    },
+    {
+      "id": "5.9-->5.10",
+      "fromNode": "5.9",
+      "toNode": "5.10",
+      "length": 5.27595,
+      "customers": []
+    },
+    {
+      "id": "5.10-->5.9",
+      "fromNode": "5.10",
+      "toNode": "5.9",
+      "length": 17.543999,
+      "customers": []
+    },
+    {
+      "id": "5.10-->6.10",
+      "fromNode": "5.10",
+      "toNode": "6.10",
+      "length": 21.04765,
+      "customers": []
+    },
+    {
+      "id": "5.13-->6.13",
+      "fromNode": "5.13",
+      "toNode": "6.13",
+      "length": 31.453716,
+      "customers": []
+    },
+    {
+      "id": "5.13-->5.14",
+      "fromNode": "5.13",
+      "toNode": "5.14",
+      "length": 28.884764,
+      "customers": []
+    },
+    {
+      "id": "5.14-->5.13",
+      "fromNode": "5.14",
+      "toNode": "5.13",
+      "length": 16.991245,
+      "customers": []
+    },
+    {
+      "id": "5.14-->6.14",
+      "fromNode": "5.14",
+      "toNode": "6.14",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "5.14-->4.14",
+      "fromNode": "5.14",
+      "toNode": "4.14",
+      "length": 28.942638,
+      "customers": []
+    },
+    {
+      "id": "6.0-->6.1",
+      "fromNode": "6.0",
+      "toNode": "6.1",
+      "length": 20.277462,
+      "customers": []
+    },
+    {
+      "id": "6.1-->6.0",
+      "fromNode": "6.1",
+      "toNode": "6.0",
+      "length": 43.284477,
+      "customers": []
+    },
+    {
+      "id": "6.1-->7.1",
+      "fromNode": "6.1",
+      "toNode": "7.1",
+      "length": 16.263733,
+      "customers": []
+    },
+    {
+      "id": "6.1-->6.2",
+      "fromNode": "6.1",
+      "toNode": "6.2",
+      "length": 39.184082,
+      "customers": []
+    },
+    {
+      "id": "6.2-->6.1",
+      "fromNode": "6.2",
+      "toNode": "6.1",
+      "length": 29.496593,
+      "customers": []
+    },
+    {
+      "id": "6.2-->7.2",
+      "fromNode": "6.2",
+      "toNode": "7.2",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "6.2-->6.3",
+      "fromNode": "6.2",
+      "toNode": "6.3",
+      "length": 7.1025968,
+      "customers": []
+    },
+    {
+      "id": "6.2-->5.2",
+      "fromNode": "6.2",
+      "toNode": "5.2",
+      "length": 8.376068,
+      "customers": []
+    },
+    {
+      "id": "6.3-->6.2",
+      "fromNode": "6.3",
+      "toNode": "6.2",
+      "length": 16.320599,
+      "customers": []
+    },
+    {
+      "id": "6.3-->7.3",
+      "fromNode": "6.3",
+      "toNode": "7.3",
+      "length": 34.51683,
+      "customers": []
+    },
+    {
+      "id": "6.3-->6.4",
+      "fromNode": "6.3",
+      "toNode": "6.4",
+      "length": 47.619785,
+      "customers": []
+    },
+    {
+      "id": "6.3-->5.3",
+      "fromNode": "6.3",
+      "toNode": "5.3",
+      "length": 47.44671,
+      "customers": []
+    },
+    {
+      "id": "6.4-->6.3",
+      "fromNode": "6.4",
+      "toNode": "6.3",
+      "length": 21.672022,
+      "customers": []
+    },
+    {
+      "id": "6.4-->6.5",
+      "fromNode": "6.4",
+      "toNode": "6.5",
+      "length": 43.361893,
+      "customers": []
+    },
+    {
+      "id": "6.4-->5.4",
+      "fromNode": "6.4",
+      "toNode": "5.4",
+      "length": 25.855562,
+      "customers": []
+    },
+    {
+      "id": "6.5-->6.4",
+      "fromNode": "6.5",
+      "toNode": "6.4",
+      "length": 34.08749,
+      "customers": []
+    },
+    {
+      "id": "6.5-->6.6",
+      "fromNode": "6.5",
+      "toNode": "6.6",
+      "length": 25.41466,
+      "customers": []
+    },
+    {
+      "id": "6.6-->6.5",
+      "fromNode": "6.6",
+      "toNode": "6.5",
+      "length": 31.65406,
+      "customers": []
+    },
+    {
+      "id": "6.6-->7.6",
+      "fromNode": "6.6",
+      "toNode": "7.6",
+      "length": 5.191469,
+      "customers": []
+    },
+    {
+      "id": "6.6-->6.7",
+      "fromNode": "6.6",
+      "toNode": "6.7",
+      "length": 24.419437,
+      "customers": []
+    },
+    {
+      "id": "6.6-->5.6",
+      "fromNode": "6.6",
+      "toNode": "5.6",
+      "length": 27.464157,
+      "customers": []
+    },
+    {
+      "id": "6.7-->6.6",
+      "fromNode": "6.7",
+      "toNode": "6.6",
+      "length": 19.74136,
+      "customers": []
+    },
+    {
+      "id": "6.7-->7.7",
+      "fromNode": "6.7",
+      "toNode": "7.7",
+      "length": 14.97665,
+      "customers": []
+    },
+    {
+      "id": "6.7-->6.8",
+      "fromNode": "6.7",
+      "toNode": "6.8",
+      "length": 48.34468,
+      "customers": []
+    },
+    {
+      "id": "6.7-->5.7",
+      "fromNode": "6.7",
+      "toNode": "5.7",
+      "length": 43.95526,
+      "customers": []
+    },
+    {
+      "id": "6.8-->6.7",
+      "fromNode": "6.8",
+      "toNode": "6.7",
+      "length": 9.722575,
+      "customers": []
+    },
+    {
+      "id": "6.8-->6.9",
+      "fromNode": "6.8",
+      "toNode": "6.9",
+      "length": 20.868877,
+      "customers": []
+    },
+    {
+      "id": "6.8-->5.8",
+      "fromNode": "6.8",
+      "toNode": "5.8",
+      "length": 49.450073,
+      "customers": []
+    },
+    {
+      "id": "6.9-->6.8",
+      "fromNode": "6.9",
+      "toNode": "6.8",
+      "length": 35.24199,
+      "customers": []
+    },
+    {
+      "id": "6.9-->7.9",
+      "fromNode": "6.9",
+      "toNode": "7.9",
+      "length": 9.230009,
+      "customers": []
+    },
+    {
+      "id": "6.9-->6.10",
+      "fromNode": "6.9",
+      "toNode": "6.10",
+      "length": 46.436935,
+      "customers": []
+    },
+    {
+      "id": "6.9-->5.9",
+      "fromNode": "6.9",
+      "toNode": "5.9",
+      "length": 27.593157,
+      "customers": []
+    },
+    {
+      "id": "6.10-->6.9",
+      "fromNode": "6.10",
+      "toNode": "6.9",
+      "length": 19.224102,
+      "customers": []
+    },
+    {
+      "id": "6.10-->7.10",
+      "fromNode": "6.10",
+      "toNode": "7.10",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "6.10-->6.11",
+      "fromNode": "6.10",
+      "toNode": "6.11",
+      "length": 47.988853,
+      "customers": []
+    },
+    {
+      "id": "6.10-->5.10",
+      "fromNode": "6.10",
+      "toNode": "5.10",
+      "length": 8.544582,
+      "customers": []
+    },
+    {
+      "id": "6.11-->6.10",
+      "fromNode": "6.11",
+      "toNode": "6.10",
+      "length": 16.08881,
+      "customers": []
+    },
+    {
+      "id": "6.11-->7.11",
+      "fromNode": "6.11",
+      "toNode": "7.11",
+      "length": 20.521206,
+      "customers": []
+    },
+    {
+      "id": "6.11-->6.12",
+      "fromNode": "6.11",
+      "toNode": "6.12",
+      "length": 29.996296,
+      "customers": []
+    },
+    {
+      "id": "6.12-->6.11",
+      "fromNode": "6.12",
+      "toNode": "6.11",
+      "length": 35.16324,
+      "customers": []
+    },
+    {
+      "id": "6.12-->6.13",
+      "fromNode": "6.12",
+      "toNode": "6.13",
+      "length": 40.485725,
+      "customers": []
+    },
+    {
+      "id": "6.13-->6.12",
+      "fromNode": "6.13",
+      "toNode": "6.12",
+      "length": 17.416073,
+      "customers": []
+    },
+    {
+      "id": "6.13-->7.13",
+      "fromNode": "6.13",
+      "toNode": "7.13",
+      "length": 41.18277,
+      "customers": []
+    },
+    {
+      "id": "6.13-->6.14",
+      "fromNode": "6.13",
+      "toNode": "6.14",
+      "length": 5.0727754,
+      "customers": []
+    },
+    {
+      "id": "6.13-->5.13",
+      "fromNode": "6.13",
+      "toNode": "5.13",
+      "length": 37.20108,
+      "customers": []
+    },
+    {
+      "id": "6.14-->6.13",
+      "fromNode": "6.14",
+      "toNode": "6.13",
+      "length": 37.468292,
+      "customers": []
+    },
+    {
+      "id": "6.14-->7.14",
+      "fromNode": "6.14",
+      "toNode": "7.14",
+      "length": 41.7696,
+      "customers": []
+    },
+    {
+      "id": "6.14-->5.14",
+      "fromNode": "6.14",
+      "toNode": "5.14",
+      "length": 38.976517,
+      "customers": []
+    },
+    {
+      "id": "7.1-->8.1",
+      "fromNode": "7.1",
+      "toNode": "8.1",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "7.1-->7.2",
+      "fromNode": "7.1",
+      "toNode": "7.2",
+      "length": 16.246798,
+      "customers": []
+    },
+    {
+      "id": "7.1-->6.1",
+      "fromNode": "7.1",
+      "toNode": "6.1",
+      "length": 10.545876,
+      "customers": []
+    },
+    {
+      "id": "7.2-->7.1",
+      "fromNode": "7.2",
+      "toNode": "7.1",
+      "length": 40.60795,
+      "customers": []
+    },
+    {
+      "id": "7.2-->7.3",
+      "fromNode": "7.2",
+      "toNode": "7.3",
+      "length": 19.689753,
+      "customers": []
+    },
+    {
+      "id": "7.2-->6.2",
+      "fromNode": "7.2",
+      "toNode": "6.2",
+      "length": 31.005812,
+      "customers": []
+    },
+    {
+      "id": "7.3-->7.2",
+      "fromNode": "7.3",
+      "toNode": "7.2",
+      "length": 27.35759,
+      "customers": []
+    },
+    {
+      "id": "7.3-->8.3",
+      "fromNode": "7.3",
+      "toNode": "8.3",
+      "length": 30.078358,
+      "customers": []
+    },
+    {
+      "id": "7.3-->6.3",
+      "fromNode": "7.3",
+      "toNode": "6.3",
+      "length": 11.793318,
+      "customers": []
+    },
+    {
+      "id": "7.6-->8.6",
+      "fromNode": "7.6",
+      "toNode": "8.6",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "7.6-->7.7",
+      "fromNode": "7.6",
+      "toNode": "7.7",
+      "length": 28.781567,
+      "customers": []
+    },
+    {
+      "id": "7.6-->6.6",
+      "fromNode": "7.6",
+      "toNode": "6.6",
+      "length": 24.451445,
+      "customers": []
+    },
+    {
+      "id": "7.7-->7.6",
+      "fromNode": "7.7",
+      "toNode": "7.6",
+      "length": 20.33904,
+      "customers": []
+    },
+    {
+      "id": "7.7-->8.7",
+      "fromNode": "7.7",
+      "toNode": "8.7",
+      "length": 46.32054,
+      "customers": []
+    },
+    {
+      "id": "7.7-->6.7",
+      "fromNode": "7.7",
+      "toNode": "6.7",
+      "length": 35.236008,
+      "customers": []
+    },
+    {
+      "id": "7.9-->7.10",
+      "fromNode": "7.9",
+      "toNode": "7.10",
+      "length": 30.105093,
+      "customers": []
+    },
+    {
+      "id": "7.9-->6.9",
+      "fromNode": "7.9",
+      "toNode": "6.9",
+      "length": 29.530544,
+      "customers": []
+    },
+    {
+      "id": "7.10-->7.9",
+      "fromNode": "7.10",
+      "toNode": "7.9",
+      "length": 31.043575,
+      "customers": []
+    },
+    {
+      "id": "7.10-->7.11",
+      "fromNode": "7.10",
+      "toNode": "7.11",
+      "length": 25.945032,
+      "customers": []
+    },
+    {
+      "id": "7.10-->6.10",
+      "fromNode": "7.10",
+      "toNode": "6.10",
+      "length": 41.346184,
+      "customers": []
+    },
+    {
+      "id": "7.11-->7.10",
+      "fromNode": "7.11",
+      "toNode": "7.10",
+      "length": 31.695606,
+      "customers": []
+    },
+    {
+      "id": "7.11-->8.11",
+      "fromNode": "7.11",
+      "toNode": "8.11",
+      "length": 38.056725,
+      "customers": []
+    },
+    {
+      "id": "7.11-->6.11",
+      "fromNode": "7.11",
+      "toNode": "6.11",
+      "length": 41.352303,
+      "customers": []
+    },
+    {
+      "id": "7.13-->8.13",
+      "fromNode": "7.13",
+      "toNode": "8.13",
+      "length": 11.577034,
+      "customers": []
+    },
+    {
+      "id": "7.13-->7.14",
+      "fromNode": "7.13",
+      "toNode": "7.14",
+      "length": 21.146072,
+      "customers": []
+    },
+    {
+      "id": "7.13-->6.13",
+      "fromNode": "7.13",
+      "toNode": "6.13",
+      "length": 29.307137,
+      "customers": []
+    },
+    {
+      "id": "7.14-->7.13",
+      "fromNode": "7.14",
+      "toNode": "7.13",
+      "length": 19.302809,
+      "customers": []
+    },
+    {
+      "id": "7.14-->6.14",
+      "fromNode": "7.14",
+      "toNode": "6.14",
+      "length": 45.95789,
+      "customers": []
+    },
+    {
+      "id": "8.0-->9.0",
+      "fromNode": "8.0",
+      "toNode": "9.0",
+      "length": 23.143902,
+      "customers": []
+    },
+    {
+      "id": "8.0-->8.1",
+      "fromNode": "8.0",
+      "toNode": "8.1",
+      "length": 8.373749,
+      "customers": []
+    },
+    {
+      "id": "8.1-->8.0",
+      "fromNode": "8.1",
+      "toNode": "8.0",
+      "length": 5.3573966,
+      "customers": []
+    },
+    {
+      "id": "8.1-->9.1",
+      "fromNode": "8.1",
+      "toNode": "9.1",
+      "length": 44.019314,
+      "customers": []
+    },
+    {
+      "id": "8.1-->7.1",
+      "fromNode": "8.1",
+      "toNode": "7.1",
+      "length": 9.785086,
+      "customers": []
+    },
+    {
+      "id": "8.3-->9.3",
+      "fromNode": "8.3",
+      "toNode": "9.3",
+      "length": 14.443863,
+      "customers": []
+    },
+    {
+      "id": "8.3-->8.4",
+      "fromNode": "8.3",
+      "toNode": "8.4",
+      "length": 11.968592,
+      "customers": []
+    },
+    {
+      "id": "8.3-->7.3",
+      "fromNode": "8.3",
+      "toNode": "7.3",
+      "length": 16.715958,
+      "customers": []
+    },
+    {
+      "id": "8.4-->8.3",
+      "fromNode": "8.4",
+      "toNode": "8.3",
+      "length": 26.937977,
+      "customers": []
+    },
+    {
+      "id": "8.4-->8.5",
+      "fromNode": "8.4",
+      "toNode": "8.5",
+      "length": 11.158862,
+      "customers": []
+    },
+    {
+      "id": "8.5-->8.4",
+      "fromNode": "8.5",
+      "toNode": "8.4",
+      "length": 46.80062,
+      "customers": []
+    },
+    {
+      "id": "8.5-->9.5",
+      "fromNode": "8.5",
+      "toNode": "9.5",
+      "length": 19.168865,
+      "customers": []
+    },
+    {
+      "id": "8.5-->8.6",
+      "fromNode": "8.5",
+      "toNode": "8.6",
+      "length": 32.02832,
+      "customers": []
+    },
+    {
+      "id": "8.6-->8.5",
+      "fromNode": "8.6",
+      "toNode": "8.5",
+      "length": 45.68599,
+      "customers": []
+    },
+    {
+      "id": "8.6-->9.6",
+      "fromNode": "8.6",
+      "toNode": "9.6",
+      "length": 27.215803,
+      "customers": []
+    },
+    {
+      "id": "8.6-->8.7",
+      "fromNode": "8.6",
+      "toNode": "8.7",
+      "length": 16.214584,
+      "customers": []
+    },
+    {
+      "id": "8.6-->7.6",
+      "fromNode": "8.6",
+      "toNode": "7.6",
+      "length": 9.55841,
+      "customers": []
+    },
+    {
+      "id": "8.7-->8.6",
+      "fromNode": "8.7",
+      "toNode": "8.6",
+      "length": 9.852958,
+      "customers": []
+    },
+    {
+      "id": "8.7-->9.7",
+      "fromNode": "8.7",
+      "toNode": "9.7",
+      "length": 43.525436,
+      "customers": []
+    },
+    {
+      "id": "8.7-->8.8",
+      "fromNode": "8.7",
+      "toNode": "8.8",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "8.7-->7.7",
+      "fromNode": "8.7",
+      "toNode": "7.7",
+      "length": 39.429165,
+      "customers": []
+    },
+    {
+      "id": "8.8-->8.7",
+      "fromNode": "8.8",
+      "toNode": "8.7",
+      "length": 35.83101,
+      "customers": []
+    },
+    {
+      "id": "8.8-->9.8",
+      "fromNode": "8.8",
+      "toNode": "9.8",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "8.11-->9.11",
+      "fromNode": "8.11",
+      "toNode": "9.11",
+      "length": 27.16695,
+      "customers": []
+    },
+    {
+      "id": "8.11-->8.12",
+      "fromNode": "8.11",
+      "toNode": "8.12",
+      "length": 20.290607,
+      "customers": []
+    },
+    {
+      "id": "8.11-->7.11",
+      "fromNode": "8.11",
+      "toNode": "7.11",
+      "length": 6.900173,
+      "customers": []
+    },
+    {
+      "id": "8.12-->8.11",
+      "fromNode": "8.12",
+      "toNode": "8.11",
+      "length": 14.306897,
+      "customers": []
+    },
+    {
+      "id": "8.12-->9.12",
+      "fromNode": "8.12",
+      "toNode": "9.12",
+      "length": 9.268215,
+      "customers": []
+    },
+    {
+      "id": "8.12-->8.13",
+      "fromNode": "8.12",
+      "toNode": "8.13",
+      "length": 18.383625,
+      "customers": []
+    },
+    {
+      "id": "8.13-->8.12",
+      "fromNode": "8.13",
+      "toNode": "8.12",
+      "length": 36.06056,
+      "customers": []
+    },
+    {
+      "id": "8.13-->9.13",
+      "fromNode": "8.13",
+      "toNode": "9.13",
+      "length": 8.761087,
+      "customers": []
+    },
+    {
+      "id": "8.13-->7.13",
+      "fromNode": "8.13",
+      "toNode": "7.13",
+      "length": 20.88144,
+      "customers": []
+    },
+    {
+      "id": "9.0-->9.1",
+      "fromNode": "9.0",
+      "toNode": "9.1",
+      "length": 32.399334,
+      "customers": []
+    },
+    {
+      "id": "9.0-->8.0",
+      "fromNode": "9.0",
+      "toNode": "8.0",
+      "length": 43.02818,
+      "customers": []
+    },
+    {
+      "id": "9.1-->9.0",
+      "fromNode": "9.1",
+      "toNode": "9.0",
+      "length": 21.35312,
+      "customers": []
+    },
+    {
+      "id": "9.1-->10.1",
+      "fromNode": "9.1",
+      "toNode": "10.1",
+      "length": 26.457047,
+      "customers": []
+    },
+    {
+      "id": "9.1-->9.2",
+      "fromNode": "9.1",
+      "toNode": "9.2",
+      "length": 17.593239,
+      "customers": []
+    },
+    {
+      "id": "9.1-->8.1",
+      "fromNode": "9.1",
+      "toNode": "8.1",
+      "length": 7.1656556,
+      "customers": []
+    },
+    {
+      "id": "9.2-->9.1",
+      "fromNode": "9.2",
+      "toNode": "9.1",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "9.2-->10.2",
+      "fromNode": "9.2",
+      "toNode": "10.2",
+      "length": 15.935025,
+      "customers": []
+    },
+    {
+      "id": "9.2-->9.3",
+      "fromNode": "9.2",
+      "toNode": "9.3",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "9.3-->9.2",
+      "fromNode": "9.3",
+      "toNode": "9.2",
+      "length": 43.307377,
+      "customers": []
+    },
+    {
+      "id": "9.3-->10.3",
+      "fromNode": "9.3",
+      "toNode": "10.3",
+      "length": 35.333015,
+      "customers": []
+    },
+    {
+      "id": "9.3-->8.3",
+      "fromNode": "9.3",
+      "toNode": "8.3",
+      "length": 18.484592,
+      "customers": []
+    },
+    {
+      "id": "9.5-->9.6",
+      "fromNode": "9.5",
+      "toNode": "9.6",
+      "length": 6.196904,
+      "customers": []
+    },
+    {
+      "id": "9.5-->8.5",
+      "fromNode": "9.5",
+      "toNode": "8.5",
+      "length": 21.492884,
+      "customers": []
+    },
+    {
+      "id": "9.6-->9.5",
+      "fromNode": "9.6",
+      "toNode": "9.5",
+      "length": 40.804832,
+      "customers": []
+    },
+    {
+      "id": "9.6-->10.6",
+      "fromNode": "9.6",
+      "toNode": "10.6",
+      "length": 22.74765,
+      "customers": []
+    },
+    {
+      "id": "9.6-->9.7",
+      "fromNode": "9.6",
+      "toNode": "9.7",
+      "length": 12.803947,
+      "customers": []
+    },
+    {
+      "id": "9.6-->8.6",
+      "fromNode": "9.6",
+      "toNode": "8.6",
+      "length": 12.258968,
+      "customers": []
+    },
+    {
+      "id": "9.7-->9.6",
+      "fromNode": "9.7",
+      "toNode": "9.6",
+      "length": 5.3187904,
+      "customers": []
+    },
+    {
+      "id": "9.7-->10.7",
+      "fromNode": "9.7",
+      "toNode": "10.7",
+      "length": 11.847269,
+      "customers": []
+    },
+    {
+      "id": "9.7-->9.8",
+      "fromNode": "9.7",
+      "toNode": "9.8",
+      "length": 16.94429,
+      "customers": []
+    },
+    {
+      "id": "9.7-->8.7",
+      "fromNode": "9.7",
+      "toNode": "8.7",
+      "length": 30.260216,
+      "customers": []
+    },
+    {
+      "id": "9.8-->9.7",
+      "fromNode": "9.8",
+      "toNode": "9.7",
+      "length": 19.874828,
+      "customers": []
+    },
+    {
+      "id": "9.8-->10.8",
+      "fromNode": "9.8",
+      "toNode": "10.8",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "9.8-->9.9",
+      "fromNode": "9.8",
+      "toNode": "9.9",
+      "length": 24.731005,
+      "customers": []
+    },
+    {
+      "id": "9.8-->8.8",
+      "fromNode": "9.8",
+      "toNode": "8.8",
+      "length": 8.54415,
+      "customers": []
+    },
+    {
+      "id": "9.9-->9.8",
+      "fromNode": "9.9",
+      "toNode": "9.8",
+      "length": 12.831607,
+      "customers": []
+    },
+    {
+      "id": "9.9-->9.10",
+      "fromNode": "9.9",
+      "toNode": "9.10",
+      "length": 36.691822,
+      "customers": []
+    },
+    {
+      "id": "9.10-->9.9",
+      "fromNode": "9.10",
+      "toNode": "9.9",
+      "length": 33.434345,
+      "customers": []
+    },
+    {
+      "id": "9.10-->10.10",
+      "fromNode": "9.10",
+      "toNode": "10.10",
+      "length": 30.002632,
+      "customers": []
+    },
+    {
+      "id": "9.10-->9.11",
+      "fromNode": "9.10",
+      "toNode": "9.11",
+      "length": 23.991747,
+      "customers": []
+    },
+    {
+      "id": "9.11-->9.10",
+      "fromNode": "9.11",
+      "toNode": "9.10",
+      "length": 35.06436,
+      "customers": []
+    },
+    {
+      "id": "9.11-->10.11",
+      "fromNode": "9.11",
+      "toNode": "10.11",
+      "length": 38.247684,
+      "customers": []
+    },
+    {
+      "id": "9.11-->9.12",
+      "fromNode": "9.11",
+      "toNode": "9.12",
+      "length": 38.183628,
+      "customers": []
+    },
+    {
+      "id": "9.11-->8.11",
+      "fromNode": "9.11",
+      "toNode": "8.11",
+      "length": 38.895393,
+      "customers": []
+    },
+    {
+      "id": "9.12-->9.11",
+      "fromNode": "9.12",
+      "toNode": "9.11",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "9.12-->9.13",
+      "fromNode": "9.12",
+      "toNode": "9.13",
+      "length": 19.394102,
+      "customers": []
+    },
+    {
+      "id": "9.12-->8.12",
+      "fromNode": "9.12",
+      "toNode": "8.12",
+      "length": 48.451393,
+      "customers": []
+    },
+    {
+      "id": "9.13-->9.12",
+      "fromNode": "9.13",
+      "toNode": "9.12",
+      "length": 44.152874,
+      "customers": []
+    },
+    {
+      "id": "9.13-->10.13",
+      "fromNode": "9.13",
+      "toNode": "10.13",
+      "length": 28.5557,
+      "customers": []
+    },
+    {
+      "id": "9.13-->9.14",
+      "fromNode": "9.13",
+      "toNode": "9.14",
+      "length": 39.368217,
+      "customers": []
+    },
+    {
+      "id": "9.13-->8.13",
+      "fromNode": "9.13",
+      "toNode": "8.13",
+      "length": 40.007664,
+      "customers": []
+    },
+    {
+      "id": "9.14-->9.13",
+      "fromNode": "9.14",
+      "toNode": "9.13",
+      "length": 25.617064,
+      "customers": []
+    },
+    {
+      "id": "10.1-->11.1",
+      "fromNode": "10.1",
+      "toNode": "11.1",
+      "length": 5.8669147,
+      "customers": []
+    },
+    {
+      "id": "10.1-->10.2",
+      "fromNode": "10.1",
+      "toNode": "10.2",
+      "length": 47.103176,
+      "customers": []
+    },
+    {
+      "id": "10.1-->9.1",
+      "fromNode": "10.1",
+      "toNode": "9.1",
+      "length": 21.067724,
+      "customers": []
+    },
+    {
+      "id": "10.2-->10.1",
+      "fromNode": "10.2",
+      "toNode": "10.1",
+      "length": 13.983226,
+      "customers": []
+    },
+    {
+      "id": "10.2-->11.2",
+      "fromNode": "10.2",
+      "toNode": "11.2",
+      "length": 35.24507,
+      "customers": []
+    },
+    {
+      "id": "10.2-->10.3",
+      "fromNode": "10.2",
+      "toNode": "10.3",
+      "length": 32.53281,
+      "customers": []
+    },
+    {
+      "id": "10.2-->9.2",
+      "fromNode": "10.2",
+      "toNode": "9.2",
+      "length": 47.036522,
+      "customers": []
+    },
+    {
+      "id": "10.3-->10.2",
+      "fromNode": "10.3",
+      "toNode": "10.2",
+      "length": 25.420605,
+      "customers": []
+    },
+    {
+      "id": "10.3-->10.4",
+      "fromNode": "10.3",
+      "toNode": "10.4",
+      "length": 38.93758,
+      "customers": []
+    },
+    {
+      "id": "10.3-->9.3",
+      "fromNode": "10.3",
+      "toNode": "9.3",
+      "length": 43.48809,
+      "customers": []
+    },
+    {
+      "id": "10.4-->10.3",
+      "fromNode": "10.4",
+      "toNode": "10.3",
+      "length": 30.696486,
+      "customers": []
+    },
+    {
+      "id": "10.4-->11.4",
+      "fromNode": "10.4",
+      "toNode": "11.4",
+      "length": 43.493233,
+      "customers": []
+    },
+    {
+      "id": "10.6-->11.6",
+      "fromNode": "10.6",
+      "toNode": "11.6",
+      "length": 17.107265,
+      "customers": []
+    },
+    {
+      "id": "10.6-->10.7",
+      "fromNode": "10.6",
+      "toNode": "10.7",
+      "length": 10.694408,
+      "customers": []
+    },
+    {
+      "id": "10.6-->9.6",
+      "fromNode": "10.6",
+      "toNode": "9.6",
+      "length": 25.193386,
+      "customers": []
+    },
+    {
+      "id": "10.7-->10.6",
+      "fromNode": "10.7",
+      "toNode": "10.6",
+      "length": 32.857536,
+      "customers": []
+    },
+    {
+      "id": "10.7-->11.7",
+      "fromNode": "10.7",
+      "toNode": "11.7",
+      "length": 33.53295,
+      "customers": []
+    },
+    {
+      "id": "10.7-->10.8",
+      "fromNode": "10.7",
+      "toNode": "10.8",
+      "length": 33.677338,
+      "customers": []
+    },
+    {
+      "id": "10.7-->9.7",
+      "fromNode": "10.7",
+      "toNode": "9.7",
+      "length": 11.202728,
+      "customers": []
+    },
+    {
+      "id": "10.8-->10.7",
+      "fromNode": "10.8",
+      "toNode": "10.7",
+      "length": 27.648891,
+      "customers": []
+    },
+    {
+      "id": "10.8-->11.8",
+      "fromNode": "10.8",
+      "toNode": "11.8",
+      "length": 45.7303,
+      "customers": []
+    },
+    {
+      "id": "10.8-->9.8",
+      "fromNode": "10.8",
+      "toNode": "9.8",
+      "length": 30.112007,
+      "customers": []
+    },
+    {
+      "id": "10.10-->11.10",
+      "fromNode": "10.10",
+      "toNode": "11.10",
+      "length": 47.9629,
+      "customers": []
+    },
+    {
+      "id": "10.10-->10.11",
+      "fromNode": "10.10",
+      "toNode": "10.11",
+      "length": 18.883715,
+      "customers": []
+    },
+    {
+      "id": "10.10-->9.10",
+      "fromNode": "10.10",
+      "toNode": "9.10",
+      "length": 34.17565,
+      "customers": []
+    },
+    {
+      "id": "10.11-->10.10",
+      "fromNode": "10.11",
+      "toNode": "10.10",
+      "length": 49.293655,
+      "customers": []
+    },
+    {
+      "id": "10.11-->9.11",
+      "fromNode": "10.11",
+      "toNode": "9.11",
+      "length": 19.826462,
+      "customers": []
+    },
+    {
+      "id": "10.13-->9.13",
+      "fromNode": "10.13",
+      "toNode": "9.13",
+      "length": 7.200122,
+      "customers": []
+    },
+    {
+      "id": "11.0-->12.0",
+      "fromNode": "11.0",
+      "toNode": "12.0",
+      "length": 43.512707,
+      "customers": []
+    },
+    {
+      "id": "11.0-->11.1",
+      "fromNode": "11.0",
+      "toNode": "11.1",
+      "length": 43.818848,
+      "customers": []
+    },
+    {
+      "id": "11.1-->11.0",
+      "fromNode": "11.1",
+      "toNode": "11.0",
+      "length": 13.152099,
+      "customers": []
+    },
+    {
+      "id": "11.1-->11.2",
+      "fromNode": "11.1",
+      "toNode": "11.2",
+      "length": 48.912933,
+      "customers": []
+    },
+    {
+      "id": "11.1-->10.1",
+      "fromNode": "11.1",
+      "toNode": "10.1",
+      "length": 34.133724,
+      "customers": []
+    },
+    {
+      "id": "11.2-->11.1",
+      "fromNode": "11.2",
+      "toNode": "11.1",
+      "length": 30.148548,
+      "customers": []
+    },
+    {
+      "id": "11.2-->10.2",
+      "fromNode": "11.2",
+      "toNode": "10.2",
+      "length": 38.665142,
+      "customers": []
+    },
+    {
+      "id": "11.4-->12.4",
+      "fromNode": "11.4",
+      "toNode": "12.4",
+      "length": 47.438454,
+      "customers": []
+    },
+    {
+      "id": "11.4-->11.5",
+      "fromNode": "11.4",
+      "toNode": "11.5",
+      "length": 20.173279,
+      "customers": []
+    },
+    {
+      "id": "11.4-->10.4",
+      "fromNode": "11.4",
+      "toNode": "10.4",
+      "length": 24.198593,
+      "customers": []
+    },
+    {
+      "id": "11.5-->11.4",
+      "fromNode": "11.5",
+      "toNode": "11.4",
+      "length": 8.642617,
+      "customers": []
+    },
+    {
+      "id": "11.5-->12.5",
+      "fromNode": "11.5",
+      "toNode": "12.5",
+      "length": 6.055486,
+      "customers": []
+    },
+    {
+      "id": "11.5-->11.6",
+      "fromNode": "11.5",
+      "toNode": "11.6",
+      "length": 37.987137,
+      "customers": []
+    },
+    {
+      "id": "11.6-->11.5",
+      "fromNode": "11.6",
+      "toNode": "11.5",
+      "length": 15.039682,
+      "customers": []
+    },
+    {
+      "id": "11.6-->12.6",
+      "fromNode": "11.6",
+      "toNode": "12.6",
+      "length": 41.43653,
+      "customers": []
+    },
+    {
+      "id": "11.6-->11.7",
+      "fromNode": "11.6",
+      "toNode": "11.7",
+      "length": 46.0632,
+      "customers": []
+    },
+    {
+      "id": "11.6-->10.6",
+      "fromNode": "11.6",
+      "toNode": "10.6",
+      "length": 35.955063,
+      "customers": []
+    },
+    {
+      "id": "11.7-->11.6",
+      "fromNode": "11.7",
+      "toNode": "11.6",
+      "length": 8.355469,
+      "customers": []
+    },
+    {
+      "id": "11.7-->12.7",
+      "fromNode": "11.7",
+      "toNode": "12.7",
+      "length": 30.235645,
+      "customers": []
+    },
+    {
+      "id": "11.7-->11.8",
+      "fromNode": "11.7",
+      "toNode": "11.8",
+      "length": 34.23295,
+      "customers": []
+    },
+    {
+      "id": "11.7-->10.7",
+      "fromNode": "11.7",
+      "toNode": "10.7",
+      "length": 16.07958,
+      "customers": []
+    },
+    {
+      "id": "11.8-->11.7",
+      "fromNode": "11.8",
+      "toNode": "11.7",
+      "length": 12.0336895,
+      "customers": []
+    },
+    {
+      "id": "11.8-->11.9",
+      "fromNode": "11.8",
+      "toNode": "11.9",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "11.8-->10.8",
+      "fromNode": "11.8",
+      "toNode": "10.8",
+      "length": 25.7236,
+      "customers": []
+    },
+    {
+      "id": "11.9-->11.8",
+      "fromNode": "11.9",
+      "toNode": "11.8",
+      "length": 45.364193,
+      "customers": []
+    },
+    {
+      "id": "11.9-->11.10",
+      "fromNode": "11.9",
+      "toNode": "11.10",
+      "length": 40.796974,
+      "customers": []
+    },
+    {
+      "id": "11.10-->11.9",
+      "fromNode": "11.10",
+      "toNode": "11.9",
+      "length": 13.004774,
+      "customers": []
+    },
+    {
+      "id": "11.10-->12.10",
+      "fromNode": "11.10",
+      "toNode": "12.10",
+      "length": 28.663712,
+      "customers": []
+    },
+    {
+      "id": "11.10-->10.10",
+      "fromNode": "11.10",
+      "toNode": "10.10",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "12.0-->13.0",
+      "fromNode": "12.0",
+      "toNode": "13.0",
+      "length": 46.358677,
+      "customers": []
+    },
+    {
+      "id": "12.0-->11.0",
+      "fromNode": "12.0",
+      "toNode": "11.0",
+      "length": 5.8034987,
+      "customers": []
+    },
+    {
+      "id": "12.3-->13.3",
+      "fromNode": "12.3",
+      "toNode": "13.3",
+      "length": 45.117516,
+      "customers": []
+    },
+    {
+      "id": "12.3-->12.4",
+      "fromNode": "12.3",
+      "toNode": "12.4",
+      "length": 30.385479,
+      "customers": []
+    },
+    {
+      "id": "12.4-->12.3",
+      "fromNode": "12.4",
+      "toNode": "12.3",
+      "length": 28.988575,
+      "customers": []
+    },
+    {
+      "id": "12.4-->13.4",
+      "fromNode": "12.4",
+      "toNode": "13.4",
+      "length": 42.031612,
+      "customers": []
+    },
+    {
+      "id": "12.4-->12.5",
+      "fromNode": "12.4",
+      "toNode": "12.5",
+      "length": 42.773674,
+      "customers": []
+    },
+    {
+      "id": "12.4-->11.4",
+      "fromNode": "12.4",
+      "toNode": "11.4",
+      "length": 23.320576,
+      "customers": []
+    },
+    {
+      "id": "12.5-->12.4",
+      "fromNode": "12.5",
+      "toNode": "12.4",
+      "length": 46.6132,
+      "customers": []
+    },
+    {
+      "id": "12.5-->13.5",
+      "fromNode": "12.5",
+      "toNode": "13.5",
+      "length": 17.823298,
+      "customers": []
+    },
+    {
+      "id": "12.5-->12.6",
+      "fromNode": "12.5",
+      "toNode": "12.6",
+      "length": 7.431975,
+      "customers": []
+    },
+    {
+      "id": "12.5-->11.5",
+      "fromNode": "12.5",
+      "toNode": "11.5",
+      "length": 22.237513,
+      "customers": []
+    },
+    {
+      "id": "12.6-->12.5",
+      "fromNode": "12.6",
+      "toNode": "12.5",
+      "length": 47.37087,
+      "customers": []
+    },
+    {
+      "id": "12.6-->12.7",
+      "fromNode": "12.6",
+      "toNode": "12.7",
+      "length": 33.47683,
+      "customers": []
+    },
+    {
+      "id": "12.6-->11.6",
+      "fromNode": "12.6",
+      "toNode": "11.6",
+      "length": 18.10031,
+      "customers": []
+    },
+    {
+      "id": "12.7-->12.6",
+      "fromNode": "12.7",
+      "toNode": "12.6",
+      "length": 19.216091,
+      "customers": []
+    },
+    {
+      "id": "12.7-->13.7",
+      "fromNode": "12.7",
+      "toNode": "13.7",
+      "length": 47.10114,
+      "customers": []
+    },
+    {
+      "id": "12.7-->11.7",
+      "fromNode": "12.7",
+      "toNode": "11.7",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "12.10-->13.10",
+      "fromNode": "12.10",
+      "toNode": "13.10",
+      "length": 27.674973,
+      "customers": []
+    },
+    {
+      "id": "12.10-->12.11",
+      "fromNode": "12.10",
+      "toNode": "12.11",
+      "length": 23.100613,
+      "customers": []
+    },
+    {
+      "id": "12.10-->11.10",
+      "fromNode": "12.10",
+      "toNode": "11.10",
+      "length": 26.627884,
+      "customers": []
+    },
+    {
+      "id": "12.11-->12.10",
+      "fromNode": "12.11",
+      "toNode": "12.10",
+      "length": 48.183907,
+      "customers": []
+    },
+    {
+      "id": "12.13-->13.13",
+      "fromNode": "12.13",
+      "toNode": "13.13",
+      "length": 35.136272,
+      "customers": []
+    },
+    {
+      "id": "12.13-->12.14",
+      "fromNode": "12.13",
+      "toNode": "12.14",
+      "length": 23.388556,
+      "customers": []
+    },
+    {
+      "id": "12.14-->12.13",
+      "fromNode": "12.14",
+      "toNode": "12.13",
+      "length": 7.8731537,
+      "customers": []
+    },
+    {
+      "id": "13.0-->12.0",
+      "fromNode": "13.0",
+      "toNode": "12.0",
+      "length": 41.286854,
+      "customers": []
+    },
+    {
+      "id": "13.2-->14.2",
+      "fromNode": "13.2",
+      "toNode": "14.2",
+      "length": 38.747307,
+      "customers": []
+    },
+    {
+      "id": "13.2-->13.3",
+      "fromNode": "13.2",
+      "toNode": "13.3",
+      "length": 22.175753,
+      "customers": []
+    },
+    {
+      "id": "13.3-->13.2",
+      "fromNode": "13.3",
+      "toNode": "13.2",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "13.3-->13.4",
+      "fromNode": "13.3",
+      "toNode": "13.4",
+      "length": 12.075102,
+      "customers": []
+    },
+    {
+      "id": "13.3-->12.3",
+      "fromNode": "13.3",
+      "toNode": "12.3",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "13.4-->13.3",
+      "fromNode": "13.4",
+      "toNode": "13.3",
+      "length": 21.420063,
+      "customers": []
+    },
+    {
+      "id": "13.4-->13.5",
+      "fromNode": "13.4",
+      "toNode": "13.5",
+      "length": 13.395617,
+      "customers": []
+    },
+    {
+      "id": "13.4-->12.4",
+      "fromNode": "13.4",
+      "toNode": "12.4",
+      "length": 23.613476,
+      "customers": []
+    },
+    {
+      "id": "13.5-->13.4",
+      "fromNode": "13.5",
+      "toNode": "13.4",
+      "length": 46.13432,
+      "customers": []
+    },
+    {
+      "id": "13.5-->14.5",
+      "fromNode": "13.5",
+      "toNode": "14.5",
+      "length": 25.669304,
+      "customers": []
+    },
+    {
+      "id": "13.5-->12.5",
+      "fromNode": "13.5",
+      "toNode": "12.5",
+      "length": 32.35854,
+      "customers": []
+    },
+    {
+      "id": "13.7-->13.8",
+      "fromNode": "13.7",
+      "toNode": "13.8",
+      "length": 16.96048,
+      "customers": []
+    },
+    {
+      "id": "13.7-->12.7",
+      "fromNode": "13.7",
+      "toNode": "12.7",
+      "length": 26.622482,
+      "customers": []
+    },
+    {
+      "id": "13.8-->13.7",
+      "fromNode": "13.8",
+      "toNode": "13.7",
+      "length": 33.82404,
+      "customers": []
+    },
+    {
+      "id": "13.8-->14.8",
+      "fromNode": "13.8",
+      "toNode": "14.8",
+      "length": 47.61204,
+      "customers": []
+    },
+    {
+      "id": "13.8-->13.9",
+      "fromNode": "13.8",
+      "toNode": "13.9",
+      "length": 31.864437,
+      "customers": []
+    },
+    {
+      "id": "13.9-->13.8",
+      "fromNode": "13.9",
+      "toNode": "13.8",
+      "length": 9.22811,
+      "customers": []
+    },
+    {
+      "id": "13.9-->14.9",
+      "fromNode": "13.9",
+      "toNode": "14.9",
+      "length": 19.780575,
+      "customers": []
+    },
+    {
+      "id": "13.9-->13.10",
+      "fromNode": "13.9",
+      "toNode": "13.10",
+      "length": 29.553226,
+      "customers": []
+    },
+    {
+      "id": "13.10-->13.9",
+      "fromNode": "13.10",
+      "toNode": "13.9",
+      "length": 22.854841,
+      "customers": []
+    },
+    {
+      "id": "13.10-->14.10",
+      "fromNode": "13.10",
+      "toNode": "14.10",
+      "length": 22.35268,
+      "customers": []
+    },
+    {
+      "id": "13.10-->12.10",
+      "fromNode": "13.10",
+      "toNode": "12.10",
+      "length": 31.145218,
+      "customers": []
+    },
+    {
+      "id": "13.12-->14.12",
+      "fromNode": "13.12",
+      "toNode": "14.12",
+      "length": 48.006073,
+      "customers": []
+    },
+    {
+      "id": "13.12-->13.13",
+      "fromNode": "13.12",
+      "toNode": "13.13",
+      "length": 5.018604,
+      "customers": []
+    },
+    {
+      "id": "13.13-->13.12",
+      "fromNode": "13.13",
+      "toNode": "13.12",
+      "length": 9.516138,
+      "customers": []
+    },
+    {
+      "id": "13.13-->14.13",
+      "fromNode": "13.13",
+      "toNode": "14.13",
+      "length": 7.8628483,
+      "customers": []
+    },
+    {
+      "id": "13.13-->12.13",
+      "fromNode": "13.13",
+      "toNode": "12.13",
+      "length": 15.8087015,
+      "customers": []
+    },
+    {
+      "id": "14.1-->14.2",
+      "fromNode": "14.1",
+      "toNode": "14.2",
+      "length": 6.044975,
+      "customers": []
+    },
+    {
+      "id": "14.2-->14.1",
+      "fromNode": "14.2",
+      "toNode": "14.1",
+      "length": 25.517714,
+      "customers": []
+    },
+    {
+      "id": "14.2-->13.2",
+      "fromNode": "14.2",
+      "toNode": "13.2",
+      "length": 24.57003,
+      "customers": []
+    },
+    {
+      "id": "14.5-->13.5",
+      "fromNode": "14.5",
+      "toNode": "13.5",
+      "length": 47.06967,
+      "customers": []
+    },
+    {
+      "id": "14.8-->14.9",
+      "fromNode": "14.8",
+      "toNode": "14.9",
+      "length": 5,
+      "customers": []
+    },
+    {
+      "id": "14.8-->13.8",
+      "fromNode": "14.8",
+      "toNode": "13.8",
+      "length": 31.737251,
+      "customers": []
+    },
+    {
+      "id": "14.9-->14.8",
+      "fromNode": "14.9",
+      "toNode": "14.8",
+      "length": 31.849304,
+      "customers": []
+    },
+    {
+      "id": "14.9-->14.10",
+      "fromNode": "14.9",
+      "toNode": "14.10",
+      "length": 36.195488,
+      "customers": []
+    },
+    {
+      "id": "14.9-->13.9",
+      "fromNode": "14.9",
+      "toNode": "13.9",
+      "length": 38.028343,
+      "customers": []
+    },
+    {
+      "id": "14.10-->14.9",
+      "fromNode": "14.10",
+      "toNode": "14.9",
+      "length": 14.85785,
+      "customers": []
+    },
+    {
+      "id": "14.10-->14.11",
+      "fromNode": "14.10",
+      "toNode": "14.11",
+      "length": 7.874641,
+      "customers": []
+    },
+    {
+      "id": "14.10-->13.10",
+      "fromNode": "14.10",
+      "toNode": "13.10",
+      "length": 26.58356,
+      "customers": []
+    },
+    {
+      "id": "14.11-->14.10",
+      "fromNode": "14.11",
+      "toNode": "14.10",
+      "length": 38.715996,
+      "customers": []
+    },
+    {
+      "id": "14.11-->14.12",
+      "fromNode": "14.11",
+      "toNode": "14.12",
+      "length": 8.909419,
+      "customers": []
+    },
+    {
+      "id": "14.12-->14.11",
+      "fromNode": "14.12",
+      "toNode": "14.11",
+      "length": 31.437075,
+      "customers": []
+    },
+    {
+      "id": "14.12-->14.13",
+      "fromNode": "14.12",
+      "toNode": "14.13",
+      "length": 36.57899,
+      "customers": []
+    },
+    {
+      "id": "14.12-->13.12",
+      "fromNode": "14.12",
+      "toNode": "13.12",
+      "length": 12.80327,
+      "customers": []
+    },
+    {
+      "id": "14.13-->14.12",
+      "fromNode": "14.13",
+      "toNode": "14.12",
+      "length": 28.984812,
+      "customers": []
+    },
+    {
+      "id": "14.13-->14.14",
+      "fromNode": "14.13",
+      "toNode": "14.14",
+      "length": 41.20079,
+      "customers": []
+    },
+    {
+      "id": "14.13-->13.13",
+      "fromNode": "14.13",
+      "toNode": "13.13",
+      "length": 26.365047,
+      "customers": []
+    },
+    {
+      "id": "14.14-->14.13",
+      "fromNode": "14.14",
+      "toNode": "14.13",
+      "length": 32.026436,
+      "customers": []
+    }
+  ],
+  "zones": [
+    {
+      "id": "0.0<-->2.2",
+      "topLeftX": 0,
+      "topLeftY": 0,
+      "bottomRightX": 2,
+      "bottomRightY": 2,
+      "energySources": [
+        {
+          "type": "Coal",
+          "generationCapacity": 0.4
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "0.3<-->2.5",
+      "topLeftX": 0,
+      "topLeftY": 3,
+      "bottomRightX": 2,
+      "bottomRightY": 5,
+      "energySources": [
+        {
+          "type": "NaturalGas",
+          "generationCapacity": 0.6
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "0.6<-->2.8",
+      "topLeftX": 0,
+      "topLeftY": 6,
+      "bottomRightX": 2,
+      "bottomRightY": 8,
+      "energySources": [
+        {
+          "type": "Nuclear",
+          "generationCapacity": 1.9
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "0.9<-->2.11",
+      "topLeftX": 0,
+      "topLeftY": 9,
+      "bottomRightX": 2,
+      "bottomRightY": 11,
+      "energySources": [
+        {
+          "type": "Nuclear",
+          "generationCapacity": 2
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "0.12<-->2.14",
+      "topLeftX": 0,
+      "topLeftY": 12,
+      "bottomRightX": 2,
+      "bottomRightY": 14,
+      "energySources": [
+        {
+          "type": "Wind",
+          "generationCapacity": 0.2
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "3.0<-->5.2",
+      "topLeftX": 3,
+      "topLeftY": 0,
+      "bottomRightX": 5,
+      "bottomRightY": 2,
+      "energySources": [
+        {
+          "type": "Solar",
+          "generationCapacity": 0.4
+        }
+      ],
+      "energyStorages": [
+        {
+          "capacityMWh": 600,
+          "efficiency": 0.85,
+          "maxChargePowerMw": 30,
+          "maxDischargePowerMw": 30
+        }
+      ]
+    },
+    {
+      "id": "3.3<-->5.5",
+      "topLeftX": 3,
+      "topLeftY": 3,
+      "bottomRightX": 5,
+      "bottomRightY": 5,
+      "energySources": [
+        {
+          "type": "Coal",
+          "generationCapacity": 0.2
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "3.6<-->5.8",
+      "topLeftX": 3,
+      "topLeftY": 6,
+      "bottomRightX": 5,
+      "bottomRightY": 8,
+      "energySources": [
+        {
+          "type": "Coal",
+          "generationCapacity": 0.2
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "3.9<-->5.11",
+      "topLeftX": 3,
+      "topLeftY": 9,
+      "bottomRightX": 5,
+      "bottomRightY": 11,
+      "energySources": [
+        {
+          "type": "Solar",
+          "generationCapacity": 0.1
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "3.12<-->5.14",
+      "topLeftX": 3,
+      "topLeftY": 12,
+      "bottomRightX": 5,
+      "bottomRightY": 14,
+      "energySources": [
+        {
+          "type": "Nuclear",
+          "generationCapacity": 1.5
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "6.0<-->8.2",
+      "topLeftX": 6,
+      "topLeftY": 0,
+      "bottomRightX": 8,
+      "bottomRightY": 2,
+      "energySources": [
+        {
+          "type": "NaturalGas",
+          "generationCapacity": 0.5
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "6.3<-->8.5",
+      "topLeftX": 6,
+      "topLeftY": 3,
+      "bottomRightX": 8,
+      "bottomRightY": 5,
+      "energySources": [
+        {
+          "type": "Wind",
+          "generationCapacity": 0.2
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "6.6<-->8.8",
+      "topLeftX": 6,
+      "topLeftY": 6,
+      "bottomRightX": 8,
+      "bottomRightY": 8,
+      "energySources": [
+        {
+          "type": "Nuclear",
+          "generationCapacity": 2
+        }
+      ],
+      "energyStorages": [
+        {
+          "capacityMWh": 500,
+          "efficiency": 0.85,
+          "maxChargePowerMw": 50,
+          "maxDischargePowerMw": 50
+        }
+      ]
+    },
+    {
+      "id": "6.9<-->8.11",
+      "topLeftX": 6,
+      "topLeftY": 9,
+      "bottomRightX": 8,
+      "bottomRightY": 11,
+      "energySources": [
+        {
+          "type": "Coal",
+          "generationCapacity": 0.2
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "6.12<-->8.14",
+      "topLeftX": 6,
+      "topLeftY": 12,
+      "bottomRightX": 8,
+      "bottomRightY": 14,
+      "energySources": [
+        {
+          "type": "Coal",
+          "generationCapacity": 0.6
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "9.0<-->11.2",
+      "topLeftX": 9,
+      "topLeftY": 0,
+      "bottomRightX": 11,
+      "bottomRightY": 2,
+      "energySources": [
+        {
+          "type": "NaturalGas",
+          "generationCapacity": 0.2
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "9.3<-->11.5",
+      "topLeftX": 9,
+      "topLeftY": 3,
+      "bottomRightX": 11,
+      "bottomRightY": 5,
+      "energySources": [
+        {
+          "type": "Wind",
+          "generationCapacity": 0.2
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "9.6<-->11.8",
+      "topLeftX": 9,
+      "topLeftY": 6,
+      "bottomRightX": 11,
+      "bottomRightY": 8,
+      "energySources": [
+        {
+          "type": "Nuclear",
+          "generationCapacity": 1.5
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "9.9<-->11.11",
+      "topLeftX": 9,
+      "topLeftY": 9,
+      "bottomRightX": 11,
+      "bottomRightY": 11,
+      "energySources": [
+        {
+          "type": "Solar",
+          "generationCapacity": 0.2
+        }
+      ],
+      "energyStorages": [
+        {
+          "capacityMWh": 800,
+          "efficiency": 0.85,
+          "maxChargePowerMw": 80,
+          "maxDischargePowerMw": 80
+        }
+      ]
+    },
+    {
+      "id": "9.12<-->11.14",
+      "topLeftX": 9,
+      "topLeftY": 12,
+      "bottomRightX": 11,
+      "bottomRightY": 14,
+      "energySources": [
+        {
+          "type": "Solar",
+          "generationCapacity": 0.3
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "12.0<-->14.2",
+      "topLeftX": 12,
+      "topLeftY": 0,
+      "bottomRightX": 14,
+      "bottomRightY": 2,
+      "energySources": [
+        {
+          "type": "Nuclear",
+          "generationCapacity": 1.5
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "12.3<-->14.5",
+      "topLeftX": 12,
+      "topLeftY": 3,
+      "bottomRightX": 14,
+      "bottomRightY": 5,
+      "energySources": [
+        {
+          "type": "NaturalGas",
+          "generationCapacity": 0.2
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "12.6<-->14.8",
+      "topLeftX": 12,
+      "topLeftY": 6,
+      "bottomRightX": 14,
+      "bottomRightY": 8,
+      "energySources": [
+        {
+          "type": "Nuclear",
+          "generationCapacity": 2.5
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "12.9<-->14.11",
+      "topLeftX": 12,
+      "topLeftY": 9,
+      "bottomRightX": 14,
+      "bottomRightY": 11,
+      "energySources": [
+        {
+          "type": "NaturalGas",
+          "generationCapacity": 0.4
+        }
+      ],
+      "energyStorages": []
+    },
+    {
+      "id": "12.12<-->14.14",
+      "topLeftX": 12,
+      "topLeftY": 12,
+      "bottomRightX": 14,
+      "bottomRightY": 14,
+      "energySources": [
+        {
+          "type": "Solar",
+          "generationCapacity": 0.2
+        }
+      ],
+      "energyStorages": [
+        {
+          "capacityMWh": 300,
+          "efficiency": 0.85,
+          "maxChargePowerMw": 30,
+          "maxDischargePowerMw": 30
+        }
+      ]
+    }
+  ],
+  "ticks": 288
+}
