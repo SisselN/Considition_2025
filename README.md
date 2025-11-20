@@ -22,45 +22,25 @@ Projektet illustrerar hur förstärkningsinlärning kan tillämpas på en multi-
 ### Projektstruktur
 
 ├── README.md  
-
 ├── requirements.txt  
-
 ├── baseline_agent/  
-
 │ ├── app.py # Grundläggande klient för API  
-
 │ └── client.py  
-
 ├── maps/  
-
 │ ├── map_dump_Batterytown.json  
-
 │ ├── map_dump_Clutchfield.json  
-
 │ ├── map_dump_Turbohill.json  
-
 │ └── map_dump_Windcity.json  
-
 ├── models/  
-
 │ ├── dqn_api_multi_map.pth # Tränad DQN-modell på de fyra träningskartor som finns i maps.  
-
 │ ├── dqn_api_multi_map_finetuned.pth # DQN-modell som finetunats på samtliga fem träningskartor. 
-
 │ └── dqn_api_multi_map_finetuned2.pth # DQN-modell som finetunats på tävlingskartan.  
-
 └── src/  
-
 ├── dump_map.py # Script för att exportera/inspektera kartor.  
-
 ├── env.py # Grundläggande miljöklass.  
-
 ├── env_api_simulated.py # Lokal simulerad miljö för träning/finetuning.  
-
 ├── fine_tune_competition_map.py # Finetuning på tävlingskartan.  
-'
 ├── play_model.py # Kör tränad modell mot API.  
-
 └── train_api_sim_4maps.py # Tränar DQN-modell på fyra träningskartor.  
 
 ---
@@ -81,5 +61,6 @@ Projektet illustrerar hur förstärkningsinlärning kan tillämpas på en multi-
 
 ```bash
 pip install -r requirements.txt
+
 
 #### Sissel Nevestveit - november 2025
