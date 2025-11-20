@@ -33,7 +33,8 @@ Projektet illustrerar hur förstärkningsinlärning kan tillämpas på en multi-
 │ └── map_dump_Windcity.json  
 ├── models/  
 │ ├── dqn_api_multi_map.pth # Tränad DQN-modell på de fyra träningskartor som finns i maps.  
-│ ├── dqn_api_multi_map_finetuned.pth # DQN-modell som finetunats på samtliga fem träningskartor. 
+│ ├── dqn_api_multi_map_finetuned.pth # DQN-modell som finetunats på samtliga fem träningskartor.
+
 │ └── dqn_api_multi_map_finetuned2.pth # DQN-modell som finetunats på tävlingskartan.  
 └── src/  
 ├── dump_map.py # Script för att exportera/inspektera kartor.  
@@ -64,3 +65,4 @@ pip install -r requirements.txt
 
 
 #### Sissel Nevestveit - november 2025
+
